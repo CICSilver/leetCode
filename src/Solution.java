@@ -268,14 +268,167 @@ public class Solution {
         }
         return  returnId;
     }
+    //判断9X9矩阵是否为一个有效数独
+    public boolean isValidSudoku(char[][] board) {
+        if(board.length!=9) return false;
+        for(int i=0;i<9;i++) {
+            for(int j=0;j<9;j++) {
+                if(board[i][j]=='.') continue;
+                for(int k=8;k>=0;k--) {
+                    if(board[i][j]==board[i][k])
+                        return false;
+                }
+                for(int k=8;k>=0;k--) {
+                    if(board[i][j] == board[k][j])
+                        return false;
+                }
+                for(int k=i+1;k%3!=0;k++) {
+                    for(int h=j/3*3;h<j/3*3+3;h++) {
+                        if(board[i][j]==board[k][h])
+                            return false;
+                    }
+                }
+            }
+        }
+
+        return true;
+    }
+    //在char数组中查找重复
+    public boolean isCharArrayHasRepeatition(char[] c) {
+        boolean isCharArrayHasRepeatition = false;
+        if (c.length == 0) return isCharArrayHasRepeatition;
+        for (int i = 0; i < c.length; i++) {
+            if (c[i] >= 47 && c[i] <= 58) {
+                for (int j = 0; j < c.length; j++) {
+                    if (c[i] == c[j])
+                        isCharArrayHasRepeatition = true;
+                }
+            }
+        }
+        return isCharArrayHasRepeatition;
+    }
+    //交换等长数组
+    public void exchaArray(int[] a,int[] b){
+        if(a.length!=b.length) return;
+        int[] temp;
+        temp=a.clone();
+        for(int i=0;i<a.length;i++) {
+            a[i]=b[i];
+            b[i]=temp[i];
+        }
+    }
+    //交换二维数组数据
+    public void exchDoubleArray(int[][] a,int i1,int j1,int i2,int j2) {
+        int temp=0;
+        temp=a[i1][j1];
+        a[i1][j1]=a[i2][j2];
+        a[i2][j2]=temp;
+    }
+    //不适用额外空间沿顺时针方向90°旋转一个正方矩阵
+    public void rotate(int[][] matrix) {
+        if(!isSquare(matrix))
+            return;
+        int len=matrix.length;
+        if(len==1) return;
+        int col=len-1;
+        int row=0;
+            //降序排行，确定对角线位置
+            while (row<(len/2)) {
+                exchaArray(matrix[row], matrix[col]);
+                row++;
+                col--;
+            }
+            for (col = 0; col < len-1; col++) {
+                for (row = col+1; row < len; row++) {
+                    exchDoubleArray(matrix, col, row, row, col);
+                }
+            }
+    }
+    public boolean isSquare(int[][] matrix) {
+        int sum=0;
+        for(int i=0;i<matrix.length;i++) {
+            if (matrix[i].length != matrix.length)
+                return false;
+            sum^=matrix[i].length;
+        }
+        if(sum!=0&&sum!=matrix[0].length)
+            return false;
+        return true;
+    }
+    public String reverseString(String s) {
+        if(s==null) return s;
+        char[] c=s.toCharArray();
+        int len=c.length;
+        for(int i=0;i<len/2;i++) {
+            char temp=c[i];
+            c[i]=c[len-1-i];
+            c[len-1-i]=temp;
+        }
+        return String.valueOf(c);
+    }
+    //反转一个32位有符号整数，
+    public int reverse(int x) {
+        StringBuffer sb=new StringBuffer();
+        String s=String.valueOf(x);
+        int result =0;
+
+        if(x<0) sb.append(s.charAt(0));
+            for (int i = s.length()-1; i > 0; i--) {
+                sb.append(s.charAt(i));
+            }
+            if(x>0) sb.append(s.charAt(0));
+            s=sb.toString();
+            try {
+                result = Integer.parseInt(s);
+            } catch (NumberFormatException e) {
+                return 0;
+            }
+
+
+        return result;
+    }
+    //计算一个有符号整数的某一位
+    /**
+     *
+     * @param x 有符号整数
+     * @param unit 要计算的位数，如十位就填2
+     * @return
+     */
+    public int calculateUnitOfSignedInt(int x,int unit) {
+        int n=0;
+        int count=1;
+        int temp=unit;
+        if(x<0) x=0-x;
+        while(unit > 0) {
+                x-=n;
+                 count*=10;
+                n=x%count;
+                unit--;
+        }
+        return n/(count/10);
+    }
     public static void main(String[] args) {
         int[] n={1,3,-3,0};
-        int target=0;
+        int target=1463847412;
+        char[] c1=Character.toChars(49);
+        int[][] board={{1,2},{3,4}};
+        int len=Integer.toString(target).length();
+        char[] c=Integer.toString(target).toCharArray();
+       // int N2=board[9].length;
+        //char c='9';
         Solution so=new Solution();
+
+       // int N=so.calculateUnitOfSignedInt(target,3);
         //int [] temp=so.intersect(n,n2);
         //so.quickSort(n2);
-        int[] temp=so.twoSum(n,target);
-        System.out.println(Arrays.toString(temp));
+        //int[] temp=so.twoSum(n,target);
+        //s=so.reverseString(s);
+        /*for(int i=0;i<c1.length;i++) {
+            System.out.println(c1[i]);
+            System.out.println();
+        }*/
+        //System.out.println(Arrays.toString(s));
+       System.out.println(so.reverse(target));
     }
 
 }
