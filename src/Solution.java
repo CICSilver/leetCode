@@ -1,4 +1,5 @@
-import java.util.Arrays;
+import myTools.com.Stopwatch;
+import myTools.com.TreeNode;
 
 public class Solution {
     /**
@@ -29,8 +30,9 @@ public class Solution {
         int sum=0;
         for(int i=prices.length-1;i>0;i--) {
             difference=prices[i]-prices[i-1];
-            if(difference>0)
-                sum+=difference;
+            if(difference>0) {
+                sum += difference;
+            }
         }
         return sum;
     }
@@ -351,9 +353,7 @@ public class Solution {
                 return false;
             sum^=matrix[i].length;
         }
-        if(sum!=0&&sum!=matrix[0].length)
-            return false;
-        return true;
+        return sum == 0 || sum == matrix[0].length;
     }
     public String reverseString(String s) {
         if(s==null) return s;
@@ -407,28 +407,74 @@ public class Solution {
         }
         return n/(count/10);
     }
+
+    /**
+     *
+     * @param nums
+     * 给定一个非负整数数组，你最初位于数组的第一个位置。
+     *
+     * 数组中的每个元素代表你在该位置可以跳跃的最大长度。
+     *
+     * 判断你是否能够到达最后一个位置。
+     * @return
+     */
+    public boolean canJump(int[] nums) {
+        if(nums.length==1) {
+                return true;
+        }
+        else {
+            if (nums[0] == 0) {
+                return false;
+            }
+        }
+        int len=nums.length-1;
+        int temp=nums[0];
+        int tempId=0;
+        int t=0;
+            for(int id=0;id<=tempId+temp;id++) {
+                if(nums[id]<0) {
+                    return false;
+                }
+
+                if(nums[id]>=temp) {
+                    temp=nums[id];
+                    tempId=id;
+                }
+                if(nums[id]>=len-id) {
+                    return true;
+                }
+                if(id==len) {
+                    return true;
+                }
+                if(id==len-1) {
+                    if(nums[id]!=0) {
+                        return true;
+                    }
+                }
+                if(id==tempId+temp && nums[id]!=0) {
+                    temp=nums[id];
+                    tempId=id;
+                }
+                t=id;
+            }
+        return false;
+    }
+    public boolean isBigger(int n1,int n2) {
+        return n1 > n2;
+    }
     public static void main(String[] args) {
-        int[] n={1,3,-3,0};
+        int[] n={4,0,4,2,2,0,1,3,3,0,3};
         int target=1463847412;
         char[] c1=Character.toChars(49);
         int[][] board={{1,2},{3,4}};
         int len=Integer.toString(target).length();
         char[] c=Integer.toString(target).toCharArray();
-       // int N2=board[9].length;
-        //char c='9';
         Solution so=new Solution();
+        boolean jump=so.canJump(n);
+        StringBuffer sb=new StringBuffer();
+        System.out.println(jump);
+        //System.out.println(s);
 
-       // int N=so.calculateUnitOfSignedInt(target,3);
-        //int [] temp=so.intersect(n,n2);
-        //so.quickSort(n2);
-        //int[] temp=so.twoSum(n,target);
-        //s=so.reverseString(s);
-        /*for(int i=0;i<c1.length;i++) {
-            System.out.println(c1[i]);
-            System.out.println();
-        }*/
-        //System.out.println(Arrays.toString(s));
-       System.out.println(so.reverse(target));
     }
 
 }
