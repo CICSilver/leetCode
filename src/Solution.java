@@ -1,5 +1,6 @@
-import myTools.com.Stopwatch;
-import myTools.com.TreeNode;
+import myTools.com.jumpNode;
+
+import java.util.*;
 
 public class Solution {
     /**
@@ -462,17 +463,61 @@ public class Solution {
     public boolean isBigger(int n1,int n2) {
         return n1 > n2;
     }
+
+    /**
+     * 给定一个非负整数数组，你最初位于数组的第一个位置。
+     *
+     * 数组中的每个元素代表你在该位置可以跳跃的最大长度。
+     *
+     * 你的目标是使用最少的跳跃次数到达数组的最后一个位置。
+     * @param nums 非负整数数组
+     * @return
+     */
+    public int jump(int[] nums) {
+        int start=0;
+        int end=nums.length-1;
+        int steps=0;
+        while(end!=0) {
+            if (nums[start] + start >= end) {
+                end=start;
+                start=0;
+                steps++;
+            }
+            else {start++;}
+        }
+
+        return steps;
+    }
+    //测最远距离，每次走出前一次最远覆盖距离时
+    // 用当前最大覆盖距离取代前一次的存储值，并判断是否已经抵达终点。
+    public int jump1(int[] nums) {
+
+        int current = 0;
+        int maxDis = 0;
+        int step = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (i > current) {
+                current = maxDis;
+                step++;
+                if(maxDis>=nums.length-1) break;
+            }
+            maxDis = Math.max(maxDis, i + nums[i]);
+
+        }
+        return step;
+    }
     public static void main(String[] args) {
-        int[] n={4,0,4,2,2,0,1,3,3,0,3};
-        int target=1463847412;
-        char[] c1=Character.toChars(49);
-        int[][] board={{1,2},{3,4}};
-        int len=Integer.toString(target).length();
-        char[] c=Integer.toString(target).toCharArray();
+        int[] n={2,1,4,2,1,3,3,2,4};
+       // int target=1463847412;
+       // char[] c1=Character.toChars(49);
+       // int[][] board={{1,2},{3,4}};
+       // int len=Integer.toString(target).length();
+       // char[] c=Integer.toString(target).toCharArray();
         Solution so=new Solution();
-        boolean jump=so.canJump(n);
-        StringBuffer sb=new StringBuffer();
-        System.out.println(jump);
+        so.jump1(n);
+        //boolean jump=so.canJump(n);
+        //StringBuffer sb=new StringBuffer();
+        //System.out.println(jump);
         //System.out.println(s);
 
     }
