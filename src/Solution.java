@@ -1,8 +1,50 @@
+import myTools.com.Sort;
 import myTools.com.jumpNode;
 
 import java.util.*;
 
 public class Solution {
+
+    class Node {
+        public int val;
+        public Node prev;
+        public Node next;
+        //指向一个子链
+        public Node child;
+
+        public Node() {}
+
+        public Node(int val,Node prev,Node next,Node child) {
+            this.val = val;
+            this.prev = prev;
+            this.next = next;
+            this.child = child;
+        }
+    }
+    public Node flatten(Node head) {
+        Stack<Node> nodeStack=new Stack();
+        //判断结点是否有下一个
+        while(head.next!=null) {
+            //判断结点是否连接子链
+            if(head.child!=null) {
+                //子链头部与父链结点的扁平化操作
+                nodeStack.add(head.next);
+                head.next=head.child;
+                head.child.prev=head;
+                head.child=null;
+                head=head.next;
+            }
+            else {
+                if(!nodeStack.isEmpty()) {
+                    Node temp=nodeStack.pop();
+                    head.next=temp;
+                    temp.prev=head;
+                    head=head.next;
+                }
+            }
+        }
+        return head;
+    }
     /**
      * 删除有序数组中的重复值
      */
@@ -38,65 +80,20 @@ public class Solution {
         return sum;
     }
 
-    //快速排序
-    public int[] quickSort(int[] a) {
-        if(a.length==0) throw new ArrayIndexOutOfBoundsException("无意义数组");
-        if(a.length==1) return a;
-        sort(a,0,a.length-1);
-        return a;
-    }
-    private void exch(int[] a,int i,int j) {
-        int temp;
-        temp=a[i];
-        a[i]=a[j];
-        a[j]=temp;
-    }
-    private void sort(int[] items,int left,int right) {
-        if(left>=right) {insertSort(items,left,right);return;}
-        int i=left;
-        int j=right;
-        int privot=items[(left+right)/2];
-        do{
-            while(items[i]<privot&&i<right)
-                i++;
-            while(items[j]>privot&&j>left)
-                j--;
-            if(i<=j) {
-                exch(items, i, j);
-                i++;
-                j--;
-            }
-        }while(i<=j);
-        if(i<right)
-            sort(items,i,right);
-        if(j>left)
-            sort(items,left,j);
-    }
-    //插入排序
-    private void insertSort(int[] nums) {
-    insertSort(nums,0,nums.length-1);
-    }
 
-    private void insertSort(int[] nums,int left,int right) {
-        int N=right-left+1;
-        for(int i=0;i<N;i++) {
-            for(int j=i;j>0&&nums[j]<nums[j-1];j--){
-                exch(nums, j, j - 1);
-            }
-        }
-
-    }
     //判断数组中是否存在重复的数据，需要用到上面的快速排序
     public boolean containsDuplicate(int[] nums){
+        Sort sort=new Sort();
         if(nums.length==0) return false;
         int temp=nums.length;
-        quickSort(nums);
+        sort.quickSort(nums);
         int N=removeDuplicates(nums);
         return temp != N;
     }
     public int singleNumber(int[] nums) {
+        Sort sort=new Sort();
         if(nums.length == 1) return nums[0];
-        quickSort(nums);
+        sort.quickSort(nums);
         int t=0;
         if(nums[0] !=nums[1]) return nums[0];
         if(nums[nums.length-1] != nums[nums.length-2]) return nums[nums.length-1];
@@ -217,24 +214,24 @@ public class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] id=new int[nums.length];
         int[] returnId=new int[2];
-        int N=0;
+        int n=0;
         boolean isNegative=false;
         for(int i=0;i<nums.length;i++) {
-            if(nums[i]<0) isNegative=true;
+            if(nums[i]<0) {isNegative=true;}
         }
         for(int i=0;i<nums.length;i++) {
             if(!isNegative) {
                 if (nums[i] <= target) {
-                    nums[N] = nums[i];
-                    id[N++] = i;
+                    nums[n] = nums[i];
+                    id[n++] = i;
                 }
             }
             else {
-                id[N++]=i;
+                id[n++]=i;
             }
         }
-        for(int i=0;i<N;i++) {
-            for(int j=i+1;j<N;j++) {
+        for(int i=0;i<n;i++) {
+            for(int j=i+1;j<n;j++) {
                 if(nums[i]>0) {
                     if (nums[i] <= target / 2) {
                         if (nums[j] >= target / 2) {
@@ -506,19 +503,87 @@ public class Solution {
         }
         return step;
     }
+    //给定一个字符串，找到它的第一个不重复的字符，并返回它的索引。如果不存在，则返回 -1。
+    public int firstUniqChar(String s) {
+        int len=s.length();
+        if(len==0) {return -1;}
+        if(len==1) {return 0;}
+        int id=0;
+        char s1,s2;
+        int[] muilteCharId=new int[len];
+        int startId=0;
+        int endId=len-1;
+        while(startId!=len-1) {
+            for(;endId>startId;endId--) {
+                if(startId!=0&&muilteCharId[startId]!=0) {
+                    break;
+                }
+                s1=s.charAt(startId);
+                s2=s.charAt(endId);
+                if(muilteCharId[endId]!=0) {
+                    if(s1==s2) {
+                        break;
+                    }
+                }
+                if (s1!= s2) {
+                    if(endId-1==startId) {
+                        return startId;
+                    }
+                }
+                else {
+                    muilteCharId[endId]=endId;
+                    break;
+                }
+            }
+            startId++;
+            if(startId==len-1&&muilteCharId[startId]==0) {
+                return startId;
+            }
+            endId=len-1;
+
+        }
+        return -1;
+    }
+
+    /**
+     * 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
+     * @param s
+     *         长度最大为1000的字符串
+     *         ababd,jkkjijkljlhjik,jpki ikoj ikpj
+     *         jkiu uikj
+     * @return
+     */
+    public String longestPalindrome(String s) {
+        if(s.length()<=0||s.length()>1000) {return null;}
+        char[] arrayS=s.toCharArray();
+        int start=0,end=1;
+        List<Integer> len=new ArrayList();
+        int[] id=new int[s.length()];
+        for(int i=0;i<s.length();i++) {
+            id[i]=i;
+        }
+        for(;start<s.length();start++) {
+            if(arrayS[start]==arrayS[end])
+            {
+                len.add(end-start);
+            }
+        }
+        return s;
+    }
     public static void main(String[] args) {
         int[] n={2,1,4,2,1,3,3,2,4};
+        String s="cc";
        // int target=1463847412;
        // char[] c1=Character.toChars(49);
        // int[][] board={{1,2},{3,4}};
        // int len=Integer.toString(target).length();
        // char[] c=Integer.toString(target).toCharArray();
         Solution so=new Solution();
-        so.jump1(n);
+        int t=so.firstUniqChar(s);
         //boolean jump=so.canJump(n);
         //StringBuffer sb=new StringBuffer();
         //System.out.println(jump);
-        //System.out.println(s);
+        System.out.println(t);
 
     }
 
