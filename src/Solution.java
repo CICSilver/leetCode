@@ -23,27 +23,41 @@ public class Solution {
     }
     public Node flatten(Node head) {
         Stack<Node> nodeStack=new Stack();
-        //判断结点是否有下一个
+        flatten(head,nodeStack);
+        return head;
+    }
+    public void flatten(Node head,Stack<Node> nodeStack) {
+        //不在末尾的结点，循环结束时结点位于子链最末尾
         while(head.next!=null) {
-            //判断结点是否连接子链
+            //不在末尾且有子链的结点
             if(head.child!=null) {
                 //子链头部与父链结点的扁平化操作
+                //将拥有子链的结点的后一个结点推入栈中
                 nodeStack.add(head.next);
                 head.next=head.child;
                 head.child.prev=head;
                 head.child=null;
                 head=head.next;
             }
+            //不在末尾且没有子链的结点,即普通结点
             else {
-                if(!nodeStack.isEmpty()) {
-                    Node temp=nodeStack.pop();
-                    head.next=temp;
-                    temp.prev=head;
-                    head=head.next;
-                }
+                head=head.next;
             }
         }
-        return head;
+        //处于末尾但连接子链的结点
+        if(head.child!=null) {
+            head.next=head.child;
+            head.child.prev=head;
+            head.child=null;
+            flatten(head.next,nodeStack);
+        }
+        //对子链末尾结点操作，与上一级后续链拼接
+        if(!nodeStack.isEmpty()) {
+            Node temp=nodeStack.pop();
+            head.next=temp;
+            temp.prev=head;
+            flatten(head.next,nodeStack);
+        }
     }
     /**
      * 删除有序数组中的重复值
@@ -570,20 +584,48 @@ public class Solution {
         }
         return s;
     }
+
+    /**
+     * 获得一个三级双向链表的表头
+     * 11->12->13->14
+     *         |
+     *        21->22->23
+     *            |
+     *            31->32
+     * @return
+     *
+     */
+    public Node getHead() {
+
+        Node first=new Node(11,null,null,null);
+        Node second=new Node(12,first,null,null);
+        Node third=new Node(13,second,null,null);
+        Node secFirst=new Node(21,null,null,null);
+        Node secSecond=new Node(22,secFirst,null,null);
+        Node secThird=new Node(23,secSecond,null,null);
+        Node thiFirst=new Node(31,null,null,null);
+        Node thiSecond=new Node(32,thiFirst,null,null);
+        first.next=second;
+        second.next=third;
+        third.child=secFirst;
+        secFirst.next=secSecond;
+        secSecond.next=secThird;
+        secSecond.child=thiFirst;
+        thiFirst.next=thiSecond;
+        return first;
+    }
     public static void main(String[] args) {
-        int[] n={2,1,4,2,1,3,3,2,4};
-        String s="cc";
-       // int target=1463847412;
-       // char[] c1=Character.toChars(49);
-       // int[][] board={{1,2},{3,4}};
-       // int len=Integer.toString(target).length();
-       // char[] c=Integer.toString(target).toCharArray();
         Solution so=new Solution();
-        int t=so.firstUniqChar(s);
-        //boolean jump=so.canJump(n);
-        //StringBuffer sb=new StringBuffer();
-        //System.out.println(jump);
-        System.out.println(t);
+        //int[] n={2,1,4,2,1,3,3,2,4};
+        //String s="cc";
+        Node head=so.getHead();
+
+        head=so.flatten(head);
+        while(head.next!=null) {
+            System.out.println(head.val);
+            head=head.next;
+        }
+       // System.out.println(t);
 
     }
 

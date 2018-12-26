@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b27f76e-9c07-444c-8493-2392982a2138" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/myTools/com/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
@@ -37,6 +36,9 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="leetCode" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
@@ -61,10 +63,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="180">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <element signature="e#12821#12822#0" expanded="true" />
+                <element signature="e#13179#13180#0" expanded="true" />
                 <element signature="method#firstUniqChar#0;class#Solution#0" />
               </folding>
             </state>
@@ -214,7 +216,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545750801346" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545797880050" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -305,7 +307,8 @@
       <workItem from="1545528886539" duration="329000" />
       <workItem from="1545529523427" duration="35000" />
       <workItem from="1545534693968" duration="2369000" />
-      <workItem from="1545748065389" duration="2692000" />
+      <workItem from="1545748065389" duration="2774000" />
+      <workItem from="1545791245345" duration="5737000" />
     </task>
     <task id="LOCAL-00001" summary="加入二切分快速排序">
       <created>1544094563611</created>
@@ -377,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545141931203</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加更多索引">
+      <created>1545750820980</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1545750820980</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37023000" />
+    <option name="totallyTimeSpent" value="42842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -391,24 +401,24 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Favorites" order="4" side_tool="true" weight="0.32972974" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="设计器" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3237569" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32947975" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33256617" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3314917" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.2657005" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32832834" />
       <window_info anchor="bottom" id="PMD" order="12" weight="0.3298611" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3281768" />
-      <window_info anchor="bottom" id="调试" order="14" weight="0.37198067" />
+      <window_info anchor="bottom" id="调试" order="14" weight="0.37127072" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -489,6 +499,18 @@
     <MESSAGE value="添加更多索引" />
     <option name="LAST_COMMIT_MESSAGE" value="添加更多索引" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/isContains.java" />
     <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/lang/Integer.java">
@@ -555,13 +577,6 @@
     <entry file="file://$PROJECT_DIR$/计算机网络脑图.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myTools/com/jumpNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/myTools/com/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -592,6 +607,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/myTools/com/jumpNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -607,10 +629,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <element signature="e#12821#12822#0" expanded="true" />
+            <element signature="e#13179#13180#0" expanded="true" />
             <element signature="method#firstUniqChar#0;class#Solution#0" />
           </folding>
         </state>
