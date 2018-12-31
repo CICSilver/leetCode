@@ -1,9 +1,8 @@
-import myTools.com.Sort;
-import myTools.com.jumpNode;
+import myTools.sort.Sort;
 
 import java.util.*;
 
-public class Solution {
+    public class Solution {
 
     class Node {
         public int val;
@@ -11,6 +10,7 @@ public class Solution {
         public Node next;
         //指向一个子链
         public Node child;
+
 
         public Node() {}
 
@@ -97,17 +97,15 @@ public class Solution {
 
     //判断数组中是否存在重复的数据，需要用到上面的快速排序
     public boolean containsDuplicate(int[] nums){
-        Sort sort=new Sort();
         if(nums.length==0) return false;
         int temp=nums.length;
-        sort.quickSort(nums);
+        Sort.quickSort(nums);
         int N=removeDuplicates(nums);
         return temp != N;
     }
     public int singleNumber(int[] nums) {
-        Sort sort=new Sort();
         if(nums.length == 1) return nums[0];
-        sort.quickSort(nums);
+        Sort.quickSort(nums);
         int t=0;
         if(nums[0] !=nums[1]) return nums[0];
         if(nums[nums.length-1] != nums[nums.length-2]) return nums[nums.length-1];
@@ -124,9 +122,6 @@ public class Solution {
         int[] error={};
         if(nums1.length==0||nums2.length==0) return error;
         int[] temp;
-        /*nums1=quickSort(nums1);
-        nums2=quickSort(nums2);*/
-
         if(nums1.length>nums2.length)
             temp=getRepitionPart(nums2,nums1);
         else
@@ -587,12 +582,12 @@ public class Solution {
 
     /**
      * 获得一个三级双向链表的表头
-     * 11->12->13->14
+     * 11->12->13
      *         |
      *        21->22->23
      *            |
      *            31->32
-     * @return
+     * @return 返回头节点
      *
      */
     public Node getHead() {
@@ -625,7 +620,7 @@ public class Solution {
             System.out.println(head.val);
             head=head.next;
         }
-       // System.out.println(t);
+       //System.out.println(t);
 
     }
 

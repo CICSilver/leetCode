@@ -1,4 +1,4 @@
-package myTools.com;
+package myTools.Node;
 
 public class TreeNode {
     int val;

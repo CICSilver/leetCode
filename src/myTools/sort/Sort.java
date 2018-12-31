@@ -1,20 +1,24 @@
-package myTools.com;
+package myTools.sort;
 
+
+/**
+ * @author XYR
+ */
 public class Sort {
     //快速排序
-    public int[] quickSort(int[] a) {
-        if(a.length==0) throw new ArrayIndexOutOfBoundsException("无意义数组");
+    public static int[] quickSort(int[] a) {
+        if(a.length==0) throw new ArrayIndexOutOfBoundsException("");
         if(a.length==1) return a;
         sort(a,0,a.length-1);
         return a;
     }
-    private void exch(int[] a,int i,int j) {
+    private static void exch(int[] a,int i,int j) {
         int temp;
         temp=a[i];
         a[i]=a[j];
         a[j]=temp;
     }
-    private void sort(int[] items,int left,int right) {
+    private static void sort(int[] items,int left,int right) {
         if(left>=right) {insertSort(items,left,right);return;}
         int i=left;
         int j=right;
@@ -40,7 +44,7 @@ public class Sort {
         insertSort(nums,0,nums.length-1);
     }
 
-    private void insertSort(int[] nums,int left,int right) {
+    private static void insertSort(int[] nums,int left,int right) {
         int N=right-left+1;
         for(int i=0;i<N;i++) {
             for(int j=i;j>0&&nums[j]<nums[j-1];j--){

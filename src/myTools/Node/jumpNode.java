@@ -1,6 +1,4 @@
-package myTools.com;
-
-import java.util.Iterator;
+package myTools.Node;
 
 public class jumpNode {
     public int right=0;
