@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b27f76e-9c07-444c-8493-2392982a2138" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/leetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compareVersionClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deleteNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myTools/Node/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/read_File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sensitive_Vocabulary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2b27f76e-9c07-444c-8493-2392982a2138" name="默认更改列表" comment="添加更多索引">
+      <change afterPath="$PROJECT_DIR$/src/rob_II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myTools/com/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myTools/sort/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myTools/com/Stopwatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myTools/codeAnalyze/Stopwatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myTools/com/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myTools/Node/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myTools/com/jumpNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myTools/Node/jumpNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quickSort.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,12 +44,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="1170">
+              <caret line="556" selection-start-line="556" selection-end-line="556" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="class#Node#0;class#Solution#0" />
+                <element signature="method#flatten#0;class#Solution#0" />
+                <element signature="method#flatten#1;class#Solution#0" />
+                <element signature="docComment;method#removeDuplicates#0;class#Solution#0" />
+                <element signature="method#removeDuplicates#0;class#Solution#0" />
+                <element signature="docComment;method#maxprofit#0;class#Solution#0" />
+                <element signature="method#maxprofit#0;class#Solution#0" />
+                <element signature="method#containsDuplicate#0;class#Solution#0" />
+                <element signature="method#singleNumber#0;class#Solution#0" />
+                <element signature="method#intersect#0;class#Solution#0" />
+                <element signature="method#getRepitionPart#0;class#Solution#0" />
+                <element signature="method#removeZero#0;class#Solution#0" />
+                <element signature="method#isPowerOfThree#0;class#Solution#0" />
+                <element signature="method#plusOne#0;class#Solution#0" />
+                <element signature="method#moveZeroes#0;class#Solution#0" />
+                <element signature="method#twoSum#0;class#Solution#0" />
+                <element signature="e#6089#6145#1" />
+                <element signature="e#6185#6431#1" />
+                <element signature="e#6461#7736#1" />
+                <element signature="method#isValidSudoku#0;class#Solution#0" />
+                <element signature="method#isCharArrayHasRepeatition#0;class#Solution#0" />
+                <element signature="method#exchaArray#0;class#Solution#0" />
+                <element signature="method#exchDoubleArray#0;class#Solution#0" />
+                <element signature="method#rotate#0;class#Solution#0" />
+                <element signature="method#isSquare#0;class#Solution#0" />
+                <element signature="method#reverseString#0;class#Solution#0" />
+                <element signature="method#reverse#0;class#Solution#0" />
+                <element signature="docComment;method#calculateUnitOfSignedInt#0;class#Solution#0" />
+                <element signature="method#calculateUnitOfSignedInt#0;class#Solution#0" />
+                <element signature="docComment;method#canJump#0;class#Solution#0" />
+                <element signature="method#canJump#0;class#Solution#0" />
+                <element signature="docComment;method#jump#0;class#Solution#0" />
+                <element signature="method#jump#0;class#Solution#0" />
+                <element signature="method#jump1#0;class#Solution#0" />
                 <element signature="method#firstUniqChar#0;class#Solution#0" />
+                <element signature="docComment;method#longestPalindrome#0;class#Solution#0" />
+                <element signature="method#longestPalindrome#0;class#Solution#0" />
                 <element signature="docComment;method#getHead#0;class#Solution#0" />
+                <element signature="method#getHead#0;class#Solution#0" />
+                <element signature="method#main#0;class#Solution#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/rob_II.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="13" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#1304#1305#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/compareVersionClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="58" selection-start-line="58" selection-end-line="80" selection-end-column="5" />
+            <state relative-caret-position="2610">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -124,7 +162,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/myTools/sort/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="495">
               <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
@@ -194,12 +232,12 @@
         <option value="$PROJECT_DIR$/src/sensitive_Vocabulary.java" />
         <option value="$PROJECT_DIR$/src/read_File.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
-        <option value="$PROJECT_DIR$/src/rob_II.java" />
         <option value="$PROJECT_DIR$/src/myTools/Node/ListNode.java" />
         <option value="$PROJECT_DIR$/src/deleteNode.java" />
         <option value="$PROJECT_DIR$/src/compareVersion.java" />
         <option value="$PROJECT_DIR$/src/myTools/sort/Sort.java" />
         <option value="$PROJECT_DIR$/src/compareVersionClass.java" />
+        <option value="$PROJECT_DIR$/src/rob_II.java" />
       </list>
     </option>
   </component>
@@ -243,8 +281,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,7 +292,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546264943303" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546413419210" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="模块" />
@@ -279,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.compareVersionClass">
+  <component name="RunManager" selected="Application.rob_II">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="leetCode" />
@@ -317,8 +355,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.compareVersionClass" />
         <item itemvalue="Application.rob_II" />
+        <item itemvalue="Application.compareVersionClass" />
         <item itemvalue="Application.read_File" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.quickSort" />
@@ -355,7 +393,8 @@
       <workItem from="1546076393619" duration="148000" />
       <workItem from="1546083797491" duration="7022000" />
       <workItem from="1546227799564" duration="3713000" />
-      <workItem from="1546256654245" duration="7854000" />
+      <workItem from="1546256654245" duration="7980000" />
+      <workItem from="1546412640528" duration="778000" />
     </task>
     <task id="LOCAL-00001" summary="加入二切分快速排序">
       <created>1544094563611</created>
@@ -441,11 +480,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545797929205</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="添加更多索引">
+      <created>1546264960387</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1546264960387</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67171000" />
+    <option name="totallyTimeSpent" value="68075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,7 +506,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944752" weight="0.18972974" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944752" visible="true" weight="0.18972974" />
       <window_info id="Structure" order="1" sideWeight="0.5005525" side_tool="true" weight="0.18702702" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -475,10 +521,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928178" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32947975" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3314917" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891892" weight="0.33103448" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.2657005" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3281768" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010811" side_tool="true" weight="0.33103448" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49945945" weight="0.3275862" />
       <window_info anchor="bottom" id="PMD" order="12" weight="0.3298611" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3264368" />
       <window_info active="true" anchor="bottom" id="调试" order="14" visible="true" weight="0.39195403" />
@@ -586,20 +632,6 @@
     <MESSAGE value="添加更多索引" />
     <option name="LAST_COMMIT_MESSAGE" value="添加更多索引" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/compareVersionClass.java</url>
-          <line>58</line>
-          <properties class="compareVersionClass" method="deleteZeroInTail">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/isContains.java" />
     <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/lang/Integer.java">
@@ -696,34 +728,68 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/quickSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/rob_II.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="1170">
+          <caret line="556" selection-start-line="556" selection-end-line="556" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="class#Node#0;class#Solution#0" />
+            <element signature="method#flatten#0;class#Solution#0" />
+            <element signature="method#flatten#1;class#Solution#0" />
+            <element signature="docComment;method#removeDuplicates#0;class#Solution#0" />
+            <element signature="method#removeDuplicates#0;class#Solution#0" />
+            <element signature="docComment;method#maxprofit#0;class#Solution#0" />
+            <element signature="method#maxprofit#0;class#Solution#0" />
+            <element signature="method#containsDuplicate#0;class#Solution#0" />
+            <element signature="method#singleNumber#0;class#Solution#0" />
+            <element signature="method#intersect#0;class#Solution#0" />
+            <element signature="method#getRepitionPart#0;class#Solution#0" />
+            <element signature="method#removeZero#0;class#Solution#0" />
+            <element signature="method#isPowerOfThree#0;class#Solution#0" />
+            <element signature="method#plusOne#0;class#Solution#0" />
+            <element signature="method#moveZeroes#0;class#Solution#0" />
+            <element signature="method#twoSum#0;class#Solution#0" />
+            <element signature="e#6089#6145#1" />
+            <element signature="e#6185#6431#1" />
+            <element signature="e#6461#7736#1" />
+            <element signature="method#isValidSudoku#0;class#Solution#0" />
+            <element signature="method#isCharArrayHasRepeatition#0;class#Solution#0" />
+            <element signature="method#exchaArray#0;class#Solution#0" />
+            <element signature="method#exchDoubleArray#0;class#Solution#0" />
+            <element signature="method#rotate#0;class#Solution#0" />
+            <element signature="method#isSquare#0;class#Solution#0" />
+            <element signature="method#reverseString#0;class#Solution#0" />
+            <element signature="method#reverse#0;class#Solution#0" />
+            <element signature="docComment;method#calculateUnitOfSignedInt#0;class#Solution#0" />
+            <element signature="method#calculateUnitOfSignedInt#0;class#Solution#0" />
+            <element signature="docComment;method#canJump#0;class#Solution#0" />
+            <element signature="method#canJump#0;class#Solution#0" />
+            <element signature="docComment;method#jump#0;class#Solution#0" />
+            <element signature="method#jump#0;class#Solution#0" />
+            <element signature="method#jump1#0;class#Solution#0" />
             <element signature="method#firstUniqChar#0;class#Solution#0" />
+            <element signature="docComment;method#longestPalindrome#0;class#Solution#0" />
+            <element signature="method#longestPalindrome#0;class#Solution#0" />
             <element signature="docComment;method#getHead#0;class#Solution#0" />
+            <element signature="method#getHead#0;class#Solution#0" />
+            <element signature="method#main#0;class#Solution#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/deleteNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rotate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/myTools/codeAnalyze/Stopwatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -737,14 +803,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myTools/sort/Sort.java">
+    <entry file="file://$PROJECT_DIR$/src/compareVersionClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="2610">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myTools/Node/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/rotate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -758,10 +824,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/compareVersionClass.java">
+    <entry file="file://$PROJECT_DIR$/src/myTools/Node/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="58" selection-start-line="58" selection-end-line="80" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myTools/sort/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myTools/codeAnalyze/Stopwatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rob_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="13" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
