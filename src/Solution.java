@@ -1,5 +1,6 @@
 import myTools.sort.Sort;
 
+import java.io.*;
 import java.util.*;
 
     public class Solution {
@@ -218,8 +219,15 @@ import java.util.*;
         }
 
     }
-        /*给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
-        你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。*/
+
+        /**
+         * 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个
+         * 整数，并返回他们的数组下标。
+         * 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。
+         * @param nums 整数数组
+         * @param target 目标值
+         * @return
+         */
     public int[] twoSum(int[] nums, int target) {
         int[] id=new int[nums.length];
         int[] returnId=new int[2];
@@ -277,6 +285,7 @@ import java.util.*;
         }
         return  returnId;
     }
+
     //判断9X9矩阵是否为一个有效数独
     public boolean isValidSudoku(char[][] board) {
         if(board.length!=9) return false;
@@ -302,6 +311,7 @@ import java.util.*;
 
         return true;
     }
+
     //在char数组中查找重复
     public boolean isCharArrayHasRepeatition(char[] c) {
         boolean isCharArrayHasRepeatition = false;
@@ -609,19 +619,116 @@ import java.util.*;
         thiFirst.next=thiSecond;
         return first;
     }
+
+/*
+        *@author XYJ
+        * 用途未知
+        *
+        public  static int countStr(String sb,String ch){
+
+            String[] sensitive=sb.split("\\n");
+            String[] test=ch.split(" ");
+            for(int i=0;i<sensitive.length;i++){
+                int countStr=0;
+                for(int j=0;j<test.length;j++){
+                    if(sensitive[i].equals(test[j])) {
+                        countStr += 1;
+                    }
+                }
+                System.out.println("敏感词"+sensitive[i]+countStr+"个");
+            }
+            return 0;
+        }*/
+
+        private void writeFile(String text) throws IOException {
+            File file=new File("D://output.txt");
+            file.createNewFile();
+            BufferedWriter bufferedWriter=new BufferedWriter(new FileWriter(file));
+            bufferedWriter.write(text);
+            bufferedWriter.flush();
+            bufferedWriter.close();
+        }
+
+        /**
+         * 用于读取txt文件
+         * @param fileName 文件名
+         * @return txt文件内容
+         * @throws Exception 文件未找到
+         */
+        private String readFile(String fileName) throws Exception {
+            File file=new File(fileName);
+            InputStreamReader inputStreamReader=new InputStreamReader(new FileInputStream(file));
+            BufferedReader bufferedReader=new BufferedReader(inputStreamReader);
+            String str=bufferedReader.readLine();
+            StringBuilder stringBuilder=new StringBuilder();
+            while(str!=null) {
+                stringBuilder.append(str);
+                str=bufferedReader.readLine();
+            }
+            return stringBuilder.toString();
+        }
+
+        public int sensetiveCount(String fileName, String sensetiveWord) throws Exception {
+            if(sensetiveWord==null||fileName==null) {
+                return 0;
+            }
+            String source=readFile(fileName);
+            String[] perWord=source.split(" ");
+            int count=0;
+            for (String s : perWord) {
+                if (s.equals(sensetiveWord)) {
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        /**
+         *  你想知道你拥有的石头中有多少是宝石。
+         * J 中的字母不重复，J 和 S中的所有字符都是字母。字母区分大小写，因此"a"和"A"是不同类型的石头。
+         * @param J 石头中宝石的类型
+         * @param S 代表你拥有的石头，个字符代表了一种你拥有的石头的类型
+         * @return 宝石个数
+         */
+        public int numJewelsInStones(String J, String S) {
+            int lenJ=J.length();
+            int lenS=S.length();
+            int count=0;
+            for(int i=0;i<lenS;i++) {
+                for(int j=0;j<lenJ;j++) {
+                    if(S.charAt(i)==J.charAt(j)) {
+                        count++;
+                    }
+                }
+            }
+            return count;
+        }
+
     public static void main(String[] args) {
         Solution so=new Solution();
         //int[] n={2,1,4,2,1,3,3,2,4};
         //String s="cc";
-        Node head=so.getHead();
+       /* Node head=so.getHead();
 
         head=so.flatten(head);
         while(head.next!=null) {
             System.out.println(head.val);
             head=head.next;
-        }
+        }*/
        //System.out.println(t);
-
+        String str="sad\ncad cxc\nopo\n12 23 65 sd . ds";
+        String test="";
+        int count=0;
+        Scanner scanner = new Scanner(System.in);
+        String input=scanner.nextLine();
+        try {
+            test=so.readFile("D://test1_2.txt");
+            count=so.sensetiveCount("D://test1_2.txt",input);
+            so.writeFile("敏感词"+"23"+"出现了"+count+"次");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        System.out.println(count);
     }
 
 }
