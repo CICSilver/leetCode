@@ -1,3 +1,4 @@
+import myTools.Node.ListNode;
 import myTools.sort.Sort;
 
 import java.io.*;
@@ -78,6 +79,40 @@ import java.util.*;
         return N;
     }
 
+        /**
+         * 给定一个链表，删除链表的倒数第 n 个节点，并且返回链表的头结点。
+         * @param head 头节点
+         * @param n 倒数序数
+         * @return 头节点
+         */
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        if(head.next==null) {
+            return null;
+        }
+        int len=0;
+        ListNode temp=head;
+        while(temp.next!=null) {
+            len++;
+            temp=temp.next;
+        }
+        temp=head;
+        len++;
+        int realNumber=len-n+1;
+        if(n==1) {
+            while (realNumber > 2) {
+                temp=temp.next;
+                realNumber--;
+            }
+            temp.next=null;
+            return head;
+        }
+        for(;realNumber>1;realNumber--) {
+            temp=temp.next;
+        }
+        deleteNode(temp);
+        return head;
+    }
+
     /**
      *
      * @param prices 当天股票价格
@@ -95,8 +130,27 @@ import java.util.*;
         return sum;
     }
 
+        /**
+         * 5-4-1-9
+         * 删除某个链表中给定的（非末尾）节点
+         * @param node 需要删除的结点
+         */
+    public void deleteNode(ListNode node) {
+            ListNode tempNode=node.next;
+            while(tempNode.next!=null) {
+                node.val = tempNode.val;
+                node=tempNode;
+                tempNode = tempNode.next;
+            }
+            node.val=tempNode.val;
+            node.next=null;
+        }
 
-    //判断数组中是否存在重复的数据，需要用到上面的快速排序
+        /**
+         * 判断数组中是否存在重复的数据，需要用到上面的快速排序
+          * @param nums 原数组
+         * @return true or false
+         */
     public boolean containsDuplicate(int[] nums){
         if(nums.length==0) return false;
         int temp=nums.length;
@@ -620,26 +674,6 @@ import java.util.*;
         return first;
     }
 
-/*
-        *@author XYJ
-        * 用途未知
-        *
-        public  static int countStr(String sb,String ch){
-
-            String[] sensitive=sb.split("\\n");
-            String[] test=ch.split(" ");
-            for(int i=0;i<sensitive.length;i++){
-                int countStr=0;
-                for(int j=0;j<test.length;j++){
-                    if(sensitive[i].equals(test[j])) {
-                        countStr += 1;
-                    }
-                }
-                System.out.println("敏感词"+sensitive[i]+countStr+"个");
-            }
-            return 0;
-        }*/
-
         private void writeFile(String text) throws IOException {
             File file=new File("D://output.txt");
             file.createNewFile();
@@ -704,6 +738,51 @@ import java.util.*;
             return count;
         }
 
+        /**
+         * 给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的一个字母异位词。
+         * 即两个字符串中字母是否完全相同
+         * 例如：s="art",t="rat",返回"true"
+         * 可以假设字符串只包含小写字母
+         * @param s 标准字符串
+         * @param t 判断字符串
+         * @return true or false
+         */
+        public boolean isAnagram(String s, String t) {
+            int lenS=s.length(),lenT=t.length();
+            if(lenS==0&&lenT==0) {
+                return true;
+            }
+            if(lenS==1&&lenT==1) {
+                return s.equals(t);
+            }
+            if(lenS!=lenT) {
+                return false;
+            }
+            String temp;
+            int i=0;
+            while(!"".equals(s)) {
+                StringBuilder strS=new StringBuilder();
+                StringBuilder strT=new StringBuilder();
+                temp=Character.toString(s.charAt(i));
+                for(String string:s.split(temp)) {
+                    strS.append(string);
+                }
+                s=strS.toString();
+                lenS=s.length();
+                for(String string:t.split(temp)) {
+                    strT.append(string);
+                }
+                t=strT.toString();
+                lenT=t.length();
+                if(lenS!=lenT) {
+                    return false;
+                }
+                if(s.equals(t)) {
+                    return true;
+                }
+            }
+            return false;
+        }
     public static void main(String[] args) {
         Solution so=new Solution();
         //int[] n={2,1,4,2,1,3,3,2,4};
@@ -716,19 +795,22 @@ import java.util.*;
             head=head.next;
         }*/
        //System.out.println(t);
-        String str="sad\ncad cxc\nopo\n12 23 65 sd . ds";
-        String test="";
-        int count=0;
-        Scanner scanner = new Scanner(System.in);
-        String input=scanner.nextLine();
-        try {
-            test=so.readFile("D://test1_2.txt");
-            count=so.sensetiveCount("D://test1_2.txt",input);
-            so.writeFile("敏感词"+"23"+"出现了"+count+"次");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        System.out.println(count);
+        ListNode node0=new ListNode(0);
+        ListNode node1=new ListNode(1);
+        ListNode node2=new ListNode(2);
+        ListNode node3=new ListNode(3);
+        node0.next=node1;
+        node1.next=node2;
+        node2.next=node3;
+       // so.deleteNode(node2);
+        ListNode head=node0;
+        so.removeNthFromEnd(head,1);
+        do{
+            System.out.println(head.val);
+            head=head.next;
+        }while(head.next!=null);
+        System.out.println(head.val);
+       // System.out.println(so.isAnagram(s,t));
     }
 
 }
