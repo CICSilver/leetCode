@@ -23,6 +23,43 @@ import java.util.*;
             this.child = child;
         }
     }
+
+
+        /**
+         * 反转一个单向链表
+         * 5-4-3-2-1-null
+         * 1-2-3-4-5-null
+          * @param head 链表头
+         * @return 返回链表头
+         */
+    public ListNode reverseList(ListNode head) {
+        if(head==null) {
+            return head;
+        }
+        ListNode realHead=head;
+        if(reverseListItera(head)) {
+            return realHead;
+        }
+        return head;
+    }
+    private boolean reverseListItera(ListNode head) {
+        if(head.next==null) {
+            return true;
+        }
+        ListNode tempHead=head;
+        ListNode prevVal=new ListNode(head.val);
+        ListNode nextVal=new ListNode(head.val);
+        while(head.next!=null) {
+            prevVal.val=nextVal.val;
+            nextVal.val=head.next.val;
+            head.next.val=prevVal.val;
+            head=head.next;
+        }
+        head.val=prevVal.val;
+        tempHead.val=nextVal.val;
+        reverseListItera(tempHead.next);
+        return false;
+    }
     public Node flatten(Node head) {
         Stack<Node> nodeStack=new Stack();
         flatten(head,nodeStack);
@@ -795,21 +832,20 @@ import java.util.*;
             head=head.next;
         }*/
        //System.out.println(t);
-        ListNode node0=new ListNode(0);
-        ListNode node1=new ListNode(1);
-        ListNode node2=new ListNode(2);
-        ListNode node3=new ListNode(3);
+        ListNode node0=new ListNode(1);
+        ListNode node1=new ListNode(2);
+        ListNode node2=new ListNode(3);
+        ListNode node3=new ListNode(4);
         node0.next=node1;
         node1.next=node2;
         node2.next=node3;
        // so.deleteNode(node2);
         ListNode head=node0;
-        so.removeNthFromEnd(head,1);
-        do{
+        head=so.reverseList(head);
+        while(head!=null) {
             System.out.println(head.val);
             head=head.next;
-        }while(head.next!=null);
-        System.out.println(head.val);
+        }
        // System.out.println(so.isAnagram(s,t));
     }
 
