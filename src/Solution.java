@@ -42,7 +42,7 @@ import java.util.*;
         }
         return head;
     }
-    private boolean reverseListItera(ListNode head) {
+     private boolean reverseListItera(ListNode head) {
         if(head.next==null) {
             return true;
         }
@@ -150,6 +150,53 @@ import java.util.*;
         return head;
     }
 
+        /**
+         *
+         将两个有序链表合并为一个新的有序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
+         * List1:1-2-3
+         * List2:4-5-6
+         * Result: 1-4-2-5-3
+         * @param l1 链表一的表头
+         * @param l2 链表二的表头
+         * @return
+         */
+        public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+            ListNode head=new ListNode(0);
+            ListNode cur=head;
+            while(l1!=null&&l2!=null) {
+                if(l1.val<l2.val) {
+                    cur.next=l1;
+                    cur=cur.next;
+                    l1=l1.next;
+                }else {
+                    cur.next=l2;
+                    cur=cur.next;
+                    l2=l2.next;
+                }
+            }
+            if(l1==null) {
+                cur.next=l2;
+            }else {
+                cur.next=l1;
+            }
+            return head.next;
+        }
+
+        /**
+         * 给定两个有序整数数组 nums1 和 nums2，将 nums2 合并到 nums1 中，使得 num1 成为一个有序数组。
+         *
+         * 初始化 nums1 和 nums2 的元素数量分别为 m 和 n。
+         * 你可以假设 nums1 有足够的空间（空间大小大于或等于 m + n）来保存 nums2 中的元素。
+         */
+        public void merge(int[] nums1, int m, int[] nums2, int n) {
+            int len1=nums1.length-1;
+            n--;
+            while(n>=0) {
+                nums1[len1--]=nums2[n--];
+        }
+        Arrays.sort(nums1);
+    }
+
     /**
      *
      * @param prices 当天股票价格
@@ -182,7 +229,6 @@ import java.util.*;
             node.val=tempNode.val;
             node.next=null;
         }
-
         /**
          * 判断数组中是否存在重复的数据，需要用到上面的快速排序
           * @param nums 原数组
@@ -822,31 +868,26 @@ import java.util.*;
         }
     public static void main(String[] args) {
         Solution so=new Solution();
-        //int[] n={2,1,4,2,1,3,3,2,4};
-        //String s="cc";
-       /* Node head=so.getHead();
+        int[] n1={2,1,4,0,0,0};
+        int[] n2={1,2,3};
+        int m=3;
+        int n=3;
 
-        head=so.flatten(head);
-        while(head.next!=null) {
-            System.out.println(head.val);
-            head=head.next;
-        }*/
-       //System.out.println(t);
-        ListNode node0=new ListNode(1);
-        ListNode node1=new ListNode(2);
-        ListNode node2=new ListNode(3);
-        ListNode node3=new ListNode(4);
+        ListNode node0=new ListNode(3);
+        ListNode node1=new ListNode(6);
+        ListNode node2=new ListNode(7);
         node0.next=node1;
         node1.next=node2;
-        node2.next=node3;
-       // so.deleteNode(node2);
-        ListNode head=node0;
-        head=so.reverseList(head);
-        while(head!=null) {
-            System.out.println(head.val);
-            head=head.next;
-        }
-       // System.out.println(so.isAnagram(s,t));
+        ListNode node4=new ListNode(1);
+        ListNode node5=new ListNode(2);
+        ListNode node6=new ListNode(7);
+        node4.next=node5;
+        node5.next=node6;
+        ListNode head1,head2;
+        head1=node0;
+        head2=node4;
+        so.merge(n1,m,n2,n);
+        System.out.println(Arrays.toString(n1));
     }
 
 }

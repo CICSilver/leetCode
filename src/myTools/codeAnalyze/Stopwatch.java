@@ -2,7 +2,7 @@ package myTools.codeAnalyze;
 
 public class Stopwatch {
     private double start=0;
-    Stopwatch() {
+    public Stopwatch() {
         start=System.currentTimeMillis();
     }
 

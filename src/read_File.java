@@ -12,16 +12,16 @@ public class read_File {
         test.write(number);
         test.readObject(number);
         try {
-            StringBuffer sb = new StringBuffer();
+            StringBuilder sb = new StringBuilder();
             FileReader reader = new FileReader("D://test.txt");
             BufferedReader br = new BufferedReader(reader);
             String str = null;
-            String str_fir;
+            String strFir;
             while ((str = br.readLine()) != null) {
                 sb.append(str);
                 for (int k = 0; k < number; k++) {
-                    str_fir = " " + test.ch[k] + " ";
-                    array[k] += countStr(str, str_fir);
+                    strFir = " " + test.ch[k] + " ";
+                    array[k] += countStr(str, strFir);
                 }
             }
             br.close();

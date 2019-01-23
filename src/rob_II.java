@@ -38,8 +38,18 @@ public class rob_II {
         return curMax;
     }
 
+
+
+/*    public int sensitiveFind(String str,String sensitiveStr) {
+
+    }*/
+
+
+
+
+
     public static void main(String[] args) {
-        System.out.println(new rob_II().rob(new int[]{1, 2, 3, 1}));
+        //System.out.println(new rob_II().rob(new int[]{1, 2, 3, 1}));
     }
 
 }
