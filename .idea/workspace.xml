@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b27f76e-9c07-444c-8493-2392982a2138" name="默认更改列表" comment="单向链表的龟速迭代反转">
-      <change afterPath="$PROJECT_DIR$/src/Draw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myTools/codeAnalyze/logAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practiceE1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myTools/codeAnalyze/Stopwatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myTools/codeAnalyze/Stopwatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/read_File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/read_File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rob_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rob_II.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,91 +43,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="885" column="27" lean-forward="true" selection-start-line="885" selection-start-column="27" selection-end-line="889" selection-end-column="48" />
+            <state relative-caret-position="135">
+              <caret line="891" column="33" selection-start-line="891" selection-start-column="33" selection-end-line="891" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#Node#0;class#Solution#0" />
-                <element signature="method#reverseList#0;class#Solution#0" />
-                <element signature="method#flatten#0;class#Solution#0" />
-                <element signature="method#flatten#1;class#Solution#0" />
-                <element signature="docComment;method#removeDuplicates#0;class#Solution#0" />
-                <element signature="method#removeDuplicates#0;class#Solution#0" />
-                <element signature="docComment;method#removeNthFromEnd#0;class#Solution#0" />
-                <element signature="method#removeNthFromEnd#0;class#Solution#0" />
-                <element signature="method#mergeTwoLists#0;class#Solution#0" />
-                <element signature="docComment;method#maxprofit#0;class#Solution#0" />
-                <element signature="method#maxprofit#0;class#Solution#0" />
-                <element signature="docComment;method#containsDuplicate#0;class#Solution#0" />
-                <element signature="method#containsDuplicate#0;class#Solution#0" />
-                <element signature="method#singleNumber#0;class#Solution#0" />
-                <element signature="method#intersect#0;class#Solution#0" />
-                <element signature="method#getRepitionPart#0;class#Solution#0" />
-                <element signature="method#removeZero#0;class#Solution#0" />
-                <element signature="method#isPowerOfThree#0;class#Solution#0" />
-                <element signature="method#plusOne#0;class#Solution#0" />
-                <element signature="method#moveZeroes#0;class#Solution#0" />
-                <element signature="method#twoSum#0;class#Solution#0" />
-                <element signature="method#isValidSudoku#0;class#Solution#0" />
-                <element signature="method#isCharArrayHasRepeatition#0;class#Solution#0" />
-                <element signature="method#exchaArray#0;class#Solution#0" />
-                <element signature="method#exchDoubleArray#0;class#Solution#0" />
-                <element signature="method#rotate#0;class#Solution#0" />
-                <element signature="method#isSquare#0;class#Solution#0" />
-                <element signature="method#reverseString#0;class#Solution#0" />
-                <element signature="method#reverse#0;class#Solution#0" />
-                <element signature="docComment;method#calculateUnitOfSignedInt#0;class#Solution#0" />
-                <element signature="method#calculateUnitOfSignedInt#0;class#Solution#0" />
-                <element signature="docComment;method#canJump#0;class#Solution#0" />
-                <element signature="method#canJump#0;class#Solution#0" />
-                <element signature="docComment;method#jump#0;class#Solution#0" />
-                <element signature="method#jump#0;class#Solution#0" />
-                <element signature="method#jump1#0;class#Solution#0" />
-                <element signature="method#firstUniqChar#0;class#Solution#0" />
-                <element signature="docComment;method#longestPalindrome#0;class#Solution#0" />
-                <element signature="method#longestPalindrome#0;class#Solution#0" />
-                <element signature="docComment;method#getHead#0;class#Solution#0" />
-                <element signature="method#getHead#0;class#Solution#0" />
-                <element signature="method#writeFile#0;class#Solution#0" />
-                <element signature="method#readFile#0;class#Solution#0" />
-                <element signature="method#numJewelsInStones#0;class#Solution#0" />
+                <element signature="e#16767#16768#0" expanded="true" />
+                <element signature="e#16797#16798#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practiceE1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myTools/codeAnalyze/logAlgorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="630">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding>
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myTools/codeAnalyze/Stopwatch.java">
+        <entry file="file://$PROJECT_DIR$/计算机网络协议整理.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="4410">
+                <caret line="98" column="223" selection-start-line="98" selection-start-column="223" selection-end-line="98" selection-end-column="223" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/myTools/Node/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="225">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -202,11 +154,11 @@
         <option value="$PROJECT_DIR$/src/myTools/sort/practiceE1.java" />
         <option value="$PROJECT_DIR$/src/read_File.java" />
         <option value="$PROJECT_DIR$/src/deleteNode.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/draw.java" />
         <option value="$PROJECT_DIR$/src/Draw.java" />
         <option value="$PROJECT_DIR$/src/practiceE1.java" />
         <option value="$PROJECT_DIR$/src/myTools/codeAnalyze/logAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
       </list>
     </option>
   </component>
@@ -216,21 +168,20 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="656" />
-    <option name="height" value="456" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="225" />
+    <option name="y" value="87" />
+    <option name="width" value="1401" />
+    <option name="height" value="1002" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="添加" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,24 +209,19 @@
             </path>
             <path>
               <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="外部库" type="cb654da1:ExternalLibrariesNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="myTools" type="462c0819:PsiDirectoryNode" />
+              <item name="Node" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="外部库" type="cb654da1:ExternalLibrariesNode" />
-              <item name="algs4.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="外部库" type="cb654da1:ExternalLibrariesNode" />
-              <item name="algs4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="algs4" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,10 +231,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548252281094" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548311818150" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/algorithm_Week2/algs4.jar!/" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/algs4.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -313,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.logAlgorithm">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Draw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Draw" />
       <module name="leetCode" />
@@ -363,10 +309,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.logAlgorithm" />
         <item itemvalue="Application.practiceE1" />
         <item itemvalue="Application.Draw" />
-        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.rob_II" />
       </list>
     </recent_temporary>
@@ -541,7 +487,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119550000" />
+    <option name="totallyTimeSpent" value="122727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,10 +499,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1200" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944752" visible="true" weight="0.19621621" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944752" weight="0.19621621" />
       <window_info id="Structure" order="1" sideWeight="0.5005525" side_tool="true" weight="0.18702702" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -565,18 +511,18 @@
       <window_info id="设计器" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32873562" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33448276" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33240998" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928178" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32947975" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891892" weight="0.3632184" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891892" weight="0.3620915" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010811" side_tool="true" weight="0.33103448" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49945945" weight="0.3275862" />
       <window_info anchor="bottom" id="PMD" order="12" weight="0.3298611" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32528734" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.37320575" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="调试" order="16" weight="0.39026916" />
@@ -591,6 +537,42 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3299356" />
       <window_info anchor="right" id="Database" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20378378" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="设计器" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287037" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32947975" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3297362" />
+      <window_info anchor="bottom" id="PMD" order="12" weight="0.3298611" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3287037" />
+      <window_info anchor="bottom" id="调试" order="14" weight="0.3287037" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3299356" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="调色板" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3299356" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -650,98 +632,47 @@
     <MESSAGE value="单向链表的龟速迭代反转" />
     <option name="LAST_COMMIT_MESSAGE" value="单向链表的龟速迭代反转" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>877</line>
+          <properties class="Solution" method="binaryGap">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/isContains.java" />
-    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28171">
-          <caret line="982" selection-start-line="982" selection-end-line="982" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/lang/StringLatin1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/lang/Integer.java" />
+    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/lang/StringLatin1.java" />
+    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/lang/Iterable.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/multilevellinkedlist.png" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/multilevellinkedlistflattened.png" />
     <entry file="file://$PROJECT_DIR$/计算机网络协议整理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="16965">
-            <caret line="377" column="21" selection-start-line="377" selection-start-column="21" selection-end-line="377" selection-end-column="21" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="4410">
+            <caret line="98" column="223" selection-start-line="98" selection-start-column="223" selection-end-line="98" selection-end-column="223" />
           </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/计算机网络脑图.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="390" column="18" selection-start-line="390" selection-start-column="18" selection-end-line="390" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sensitive.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/util/Stack.java" />
+    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/io/BufferedReader.java" />
+    <entry file="file://$PROJECT_DIR$/sensitive.txt" />
     <entry file="file://$PROJECT_DIR$/src/quickSort.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97605">
-          <caret line="2254" column="20" selection-start-line="2254" selection-start-column="20" selection-end-line="2254" selection-end-column="20" />
-          <folding>
-            <element signature="e#94126#94127#0" expanded="true" />
-            <element signature="e#94164#94165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44235">
-          <caret line="1023" selection-start-line="1023" selection-end-line="1023" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/lang/String.java" />
+    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/io/File.java" />
     <entry file="file://$PROJECT_DIR$/src/myTools/Node/jumpNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -766,17 +697,7 @@
     <entry file="file://$PROJECT_DIR$/leetCode.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11925">
-          <caret line="310" column="25" selection-start-line="310" selection-start-column="25" selection-end-line="310" selection-end-column="25" />
-          <folding>
-            <element signature="e#11799#11800#0" expanded="true" />
-            <element signature="e#11880#11881#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/lang/Math.java" />
     <entry file="file://$PROJECT_DIR$/src/myTools/Node/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -784,13 +705,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/net/URLConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
-          <caret line="354" column="52" selection-start-line="354" selection-start-column="52" selection-end-line="354" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/net/URLConnection.java" />
     <entry file="file://$PROJECT_DIR$/src/removeDoubleElementsInArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
@@ -853,102 +768,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Desktop/algorithm_Week2/algs4.jar!/edu/princeton/cs/algs4/Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="1149" selection-start-line="1149" selection-end-line="1149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/algorithm_Week2/algs4.jar!/edu/princeton/cs/algs4/Out.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/algorithm_Week2/algs4.jar!/edu/princeton/cs/algs4/In.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="313" lean-forward="true" selection-start-line="313" selection-end-line="313" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="885" column="27" lean-forward="true" selection-start-line="885" selection-start-column="27" selection-end-line="889" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Node#0;class#Solution#0" />
-            <element signature="method#reverseList#0;class#Solution#0" />
-            <element signature="method#flatten#0;class#Solution#0" />
-            <element signature="method#flatten#1;class#Solution#0" />
-            <element signature="docComment;method#removeDuplicates#0;class#Solution#0" />
-            <element signature="method#removeDuplicates#0;class#Solution#0" />
-            <element signature="docComment;method#removeNthFromEnd#0;class#Solution#0" />
-            <element signature="method#removeNthFromEnd#0;class#Solution#0" />
-            <element signature="method#mergeTwoLists#0;class#Solution#0" />
-            <element signature="docComment;method#maxprofit#0;class#Solution#0" />
-            <element signature="method#maxprofit#0;class#Solution#0" />
-            <element signature="docComment;method#containsDuplicate#0;class#Solution#0" />
-            <element signature="method#containsDuplicate#0;class#Solution#0" />
-            <element signature="method#singleNumber#0;class#Solution#0" />
-            <element signature="method#intersect#0;class#Solution#0" />
-            <element signature="method#getRepitionPart#0;class#Solution#0" />
-            <element signature="method#removeZero#0;class#Solution#0" />
-            <element signature="method#isPowerOfThree#0;class#Solution#0" />
-            <element signature="method#plusOne#0;class#Solution#0" />
-            <element signature="method#moveZeroes#0;class#Solution#0" />
-            <element signature="method#twoSum#0;class#Solution#0" />
-            <element signature="method#isValidSudoku#0;class#Solution#0" />
-            <element signature="method#isCharArrayHasRepeatition#0;class#Solution#0" />
-            <element signature="method#exchaArray#0;class#Solution#0" />
-            <element signature="method#exchDoubleArray#0;class#Solution#0" />
-            <element signature="method#rotate#0;class#Solution#0" />
-            <element signature="method#isSquare#0;class#Solution#0" />
-            <element signature="method#reverseString#0;class#Solution#0" />
-            <element signature="method#reverse#0;class#Solution#0" />
-            <element signature="docComment;method#calculateUnitOfSignedInt#0;class#Solution#0" />
-            <element signature="method#calculateUnitOfSignedInt#0;class#Solution#0" />
-            <element signature="docComment;method#canJump#0;class#Solution#0" />
-            <element signature="method#canJump#0;class#Solution#0" />
-            <element signature="docComment;method#jump#0;class#Solution#0" />
-            <element signature="method#jump#0;class#Solution#0" />
-            <element signature="method#jump1#0;class#Solution#0" />
-            <element signature="method#firstUniqChar#0;class#Solution#0" />
-            <element signature="docComment;method#longestPalindrome#0;class#Solution#0" />
-            <element signature="method#longestPalindrome#0;class#Solution#0" />
-            <element signature="docComment;method#getHead#0;class#Solution#0" />
-            <element signature="method#getHead#0;class#Solution#0" />
-            <element signature="method#writeFile#0;class#Solution#0" />
-            <element signature="method#readFile#0;class#Solution#0" />
-            <element signature="method#numJewelsInStones#0;class#Solution#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/algorithm_Week2/algs4.jar!/edu/princeton/cs/algs4/AmericanFlagX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/algorithm_Week2/algs4.jar!/edu/princeton/cs/algs4/LinkedBag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3291">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/algorithm_Week2/algs4.jar!/edu/princeton/cs/algs4/Merge.java" />
+    <entry file="jar://E:/JAVA/jdk-10/lib/src.zip!/java.base/java/util/Scanner.java" />
+    <entry file="jar://$USER_HOME$/Desktop/algorithm_Week2/algs4.jar!/edu/princeton/cs/algs4/Out.java" />
+    <entry file="jar://$USER_HOME$/Desktop/algorithm_Week2/algs4.jar!/edu/princeton/cs/algs4/In.java" />
+    <entry file="jar://$USER_HOME$/Desktop/algorithm_Week2/algs4.jar!/edu/princeton/cs/algs4/AmericanFlagX.java" />
+    <entry file="jar://$USER_HOME$/Desktop/algorithm_Week2/algs4.jar!/edu/princeton/cs/algs4/LinkedBag.java" />
     <entry file="file://$PROJECT_DIR$/src/myTools/codeAnalyze/Stopwatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -971,8 +796,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practiceE1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+        <state relative-caret-position="630">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="891" column="33" selection-start-line="891" selection-start-column="33" selection-end-line="891" selection-end-column="33" />
+          <folding>
+            <element signature="e#16767#16768#0" expanded="true" />
+            <element signature="e#16797#16798#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
