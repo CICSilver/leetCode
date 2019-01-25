@@ -902,7 +902,59 @@ import java.util.*;
 
             return resultLength;
         }
-    public static void main(String[] args) {
+
+        /**
+         * 给定两个整数 n 和 k，你需要实现一个数组，这个数组
+         * 包含从 1 到 n 的 n 个不同整数，同时满足以下条件：
+         * ① 如果这个数组是 [a1, a2, a3, ... , an]
+         * ，那么数组 [|a1 - a2|, |a2 - a3|, |a3 - a4|, ... ,
+         * |an-1 - an|] 中应该有且仅有 k 个不同整数；.
+         * ② 如果存在多种答案，你只需实现并返回其中任意一种.
+         * @param n 整数数组的个数
+         * @param k
+         * @return
+         */
+        public int[] constructArray(int n, int k) {
+            if(n==k||k<0||n<0) {
+                return null;
+            }
+            int[] result=new int[n];
+            int temp=1;
+            int loop=k+1;
+            int count=0;
+            while(temp<=loop) {
+                if(count%2==0) {
+                    result[count]=temp++;
+                }
+                else {
+                    result[count]=loop--;
+                }
+                count++;
+            }
+            temp=k+2;
+            while(count<n) {
+                result[count++]=temp++;
+            }
+            return result;
+        }
+
+        /**
+         *给定一个表示分数的非负整数数组。
+         * 玩家1从数组任意一端拿取一个分数，随后玩家2继续从剩
+         * 余数组任意一端拿取分数，然后玩家1拿，……。每次一
+         * 个玩家只能拿取一个分数，分数被拿取之后不再可取。直
+         * 到没有剩余分数可取时游戏结束。最终获得分数总和最多
+         * 的玩家获胜。
+         * 给定一个表示分数的数组，预测玩家1是否会成为赢家。
+         * 你可以假设每个玩家的玩法都会使他的分数最大化
+         * @param nums
+         * @return
+         */
+        public boolean PredictTheWinner(int[] nums) {
+            return false;
+        }
+
+        public static void main(String[] args) {
         Solution so=new Solution();
         int[] n1={2,1,4,0,0,0};
         int[] n2={1,2,3};
@@ -919,9 +971,10 @@ import java.util.*;
         ListNode node6=new ListNode(7);
         node4.next=node5;
         node5.next=node6;
+        n1=so.constructArray(10,4);
         int temp=2;
         temp=so.binaryGap(temp);
-        System.out.println(temp);
+        System.out.println(Arrays.toString(n1));
     }
 
 }
