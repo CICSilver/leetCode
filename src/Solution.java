@@ -951,7 +951,71 @@ import java.util.*;
          * @return
          */
         public boolean PredictTheWinner(int[] nums) {
-            return false;
+            if(nums.length%2==0) {
+                return true;
+            }
+            int aSum=0,bSum=0;
+
+        }
+        private int count=0;
+
+        /**
+         * 备忘录法递归运算斐波那契数列，降低递归次数
+         * 自顶向下的动态规划
+         * @param a 某个斐波那契数列数值的序号
+         * @return 斐波那契数列第a个数
+         */
+        private int fib(int a) {
+            if(a<=0) {
+                return 0;
+            }
+            int[] memo=new int[a+1];
+            for(int i=0;i<a+1;i++) {
+                memo[i]=-1;
+            }
+            return fib(a,memo);
+        }
+        private int fib(int n,int[] memo) {
+            //若记录数组中有值则直接返回，否则将求出的值保存在数组中
+            if(memo[n]!=-1) {
+                return memo[n];
+            }
+            if(n<=2) {
+                memo[n]=1;
+            }
+            else {
+                count++;
+                return fib(n - 1, memo) + fib(n - 2, memo);
+            }
+            return memo[n];
+        }
+
+        /**
+         * 备忘录法实现钢材价格计算问题
+         * @param p 钢材价格
+         * @return 钢材最大价值
+         */
+        private int cut(int[] p,int n) {
+            int[] memo=new int[p.length+1];
+            for(int i=0;i<=memo.length;i++) {
+                memo[i]=-1;
+            }
+            return cut(p,memo,n);
+
+        }
+        private int cut(int[] p,int[] memo,int n) {
+            if(n==0) {
+                memo[0]=0;
+            }
+            if(memo[n]!=-1) {
+                return memo[n];
+            }
+            int result=Integer.MIN_VALUE;
+            for(int i=1;i<=n;i++) {
+                result=Math.max(result,cut(p,memo,n-i));
+            }
+            memo[n]=result;
+            return result;
         }
 
         public static void main(String[] args) {
@@ -973,8 +1037,8 @@ import java.util.*;
         node5.next=node6;
         n1=so.constructArray(10,4);
         int temp=2;
-        temp=so.binaryGap(temp);
-        System.out.println(Arrays.toString(n1));
+        //temp=so.binaryGap(temp);
+        System.out.println(so.fib(6)+"\n"+so.count);
     }
 
 }
