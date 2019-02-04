@@ -939,23 +939,20 @@ import java.util.*;
         }
 
         /**
-         *给定一个表示分数的非负整数数组。
-         * 玩家1从数组任意一端拿取一个分数，随后玩家2继续从剩
-         * 余数组任意一端拿取分数，然后玩家1拿，……。每次一
-         * 个玩家只能拿取一个分数，分数被拿取之后不再可取。直
-         * 到没有剩余分数可取时游戏结束。最终获得分数总和最多
-         * 的玩家获胜。
-         * 给定一个表示分数的数组，预测玩家1是否会成为赢家。
-         * 你可以假设每个玩家的玩法都会使他的分数最大化
-         * @param nums
-         * @return
+         * 汉明距离：两数二进制位不同位的个数
+         * @param x 整数
+         * @param y 整数
+         * @return 两数的汉明距离
          */
-        public boolean PredictTheWinner(int[] nums) {
-            if(nums.length%2==0) {
-                return true;
+        public int hammingDistance(int x, int y) {
+            String str=Integer.toBinaryString(x^y);
+            int count=0;
+            for(int i=0;i<str.length();i++) {
+                if(str.charAt(i)=='1') {
+                    count++;
+                }
             }
-            int aSum=0,bSum=0;
-
+            return count;
         }
         private int count=0;
 
@@ -1018,6 +1015,58 @@ import java.util.*;
             return result;
         }
 
+        /**
+         * 实现 int sqrt(int x) 函数。
+         *
+         * 计算并返回 x 的平方根，其中 x 是非负整数。
+         *
+         * 由于返回类型是整数，结果只保留整数的部分，小数部
+         * 分将被舍去。
+         * @param x 非负整数
+         * @return 平方根
+         */
+        public int mySqrt(int x) {
+            if(x==0) {
+                return 0;
+            }
+            if(x<0) {
+                return 0;
+            }
+            double temp=x;
+            temp=Math.sqrt(x);
+            StringBuilder stringBuilder=new StringBuilder();
+            String str=Double.toString(temp);
+            char c=str.charAt(0);
+            return Integer.parseInt(str);
+        }
+
+        /**
+         * 返回单向链表的中间结点
+         * 若节点为偶数个，则返回第二个
+         * 输入[1,2,3,4,5],输出val=3的结点
+         * 输入[1,2,3,4,5,6],输出val=4的结点
+         * 结点个数区间为[1,100]
+         * @param head 头节点
+         * @return 中间节点
+         */
+        public ListNode middleNode(ListNode head) {
+            if(head.next==null) {
+                return head;
+            }
+            if(head.next.next==null) {
+                return head.next;
+            }
+            ListNode fast,low;
+            low=head.next;
+            fast=head.next.next;
+            while(fast!=null&&fast.next!=null) {
+                low=low.next;
+
+                fast=fast.next.next;
+            }
+            return low;
+        }
+
         public static void main(String[] args) {
         Solution so=new Solution();
         int[] n1={2,1,4,0,0,0};
@@ -1025,20 +1074,21 @@ import java.util.*;
         int m=3;
         int n=3;
 
-        ListNode node0=new ListNode(3);
-        ListNode node1=new ListNode(6);
-        ListNode node2=new ListNode(7);
-        node0.next=node1;
+        ListNode node1=new ListNode(1);
+        ListNode node2=new ListNode(2);
+        ListNode node3=new ListNode(3);
         node1.next=node2;
-        ListNode node4=new ListNode(1);
-        ListNode node5=new ListNode(2);
-        ListNode node6=new ListNode(7);
+        node2.next=node3;
+        ListNode node4=new ListNode(4);
+        ListNode node5=new ListNode(5);
+        ListNode node6=new ListNode(6);
+        node3.next=node4;
         node4.next=node5;
         node5.next=node6;
         n1=so.constructArray(10,4);
-        int temp=2;
-        //temp=so.binaryGap(temp);
-        System.out.println(so.fib(6)+"\n"+so.count);
+        int x=2,y=4;
+        ListNode result=so.middleNode(node1);
+        System.out.println(result.val);
     }
 
 }
