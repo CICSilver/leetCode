@@ -1067,6 +1067,77 @@ import java.util.*;
             return low;
         }
 
+        /**
+         * 给定一个排序链表，删除所有重复的元素，使得每个元
+         * 素只出现一次。
+         * @param head 头节点
+         * @return 去重后的链表节点
+         */
+        public ListNode deleteDuplicates(ListNode head) {
+            if(head==null) {
+                return null;
+            }
+            if(head.next==null) {
+                return head;
+            }
+            ListNode temp=head;
+            while(temp.next!=null) {
+                if(temp.next.val==temp.val) {
+                    if(temp.next.next==null) {
+                        temp.next=null;
+                        break;
+                    }
+                    temp.next=temp.next.next;
+                    continue;
+                }
+                temp=temp.next;
+            }
+            return head;
+        }
+
+        /**
+         * 保留单向链表中未重复过的结点
+         * fakeNode->1->1->2->2
+         * @param head 头结点
+         * @return 操作后的头结点
+         */
+            public ListNode deleteDuplicatesII(ListNode head) {
+                ListNode dummyHead = new ListNode(0);
+                dummyHead.next = head;
+                ListNode pre = dummyHead;
+                ListNode cur = dummyHead.next;
+                // 标识当前节点是否需要删除
+                boolean curIsDelete = false;
+                while (cur != null && cur.next != null){
+                    if (cur.val == cur.next.val) {
+                        cur.next = cur.next.next;
+                        // 出现重复节点, 将当前cur标记为需要删除
+                        curIsDelete = true;
+                    } else {
+                        if (curIsDelete) {
+                            pre.next = cur.next;
+                            cur = pre.next;
+
+                            // 新的cur节点,所以需要重置curIsDelete
+                            curIsDelete = false;
+                        } else {
+                            pre = cur;
+                            cur = cur.next;
+                        }
+                    }
+                }
+
+                if (curIsDelete) {
+                    pre.next = cur.next;
+                    cur = pre.next;
+                    // 新的cur节点,所以需要重置curIsDelete
+                    curIsDelete = false;
+                }
+
+                return dummyHead.next;
+            }
+
+
         public static void main(String[] args) {
         Solution so=new Solution();
         int[] n1={2,1,4,0,0,0};
@@ -1076,19 +1147,20 @@ import java.util.*;
 
         ListNode node1=new ListNode(1);
         ListNode node2=new ListNode(2);
-        ListNode node3=new ListNode(3);
+        ListNode node3=new ListNode(2);
         node1.next=node2;
         node2.next=node3;
-        ListNode node4=new ListNode(4);
-        ListNode node5=new ListNode(5);
-        ListNode node6=new ListNode(6);
-        node3.next=node4;
+        ListNode node4=new ListNode(3);
+        ListNode node5=new ListNode(4);
         node4.next=node5;
-        node5.next=node6;
         n1=so.constructArray(10,4);
         int x=2,y=4;
-        ListNode result=so.middleNode(node1);
-        System.out.println(result.val);
+        ListNode result=so.deleteDuplicatesII(node1);
+            while (result != null) {
+                System.out.println(result.val);
+                result=result.next;
+
+            }
     }
 
 }
