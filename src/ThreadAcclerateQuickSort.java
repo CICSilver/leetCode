@@ -1,21 +1,26 @@
 import java.util.concurrent.Callable;
+import java.util.concurrent.FutureTask;
 
 /**
  * @author CIC_Silver
  * 利用多线程加速的快速排序算法
  */
-public class ThreadAcclerateQuickSort implements Callable<Item>,Runnable {
-    Item item;
+public class ThreadAcclerateQuickSort implements Callable<Item> {
+    public static Item item;
 
     @Override
     public Item call() throws Exception {
+        
         return null;
     }
-
-    @Override
-    public void run() {
-
+    public static void main(String[] args) {
+        Callable<Item> callable=new ThreadAcclerateQuickSort();
+        FutureTask<Item> task=new FutureTask<>(callable);
+        int[] testArray={2,3,1,5,6,4};
+        item=new Item(testArray[0], testArray[testArray.length],testArray.length/2,testArray);
+        new Thread(task).start();
     }
+
 }
 
 
