@@ -7,8 +7,13 @@ package myTools.sort;
 public class Sort {
     //快速排序
     public static int[] quickSort(int[] a) {
-        if(a.length==0) throw new ArrayIndexOutOfBoundsException("");
-        if(a.length==1) return a;
+        if(a.length==0) {
+            throw new ArrayIndexOutOfBoundsException("");
+        }
+
+        if(a.length==1) {
+            return a;
+        }
         sort(a,0,a.length-1);
         return a;
     }
@@ -24,20 +29,24 @@ public class Sort {
         int j=right;
         int privot=items[(left+right)/2];
         do{
-            while(items[i]<privot&&i<right)
+            while(items[i]<privot&&i<right) {
                 i++;
-            while(items[j]>privot&&j>left)
+            }
+            while(items[j]>privot&&j>left) {
                 j--;
+            }
             if(i<=j) {
                 exch(items, i, j);
                 i++;
                 j--;
             }
         }while(i<=j);
-        if(i<right)
-            sort(items,i,right);
-        if(j>left)
-            sort(items,left,j);
+        if(i<right) {
+            sort(items, i, right);
+        }
+        if(j>left) {
+            sort(items, left, j);
+        }
     }
     //插入排序
     private void insertSort(int[] nums) {
