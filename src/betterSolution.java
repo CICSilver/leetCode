@@ -1,3 +1,5 @@
+import myTools.sort.Sort;
+
 import java.util.Arrays;
 import java.util.HashMap;
 
@@ -24,9 +26,8 @@ public class betterSolution {
         return null;
     }
     public static void main(String[] args) {
-        int[] test={3,2,4,9};
-        int target=6;
-        betterSolution betterSolution=new betterSolution();
-        System.out.println(Arrays.toString(betterSolution.twoSum(test,target)));
+        int[] test={7,4,2,6,5};
+        Sort.quickSort(test);
+
     }
 }

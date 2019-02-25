@@ -29,6 +29,7 @@ public class Sort {
         int j=right;
         int privot=items[(left+right)/2];
         do{
+            //将数组依据标记值privot分为两部分，左侧找比标记值大的，右侧找比标记值小的，然后互换位置
             while(items[i]<privot&&i<right) {
                 i++;
             }
