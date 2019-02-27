@@ -1,3 +1,4 @@
+import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.Stopwatch;
 import myTools.sort.Sort;
@@ -7,6 +8,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashMap;
 
 
@@ -73,15 +75,14 @@ public class betterSolution extends Solution {
     }
 
     public static void main(String[] args) throws IOException {
-        int len=20;
-        int[] a=new int[len];
-        for(int i=1;i<=10;i++) {
-            a[i-1]=i;
+        int len=10;
+        ArrayList<Integer> integerArrayList=new ArrayList<>(len);
+        for(int i=0;i<len;i++) {
+            integerArrayList.add(i);
         }
-        System.out.println(Arrays.toString(a));
-        System.arraycopy(a,5,a,4,len-1-5);
-        //a[5]=200;
-        System.out.println(Arrays.toString(a));
-
+        System.out.println(integerArrayList.toString());
+        int a=integerArrayList.set(5,7);
+        System.out.println(integerArrayList.toString()+"   "+a);
+        System.out.println(integerArrayList.toString()+"size="+integerArrayList.size());
     }
 }

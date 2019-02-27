@@ -24,13 +24,19 @@ public interface List<E> {
 
     void add(int index,E element);
 
-    void remove(int index);
+    void add(E element);
+
+    E remove(int index);
+
+    boolean remove(Object o);
 
     void removeAll();
 
     E get(int index);
 
-    E set(int index);
+    E set(int index, E element);
+
+
 
 
 }
