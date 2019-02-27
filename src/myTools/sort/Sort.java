@@ -1,6 +1,8 @@
 package myTools.sort;
 
 
+import java.util.Arrays;
+
 /**
  * @author XYR
  */
@@ -25,6 +27,7 @@ public class Sort {
     }
     private static void sort(int[] items,int left,int right) {
         if(left>=right) {insertSort(items,left,right);return;}
+        //递归出口
         int i=left;
         int j=right;
         int privot=items[(left+right)/2];

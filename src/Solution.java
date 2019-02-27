@@ -1026,15 +1026,8 @@ public class Solution {
         if(x==0) {
             return 0;
         }
-        if(x<0) {
-            return 0;
-        }
-        double temp=x;
-        temp=Math.sqrt(x);
-        StringBuilder stringBuilder=new StringBuilder();
-        String str=Double.toString(temp);
-        char c=str.charAt(0);
-        return Integer.parseInt(str);
+        return (int)Math.sqrt(x);
+
     }
 
     /**
@@ -1179,7 +1172,7 @@ public class Solution {
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Solution so=new Solution();
         int[] n1={2,1,4,0,0,0};
         int[] n2={1,2,3};
