@@ -128,7 +128,7 @@ public class MyArrayList<E> implements List<E> {
      * 调用该方法将清空所有元素，保留内存空间。
      */
     @Override
-    public void clear() {
+    public void clean() {
         Object[] ed=elementData;
         for(int i=0;i<size;i++) {
             ed[i]=null;

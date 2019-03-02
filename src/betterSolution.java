@@ -1,15 +1,7 @@
-import edu.princeton.cs.algs4.In;
-import edu.princeton.cs.algs4.StdRandom;
-import edu.princeton.cs.algs4.Stopwatch;
-import myTools.sort.Sort;
+import myTools.List.MyArrayList;
 
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashMap;
+import java.util.*;
 
 
 /**
@@ -76,13 +68,17 @@ public class betterSolution extends Solution {
 
     public static void main(String[] args) throws IOException {
         int len=10;
-        ArrayList<Integer> integerArrayList=new ArrayList<>(len);
-        for(int i=0;i<len;i++) {
-            integerArrayList.add(i);
-        }
-        System.out.println(integerArrayList.toString());
-        int a=integerArrayList.set(5,7);
-        System.out.println(integerArrayList.toString()+"   "+a);
-        System.out.println(integerArrayList.toString()+"size="+integerArrayList.size());
+        int[] test={1,2,3,4,5,6,7,8,9,10};
+        ArrayList<Integer> arrayList=new ArrayList<>(20);
+        arrayList.add(2);
+        LinkedList
+        arrayList.add(0,20);
+
+        MyArrayList<Integer> myArrayList=new MyArrayList<>();
+        myArrayList.add(2);
+        myArrayList.add(0,20);
+        System.out.println("ArrayList:"+Arrays.toString(arrayList.toArray()));
+        System.out.println("myArrayList:"+Arrays.toString(myArrayList.toArray()));
+
     }
 }

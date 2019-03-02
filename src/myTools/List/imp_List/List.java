@@ -30,7 +30,7 @@ public interface List<E> {
 
     boolean remove(Object o);
 
-    void clear();
+    void clean();
 
     E get(int index);
 
