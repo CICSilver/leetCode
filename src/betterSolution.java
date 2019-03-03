@@ -1,3 +1,4 @@
+import edu.princeton.cs.algs4.In;
 import myTools.List.MyArrayList;
 
 import java.io.IOException;
@@ -70,15 +71,17 @@ public class betterSolution extends Solution {
         int len=10;
         int[] test={1,2,3,4,5,6,7,8,9,10};
         ArrayList<Integer> arrayList=new ArrayList<>(20);
-        arrayList.add(2);
-        LinkedList
-        arrayList.add(0,20);
+        MyArrayList<Integer> arrayList1=new MyArrayList<Integer>(10);
+        for(int i=0;i<len;i++) {
+            arrayList1.add(i);
+        }
+        arrayList1.remove(3);
+        for(int i=0;i<arrayList1.size();i++) {
+            if(arrayList1.get(i)==null) {
+                System.out.println(i);
+            }
+        }
 
-        MyArrayList<Integer> myArrayList=new MyArrayList<>();
-        myArrayList.add(2);
-        myArrayList.add(0,20);
-        System.out.println("ArrayList:"+Arrays.toString(arrayList.toArray()));
-        System.out.println("myArrayList:"+Arrays.toString(myArrayList.toArray()));
 
     }
 }

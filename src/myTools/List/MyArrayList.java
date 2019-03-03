@@ -142,10 +142,16 @@ public class MyArrayList<E> implements List<E> {
     private void fastRemove(Object[] ed,int index) {
         final int newSize;
         if((newSize = size - 1)>index) {
-            System.arraycopy(elementData,index+1, elementData,index,newSize-index);
+            System.arraycopy(elementData, index + 1, elementData, index, newSize - index);
         }
-        size=newSize;
-        ed[size-1] = null;
+        ed[size=newSize] = null;
+        elementData=reSize();
+    }
+
+    private Object[] reSize() {
+        Object[] newEle=new Object[size];
+        System.arraycopy(elementData,0,newEle,0,size);
+        return newEle;
     }
 
     @SuppressWarnings("unchecked")
@@ -266,6 +272,10 @@ public class MyArrayList<E> implements List<E> {
         }
         elementData[size]=element;
         size=curSize+1;
+    }
+
+    public Object[] asArray(){
+        return elementData;
     }
 
 
