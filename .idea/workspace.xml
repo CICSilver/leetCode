@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b27f76e-9c07-444c-8493-2392982a2138" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/myTools/tools_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/Draw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/Draw.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/compareVersionClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/compareVersionClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/deleteNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/deleteNode.class" afterDir="false" />
@@ -18,8 +16,8 @@
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/rob_II.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/rob_II.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/rotate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/rotate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/sensitive_Vocabulary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/sensitive_Vocabulary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/betterSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/betterSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myTools/List/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myTools/List/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myTools/List/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myTools/List/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myTools/tools_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myTools/tools_test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,38 +58,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/betterSolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state>
               <caret line="77" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#twoSum#0;class#betterSolution#0" />
                 <element signature="method#twoSum#0;class#betterSolution#0" />
                 <element signature="method#sort#0;class#betterSolution#0" />
-                <element signature="e#1824#1833#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="1008" column="34" selection-start-line="1008" selection-start-column="34" selection-end-line="1008" selection-end-column="34" />
+            <state relative-caret-position="210">
+              <caret line="410" lean-forward="true" selection-start-line="410" selection-end-line="410" />
               <folding>
                 <element signature="docComment;class#LinkedList#0" />
                 <element signature="e#3068#3109#0" />
                 <element signature="e#3144#3184#0" />
                 <element signature="e#3406#3450#0" />
                 <element signature="e#3406#3482#0" />
-                <element signature="e#3488#3810#0" />
                 <element signature="e#3488#3902#0" />
                 <element signature="e#3908#3952#0" />
                 <element signature="e#3908#4236#0" />
                 <element signature="e#4242#4285#0" />
                 <element signature="e#4242#4559#0" />
                 <element signature="e#4565#4628#0" />
-                <element signature="e#4565#4972#0" />
                 <element signature="e#4978#5027#0" />
                 <element signature="e#4978#5419#0" />
                 <element signature="e#5425#5473#0" />
@@ -115,7 +110,6 @@
                 <element signature="e#8263#8656#0" />
                 <element signature="e#8740#8861#0" />
                 <element signature="e#8918#9183#0" />
-                <element signature="e#8918#9261#0" />
                 <element signature="e#9267#9901#0" />
                 <element signature="e#9267#10411#0" />
                 <element signature="e#9963#10169#1" />
@@ -125,10 +119,9 @@
                 <element signature="e#10236#10373#1" />
                 <element signature="e#10276#10359#1" />
                 <element signature="e#10417#11062#0" />
+                <element signature="e#11116#11117#0" expanded="true" />
+                <element signature="e#11154#11155#0" expanded="true" />
                 <element signature="e#11161#11956#0" />
-                <element signature="e#11161#12882#0" />
-                <element signature="e#12231#12292#1" />
-                <element signature="e#12298#12371#1" />
                 <element signature="e#12400#12669#1" />
                 <element signature="e#12697#12733#1" />
                 <element signature="e#12739#12810#1" />
@@ -141,24 +134,16 @@
                 <element signature="e#13963#14323#0" />
                 <element signature="e#13963#14513#0" />
                 <element signature="e#14519#14928#0" />
-                <element signature="e#14519#15131#0" />
                 <element signature="e#15137#15546#0" />
                 <element signature="e#15137#15655#0" />
                 <element signature="e#15661#15738#0" />
                 <element signature="e#15841#15958#0" />
+                <element signature="e#16006#16007#0" expanded="true" />
+                <element signature="e#16056#16057#0" expanded="true" />
                 <element signature="e#16063#16277#0" />
                 <element signature="e#16384#16541#0" />
-                <element signature="e#16547#16706#0" />
                 <element signature="e#16712#16790#0" />
-                <element signature="e#16712#17186#0" />
-                <element signature="e#16896#17032#1" />
-                <element signature="e#17038#17180#1" />
                 <element signature="e#17218#17718#0" />
-                <element signature="e#17218#18195#0" />
-                <element signature="e#17800#17981#1" />
-                <element signature="e#17861#17971#1" />
-                <element signature="e#17987#18170#1" />
-                <element signature="e#18048#18160#1" />
                 <element signature="e#18201#18700#0" />
                 <element signature="e#18201#19182#0" />
                 <element signature="e#18789#18969#1" />
@@ -166,7 +151,6 @@
                 <element signature="e#18975#19157#1" />
                 <element signature="e#19035#19147#1" />
                 <element signature="e#19214#19404#0" />
-                <element signature="e#19214#19509#0" />
                 <element signature="e#19515#19726#0" />
                 <element signature="e#19790#19970#0" />
                 <element signature="e#19790#20083#0" />
@@ -196,7 +180,6 @@
                 <element signature="e#24742#24879#1" />
                 <element signature="e#24782#24865#1" />
                 <element signature="e#24923#26043#0" />
-                <element signature="e#24923#26172#0" />
                 <element signature="e#26178#28931#0" />
                 <element signature="e#26386#26550#0" />
                 <element signature="e#26643#26915#0" />
@@ -218,7 +201,6 @@
                 <element signature="e#30002#30193#0" />
                 <element signature="e#30002#30562#0" />
                 <element signature="e#30568#31145#0" />
-                <element signature="e#30568#31358#0" />
                 <element signature="e#31364#33358#0" />
                 <element signature="e#31364#33808#0" />
                 <element signature="e#33885#34210#0" />
@@ -245,248 +227,81 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/myTools/tools_test.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="20" column="102" selection-start-line="20" selection-start-column="102" selection-end-line="20" selection-end-column="102" />
+            <state relative-caret-position="-983">
+              <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#Collection#0" />
+                <element signature="docComment;method#size#0;class#Collection#0" />
+                <element signature="docComment;method#isEmpty#0;class#Collection#0" />
+                <element signature="docComment;method#contains#0;class#Collection#0" />
+                <element signature="docComment;method#iterator#0;class#Collection#0" />
+                <element signature="docComment;method#toArray#0;class#Collection#0" />
+                <element signature="docComment;method#toArray#1;class#Collection#0" />
+                <element signature="docComment;method#toArray#2;class#Collection#0" />
+                <element signature="docComment;method#add#0;class#Collection#0" />
+                <element signature="docComment;method#remove#0;class#Collection#0" />
+                <element signature="docComment;method#containsAll#0;class#Collection#0" />
+                <element signature="docComment;method#addAll#0;class#Collection#0" />
+                <element signature="docComment;method#removeAll#0;class#Collection#0" />
+                <element signature="docComment;method#removeIf#0;class#Collection#0" />
+                <element signature="method#removeIf#0;class#Collection#0" />
+                <element signature="e#26995#27127#1" />
+                <element signature="e#27039#27117#1" />
+                <element signature="docComment;method#retainAll#0;class#Collection#0" />
+                <element signature="docComment;method#clear#0;class#Collection#0" />
+                <element signature="docComment;method#equals#0;class#Collection#0" />
+                <element signature="docComment;method#hashCode#0;class#Collection#0" />
+                <element signature="docComment;method#spliterator#0;class#Collection#0" />
+                <element signature="docComment;method#stream#0;class#Collection#0" />
+                <element signature="docComment;method#parallelStream#0;class#Collection#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myTools/List/MyArrayList.java">
+        <entry file="file://$PROJECT_DIR$/src/myTools/List/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+            <state relative-caret-position="616">
+              <caret line="153" column="13" lean-forward="true" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;field#DEFAULT_CAPACITY#0;class#MyArrayList#0" />
-                <element signature="docComment;field#EMPTY_ELEMENTDATA#0;class#MyArrayList#0" />
-                <element signature="docComment;field#DEFAULT_CAPACITY_ELEMENTDATA#0;class#MyArrayList#0" />
-                <element signature="method#MyArrayList#0;class#MyArrayList#0" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="method#indexOfRange#0;class#MyArrayList#0" />
-                <element signature="e#2042#2072#1" expanded="true" />
-                <element signature="method#clean#0;class#MyArrayList#0" />
-                <element signature="docComment;method#get#0;class#MyArrayList#0" />
-                <element signature="method#get#0;class#MyArrayList#0" />
-                <element signature="e#4470#4471#0" expanded="true" />
-                <element signature="e#4622#4623#0" expanded="true" />
-                <element signature="e#4902#4903#0" expanded="true" />
-                <element signature="e#4950#4951#0" expanded="true" />
-                <element signature="method#newCapacity#0;class#MyArrayList#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="667" column="17" selection-start-line="667" selection-start-column="17" selection-end-line="667" selection-end-column="17" />
-              <folding>
-                <element signature="docComment;class#ArrayList#0" />
-                <element signature="e#4520#4564#0" />
-                <element signature="e#4622#4694#0" />
-                <element signature="e#4758#4958#0" />
-                <element signature="e#5038#5357#0" />
-                <element signature="e#5446#5550#0" />
-                <element signature="e#5578#5831#0" />
-                <element signature="e#5578#6230#0" />
-                <element signature="e#5909#5980#1" />
-                <element signature="e#6012#6073#1" />
-                <element signature="e#6079#6224#1" />
-                <element signature="e#6236#6312#0" />
-                <element signature="e#6411#6732#0" />
-                <element signature="e#6878#6942#0" />
-                <element signature="e#7735#8005#0" />
-                <element signature="e#8221#8287#1" />
-                <element signature="e#8299#8549#0" />
-                <element signature="e#8624#8902#0" />
-                <element signature="e#9109#9110#0" expanded="true" />
-                <element signature="e#9146#9147#0" expanded="true" />
-                <element signature="e#9153#9572#0" />
-                <element signature="e#10452#10573#0" />
-                <element signature="e#10630#10773#0" />
-                <element signature="e#10842#11235#0" />
-                <element signature="e#11319#11623#0" />
-                <element signature="e#11657#11658#0" expanded="true" />
-                <element signature="e#11704#11705#0" expanded="true" />
-                <element signature="e#12173#12477#0" />
-                <element signature="e#12573#13043#0" />
-                <element signature="e#12684#12847#1" />
-                <element signature="e#12737#12837#1" />
-                <element signature="e#12774#12823#1" />
-                <element signature="e#12853#13018#1" />
-                <element signature="e#12906#13008#1" />
-                <element signature="e#12945#12994#1" />
-                <element signature="e#13049#13241#0" />
-                <element signature="e#13049#13620#0" />
-                <element signature="e#13282#13464#0" />
-                <element signature="e#13502#13614#0" />
-                <element signature="e#13626#14203#0" />
-                <element signature="e#14296#15625#0" />
-                <element signature="e#14296#16003#0" />
-                <element signature="e#16283#16541#0" />
-                <element signature="e#16283#16653#0" />
-                <element signature="e#16659#17019#0" />
-                <element signature="e#17217#17424#0" />
-                <element signature="e#17614#17815#0" />
-                <element signature="e#17933#18342#0" />
-                <element signature="e#18794#19144#0" />
-                <element signature="e#19396#19428#0" />
-                <element signature="e#19490#19526#1" />
-                <element signature="e#19562#19599#1" />
-                <element signature="e#19656#19727#0" />
-                <element signature="e#20165#20233#1" />
-                <element signature="e#20304#20434#1" />
-                <element signature="e#20379#20424#1" />
-                <element signature="e#20671#21107#1" />
-                <element signature="e#20827#20903#1" />
-                <element signature="e#20944#21097#1" />
-                <element signature="e#21002#21083#1" />
-                <element signature="e#21302#21370#1" />
-                <element signature="e#21382#21414#0" />
-                <element signature="e#21716#21784#1" />
-                <element signature="e#21851#21963#1" />
-                <element signature="e#22000#22633#0" />
-                <element signature="e#23530#23648#0" />
-                <element signature="e#23828#24519#0" />
-                <element signature="e#23828#24990#0" />
-                <element signature="e#24996#25791#0" />
-                <element signature="e#24996#26519#0" />
-                <element signature="e#26525#27132#0" />
-                <element signature="e#26525#27429#0" />
-                <element signature="e#27227#27344#1" />
-                <element signature="e#27435#27507#0" />
-                <element signature="e#27435#27721#0" />
-                <element signature="e#27727#27793#0" />
-                <element signature="e#27963#28177#0" />
-                <element signature="e#28284#28361#0" />
-                <element signature="e#28284#28509#0" />
-                <element signature="e#28515#29304#0" />
-                <element signature="e#29411#30314#0" />
-                <element signature="e#30420#31392#0" />
-                <element signature="e#30703#30842#1" />
-                <element signature="e#30876#31018#0" />
-                <element signature="e#31040#31270#0" />
-                <element signature="e#31054#31115#0" />
-                <element signature="e#31279#31365#0" />
-                <element signature="e#31398#31819#0" />
-                <element signature="e#31398#32416#0" />
-                <element signature="e#32244#32298#1" />
-                <element signature="e#32342#32410#1" />
-                <element signature="e#32422#32727#0" />
-                <element signature="e#32422#33617#0" />
-                <element signature="e#33008#33438#1" />
-                <element signature="e#33330#33391#1" />
-                <element signature="e#33459#33515#1" />
-                <element signature="e#33521#33611#1" />
-                <element signature="e#33623#34197#0" />
-                <element signature="e#33623#34324#0" />
-                <element signature="e#34330#34560#0" />
-                <element signature="e#34647#34905#0" />
-                <element signature="e#34979#35038#0" />
-                <element signature="e#35423#35876#0" />
-                <element signature="e#35886#36340#0" />
-                <element signature="e#36044#36216#0" />
-                <element signature="e#36254#36330#0" />
-                <element signature="e#36350#37043#0" />
-                <element signature="e#36575#37033#1" />
-                <element signature="e#37053#37207#0" />
-                <element signature="e#37219#37282#0" />
-                <element signature="e#37219#38901#0" />
-                <element signature="e#37358#37437#0" />
-                <element signature="e#37679#38132#0" />
-                <element signature="e#38142#38487#0" />
-                <element signature="e#38401#38477#0" />
-                <element signature="e#38809#38885#0" />
-                <element signature="e#38907#40507#0" />
-                <element signature="e#38907#40679#0" />
-                <element signature="e#40918#40992#0" />
-                <element signature="e#41271#41338#0" />
-                <element signature="e#41271#41633#0" />
-                <element signature="e#41926#42097#0" />
-                <element signature="e#42107#42199#0" />
-                <element signature="e#42209#42418#0" />
-                <element signature="e#42428#42667#0" />
-                <element signature="e#42677#42905#0" />
-                <element signature="e#43026#43373#0" />
-                <element signature="e#43730#44099#0" />
-                <element signature="e#44109#44440#0" />
-                <element signature="e#44615#45050#0" />
-                <element signature="e#45060#45406#0" />
-                <element signature="e#45121#45165#1" />
-                <element signature="e#45205#45250#1" />
-                <element signature="e#45416#45578#0" />
-                <element signature="e#45798#46006#0" />
-                <element signature="e#46193#50629#0" />
-                <element signature="class#46341:50618" />
-                <element signature="method#next#0;class#46341:50618" />
-                <element signature="method#previous#0;class#46341:50618" />
-                <element signature="method#forEachRemaining#0;class#46341:50618" />
-                <element signature="e#48114#48675#1" />
-                <element signature="method#remove#0;class#46341:50618" />
-                <element signature="e#49099#49314#0" />
-                <element signature="e#49352#49444#0" />
-                <element signature="method#set#0;class#46341:50618" />
-                <element signature="e#49670#49748#0" />
-                <element signature="e#49786#49878#0" />
-                <element signature="method#add#0;class#46341:50618" />
-                <element signature="e#50008#50255#0" />
-                <element signature="e#50293#50385#0" />
-                <element signature="method#checkForComodification#0;class#46341:50618" />
-                <element signature="e#50639#50818#0" />
-                <element signature="e#51133#51286#0" />
-                <element signature="e#51296#51577#0" />
-                <element signature="e#51401#51544#1" />
-                <element signature="e#51587#54848#0" />
-                <element signature="class#51757:54837" />
-                <element signature="method#getFence#0;class#51757:54837" />
-                <element signature="e#52229#52357#1" />
-                <element signature="method#trySplit#0;class#51757:54837" />
-                <element signature="method#tryAdvance#0;class#51757:54837" />
-                <element signature="e#53052#53414#1" />
-                <element signature="method#forEachRemaining#0;class#51757:54837" />
-                <element signature="e#53801#54472#1" />
-                <element signature="e#53849#53967#1" />
-                <element signature="e#54122#54450#1" />
-                <element signature="e#54172#54332#1" />
-                <element signature="e#54860#54921#0" />
-                <element signature="e#54860#55374#0" />
-                <element signature="e#55380#55905#0" />
-                <element signature="e#56024#56087#0" />
-                <element signature="e#56024#60802#0" />
-                <element signature="e#58281#58337#0" />
-                <element signature="e#58281#58542#0" />
-                <element signature="e#58552#58853#0" />
-                <element signature="e#58725#58820#1" />
-                <element signature="e#58863#59139#0" />
-                <element signature="e#59149#59687#0" />
-                <element signature="e#59355#59651#1" />
-                <element signature="e#59697#60576#0" />
-                <element signature="e#59971#60509#1" />
-                <element signature="e#60011#60096#1" />
-                <element signature="e#60227#60495#1" />
-                <element signature="e#60269#60405#1" />
-                <element signature="e#61142#61203#0" />
-                <element signature="e#61330#61459#0" />
-                <element signature="e#61330#62802#0" />
-                <element signature="e#61790#61855#0" />
-                <element signature="e#62015#62646#1" />
-                <element signature="e#62652#62796#1" />
-                <element signature="e#62808#62943#0" />
-                <element signature="e#62949#63372#0" />
-                <element signature="e#63378#63387#0" />
-                <element signature="e#63378#63694#0" />
-                <element signature="e#63700#63834#0" />
-                <element signature="e#63733#63753#0" />
+                <element signature="class#Node#0;class#MyLinkedList#0" />
+                <element signature="docComment;method#linkFirst#0;class#MyLinkedList#0" />
+                <element signature="method#linkFirst#0;class#MyLinkedList#0" />
+                <element signature="docComment;method#linkLast#0;class#MyLinkedList#0" />
+                <element signature="method#linkLast#0;class#MyLinkedList#0" />
+                <element signature="docComment;method#linkBefore#0;class#MyLinkedList#0" />
+                <element signature="method#linkBefore#0;class#MyLinkedList#0" />
+                <element signature="docComment;method#node#0;class#MyLinkedList#0" />
+                <element signature="method#node#0;class#MyLinkedList#0" />
+                <element signature="e#1721#1766#1" />
+                <element signature="e#2165#2166#0" expanded="true" />
+                <element signature="method#checkIndex#0;class#MyLinkedList#0" />
+                <element signature="e#1804#1832#1" />
+                <element signature="e#2381#2382#0" expanded="true" />
+                <element signature="e#1877#1910#1" />
+                <element signature="e#2459#2460#0" expanded="true" />
+                <element signature="docComment;method#contains#0;class#MyLinkedList#0" />
+                <element signature="docComment;method#indexOf#0;class#MyLinkedList#0" />
+                <element signature="method#indexOf#0;class#MyLinkedList#0" />
+                <element signature="e#2628#2673#1" />
+                <element signature="e#2680#2716#1" />
+                <element signature="e#2824#2853#1" />
+                <element signature="e#2876#2912#1" />
+                <element signature="docComment;method#toArray#0;class#MyLinkedList#0" />
+                <element signature="method#toArray#0;class#MyLinkedList#0" />
+                <element signature="method#add#0;class#MyLinkedList#0" />
+                <element signature="e#3846#3847#0" expanded="true" />
+                <element signature="e#3873#3874#0" expanded="true" />
+                <element signature="e#3926#3927#0" expanded="true" />
+                <element signature="e#3954#3955#0" expanded="true" />
+                <element signature="e#4047#4048#0" expanded="true" />
+                <element signature="e#4074#4075#0" expanded="true" />
+                <element signature="e#4130#4131#0" expanded="true" />
+                <element signature="e#4157#4158#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -507,18 +322,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add</find>
-      <find>exp</find>
-      <find>grow(</find>
-      <find>elementData(</find>
-      <find>DEFAULT</find>
-      <find>DEFAULT_CAPACITY</find>
-      <find>DEFAULTCAPACITY_EMPTY_ELEMENTDATA</find>
-      <find>add(</find>
-      <find>toArray</find>
       <find>512</find>
       <find>toA</find>
-      <find>addAll</find>
       <find>grow</find>
       <find>removeAll</find>
       <find>clear</find>
@@ -528,15 +333,25 @@
       <find>element</find>
       <find>get(</find>
       <find>fastRemove(</find>
-      <find>contains</find>
       <find>elementAt</find>
-      <find>contains(</find>
       <find>set</find>
       <find>fastRemove</find>
       <find>remove(</find>
       <find>remove(int</find>
       <find>remove</find>
       <find>fastRe</find>
+      <find>add(</find>
+      <find>linkLast</find>
+      <find>chec</find>
+      <find>add(int index, E element)</find>
+      <find>node</find>
+      <find>linkBef</find>
+      <find>add(int</find>
+      <find>contains</find>
+      <find>contains(</find>
+      <find>toArray</find>
+      <find>addAll</find>
+      <find>addAll(int</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -590,10 +405,10 @@
         <option value="$PROJECT_DIR$/src/myTools/List/ArrayList.java" />
         <option value="$PROJECT_DIR$/src/myTools/List/imp_List/List.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
-        <option value="$PROJECT_DIR$/src/myTools/List/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/betterSolution.java" />
         <option value="$PROJECT_DIR$/src/myTools/List/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/myTools/tools_test.java" />
+        <option value="$PROJECT_DIR$/src/myTools/List/MyLinkedList.java" />
       </list>
     </option>
   </component>
@@ -621,6 +436,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -641,14 +458,19 @@
             </path>
             <path>
               <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="myTools" type="462c0819:PsiDirectoryNode" />
+              <item name="List" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="外部库" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -658,15 +480,15 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551597597322" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551797153404" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/myTools.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -812,7 +634,10 @@
       <workItem from="1551512631195" duration="1189000" />
       <workItem from="1551584283477" duration="80000" />
       <workItem from="1551590899238" duration="87000" />
-      <workItem from="1551591174624" duration="5853000" />
+      <workItem from="1551591174624" duration="6650000" />
+      <workItem from="1551603861276" duration="351000" />
+      <workItem from="1551676078931" duration="20000" />
+      <workItem from="1551791972841" duration="5175000" />
     </task>
     <task id="LOCAL-00001" summary="加入二切分快速排序">
       <created>1544094563611</created>
@@ -1031,11 +856,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551514914690</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="添加针对 MyArrayList 的约瑟夫环单元测试">
+      <created>1551597689883</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1551597689883</updated>
+    </task>
+    <task id="LOCAL-00033" summary="更新单元测试的异常规避部分">
+      <created>1551597973642</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1551597973642</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231289000" />
+    <option name="totallyTimeSpent" value="237632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1050,7 +889,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944752" visible="true" weight="0.23891892" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944752" weight="0.25135136" />
       <window_info id="Structure" order="1" sideWeight="0.5005525" side_tool="true" weight="0.18702702" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1060,13 +899,13 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32815734" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986761" visible="true" weight="0.28045976" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986761" weight="0.28045976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45773524" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32815734" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3275862" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3275862" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891892" weight="0.29770115" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891892" weight="0.29701835" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50132394" side_tool="true" weight="0.33103448" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49945945" weight="0.32528734" />
@@ -1089,7 +928,7 @@
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3299356" />
       <window_info anchor="right" id="Database" order="11" weight="0.3295053" />
       <window_info anchor="right" id="Palette" order="12" />
-      <window_info anchor="right" x="0" y="0" width="430" height="880" id="文档" order="13" side_tool="true" weight="0.33945945" />
+      <window_info active="true" anchor="right" x="0" y="0" width="430" height="880" id="文档" order="13" side_tool="true" visible="true" weight="0.16972972" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1137,7 +976,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="加入二切分快速排序" />
     <MESSAGE value="添加了sumTwo和排0" />
     <MESSAGE value="添加了滑动窗口协议" />
     <MESSAGE value="添加了跳跃Ⅰ题解" />
@@ -1161,19 +999,11 @@
     <MESSAGE value="添加顺序表的实现到工具包中" />
     <MESSAGE value="基于数组实现的顺序集合" />
     <MESSAGE value="基于链表实现的linked集合" />
-    <option name="LAST_COMMIT_MESSAGE" value="基于链表实现的linked集合" />
+    <MESSAGE value="添加针对 MyArrayList 的约瑟夫环单元测试" />
+    <MESSAGE value="更新单元测试的异常规避部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新单元测试的异常规避部分" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/betterSolution.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="low" />
@@ -2164,13 +1994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myTools/Node/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
@@ -2449,39 +2272,6 @@
             <element signature="docComment;method#size#0;class#List#0" />
             <element signature="docComment;method#isEmpty#0;class#List#0" />
             <element signature="docComment;method#contains#0;class#List#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="255" column="12" selection-start-line="255" selection-start-column="12" selection-end-line="255" selection-end-column="12" />
-          <folding>
-            <element signature="docComment;class#Collection#0" />
-            <element signature="docComment;method#size#0;class#Collection#0" />
-            <element signature="docComment;method#isEmpty#0;class#Collection#0" />
-            <element signature="docComment;method#contains#0;class#Collection#0" />
-            <element signature="docComment;method#iterator#0;class#Collection#0" />
-            <element signature="docComment;method#toArray#0;class#Collection#0" />
-            <element signature="docComment;method#toArray#1;class#Collection#0" />
-            <element signature="docComment;method#toArray#2;class#Collection#0" />
-            <element signature="docComment;method#add#0;class#Collection#0" />
-            <element signature="docComment;method#remove#0;class#Collection#0" />
-            <element signature="docComment;method#containsAll#0;class#Collection#0" />
-            <element signature="docComment;method#addAll#0;class#Collection#0" />
-            <element signature="docComment;method#removeAll#0;class#Collection#0" />
-            <element signature="docComment;method#removeIf#0;class#Collection#0" />
-            <element signature="method#removeIf#0;class#Collection#0" />
-            <element signature="e#26995#27127#1" />
-            <element signature="e#27039#27117#1" />
-            <element signature="docComment;method#retainAll#0;class#Collection#0" />
-            <element signature="docComment;method#clear#0;class#Collection#0" />
-            <element signature="docComment;method#equals#0;class#Collection#0" />
-            <element signature="docComment;method#hashCode#0;class#Collection#0" />
-            <element signature="docComment;method#spliterator#0;class#Collection#0" />
-            <element signature="docComment;method#stream#0;class#Collection#0" />
-            <element signature="docComment;method#parallelStream#0;class#Collection#0" />
           </folding>
         </state>
       </provider>
@@ -2866,34 +2656,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myTools/List/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/betterSolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state>
           <caret line="77" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#twoSum#0;class#betterSolution#0" />
             <element signature="method#twoSum#0;class#betterSolution#0" />
             <element signature="method#sort#0;class#betterSolution#0" />
-            <element signature="e#1824#1833#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
+        <state relative-caret-position="13050">
           <caret line="667" column="17" selection-start-line="667" selection-start-column="17" selection-end-line="667" selection-end-column="17" />
           <folding>
             <element signature="docComment;class#ArrayList#0" />
@@ -3096,24 +2874,144 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/myTools/Node/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myTools/tools_test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#207#238#1" />
+            <element signature="e#289#375#1" />
+            <element signature="method#main#0;class#tools_test#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myTools/List/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="141" column="51" selection-start-line="141" selection-start-column="51" selection-end-line="141" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;field#DEFAULT_CAPACITY#0;class#MyArrayList#0" />
+            <element signature="docComment;field#EMPTY_ELEMENTDATA#0;class#MyArrayList#0" />
+            <element signature="docComment;field#DEFAULT_CAPACITY_ELEMENTDATA#0;class#MyArrayList#0" />
+            <element signature="method#MyArrayList#0;class#MyArrayList#0" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="method#indexOfRange#0;class#MyArrayList#0" />
+            <element signature="method#clean#0;class#MyArrayList#0" />
+            <element signature="method#fastRemove#0;class#MyArrayList#0" />
+            <element signature="docComment;method#get#0;class#MyArrayList#0" />
+            <element signature="method#get#0;class#MyArrayList#0" />
+            <element signature="e#4410#4411#0" expanded="true" />
+            <element signature="e#4466#4467#0" expanded="true" />
+            <element signature="e#4567#4568#0" expanded="true" />
+            <element signature="e#4618#4619#0" expanded="true" />
+            <element signature="method#newCapacity#0;class#MyArrayList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-983">
+          <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
+          <folding>
+            <element signature="docComment;class#Collection#0" />
+            <element signature="docComment;method#size#0;class#Collection#0" />
+            <element signature="docComment;method#isEmpty#0;class#Collection#0" />
+            <element signature="docComment;method#contains#0;class#Collection#0" />
+            <element signature="docComment;method#iterator#0;class#Collection#0" />
+            <element signature="docComment;method#toArray#0;class#Collection#0" />
+            <element signature="docComment;method#toArray#1;class#Collection#0" />
+            <element signature="docComment;method#toArray#2;class#Collection#0" />
+            <element signature="docComment;method#add#0;class#Collection#0" />
+            <element signature="docComment;method#remove#0;class#Collection#0" />
+            <element signature="docComment;method#containsAll#0;class#Collection#0" />
+            <element signature="docComment;method#addAll#0;class#Collection#0" />
+            <element signature="docComment;method#removeAll#0;class#Collection#0" />
+            <element signature="docComment;method#removeIf#0;class#Collection#0" />
+            <element signature="method#removeIf#0;class#Collection#0" />
+            <element signature="e#26995#27127#1" />
+            <element signature="e#27039#27117#1" />
+            <element signature="docComment;method#retainAll#0;class#Collection#0" />
+            <element signature="docComment;method#clear#0;class#Collection#0" />
+            <element signature="docComment;method#equals#0;class#Collection#0" />
+            <element signature="docComment;method#hashCode#0;class#Collection#0" />
+            <element signature="docComment;method#spliterator#0;class#Collection#0" />
+            <element signature="docComment;method#stream#0;class#Collection#0" />
+            <element signature="docComment;method#parallelStream#0;class#Collection#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myTools/List/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="153" column="13" lean-forward="true" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
+          <folding>
+            <element signature="class#Node#0;class#MyLinkedList#0" />
+            <element signature="docComment;method#linkFirst#0;class#MyLinkedList#0" />
+            <element signature="method#linkFirst#0;class#MyLinkedList#0" />
+            <element signature="docComment;method#linkLast#0;class#MyLinkedList#0" />
+            <element signature="method#linkLast#0;class#MyLinkedList#0" />
+            <element signature="docComment;method#linkBefore#0;class#MyLinkedList#0" />
+            <element signature="method#linkBefore#0;class#MyLinkedList#0" />
+            <element signature="docComment;method#node#0;class#MyLinkedList#0" />
+            <element signature="method#node#0;class#MyLinkedList#0" />
+            <element signature="e#1721#1766#1" />
+            <element signature="e#2165#2166#0" expanded="true" />
+            <element signature="method#checkIndex#0;class#MyLinkedList#0" />
+            <element signature="e#1804#1832#1" />
+            <element signature="e#2381#2382#0" expanded="true" />
+            <element signature="e#1877#1910#1" />
+            <element signature="e#2459#2460#0" expanded="true" />
+            <element signature="docComment;method#contains#0;class#MyLinkedList#0" />
+            <element signature="docComment;method#indexOf#0;class#MyLinkedList#0" />
+            <element signature="method#indexOf#0;class#MyLinkedList#0" />
+            <element signature="e#2628#2673#1" />
+            <element signature="e#2680#2716#1" />
+            <element signature="e#2824#2853#1" />
+            <element signature="e#2876#2912#1" />
+            <element signature="docComment;method#toArray#0;class#MyLinkedList#0" />
+            <element signature="method#toArray#0;class#MyLinkedList#0" />
+            <element signature="method#add#0;class#MyLinkedList#0" />
+            <element signature="e#3846#3847#0" expanded="true" />
+            <element signature="e#3873#3874#0" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
+            <element signature="e#3954#3955#0" expanded="true" />
+            <element signature="e#4047#4048#0" expanded="true" />
+            <element signature="e#4074#4075#0" expanded="true" />
+            <element signature="e#4130#4131#0" expanded="true" />
+            <element signature="e#4157#4158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="1008" column="34" selection-start-line="1008" selection-start-column="34" selection-end-line="1008" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="410" lean-forward="true" selection-start-line="410" selection-end-line="410" />
           <folding>
             <element signature="docComment;class#LinkedList#0" />
             <element signature="e#3068#3109#0" />
             <element signature="e#3144#3184#0" />
             <element signature="e#3406#3450#0" />
             <element signature="e#3406#3482#0" />
-            <element signature="e#3488#3810#0" />
             <element signature="e#3488#3902#0" />
             <element signature="e#3908#3952#0" />
             <element signature="e#3908#4236#0" />
             <element signature="e#4242#4285#0" />
             <element signature="e#4242#4559#0" />
             <element signature="e#4565#4628#0" />
-            <element signature="e#4565#4972#0" />
             <element signature="e#4978#5027#0" />
             <element signature="e#4978#5419#0" />
             <element signature="e#5425#5473#0" />
@@ -3137,7 +3035,6 @@
             <element signature="e#8263#8656#0" />
             <element signature="e#8740#8861#0" />
             <element signature="e#8918#9183#0" />
-            <element signature="e#8918#9261#0" />
             <element signature="e#9267#9901#0" />
             <element signature="e#9267#10411#0" />
             <element signature="e#9963#10169#1" />
@@ -3147,10 +3044,9 @@
             <element signature="e#10236#10373#1" />
             <element signature="e#10276#10359#1" />
             <element signature="e#10417#11062#0" />
+            <element signature="e#11116#11117#0" expanded="true" />
+            <element signature="e#11154#11155#0" expanded="true" />
             <element signature="e#11161#11956#0" />
-            <element signature="e#11161#12882#0" />
-            <element signature="e#12231#12292#1" />
-            <element signature="e#12298#12371#1" />
             <element signature="e#12400#12669#1" />
             <element signature="e#12697#12733#1" />
             <element signature="e#12739#12810#1" />
@@ -3163,24 +3059,16 @@
             <element signature="e#13963#14323#0" />
             <element signature="e#13963#14513#0" />
             <element signature="e#14519#14928#0" />
-            <element signature="e#14519#15131#0" />
             <element signature="e#15137#15546#0" />
             <element signature="e#15137#15655#0" />
             <element signature="e#15661#15738#0" />
             <element signature="e#15841#15958#0" />
+            <element signature="e#16006#16007#0" expanded="true" />
+            <element signature="e#16056#16057#0" expanded="true" />
             <element signature="e#16063#16277#0" />
             <element signature="e#16384#16541#0" />
-            <element signature="e#16547#16706#0" />
             <element signature="e#16712#16790#0" />
-            <element signature="e#16712#17186#0" />
-            <element signature="e#16896#17032#1" />
-            <element signature="e#17038#17180#1" />
             <element signature="e#17218#17718#0" />
-            <element signature="e#17218#18195#0" />
-            <element signature="e#17800#17981#1" />
-            <element signature="e#17861#17971#1" />
-            <element signature="e#17987#18170#1" />
-            <element signature="e#18048#18160#1" />
             <element signature="e#18201#18700#0" />
             <element signature="e#18201#19182#0" />
             <element signature="e#18789#18969#1" />
@@ -3188,7 +3076,6 @@
             <element signature="e#18975#19157#1" />
             <element signature="e#19035#19147#1" />
             <element signature="e#19214#19404#0" />
-            <element signature="e#19214#19509#0" />
             <element signature="e#19515#19726#0" />
             <element signature="e#19790#19970#0" />
             <element signature="e#19790#20083#0" />
@@ -3218,7 +3105,6 @@
             <element signature="e#24742#24879#1" />
             <element signature="e#24782#24865#1" />
             <element signature="e#24923#26043#0" />
-            <element signature="e#24923#26172#0" />
             <element signature="e#26178#28931#0" />
             <element signature="e#26386#26550#0" />
             <element signature="e#26643#26915#0" />
@@ -3240,7 +3126,6 @@
             <element signature="e#30002#30193#0" />
             <element signature="e#30002#30562#0" />
             <element signature="e#30568#31145#0" />
-            <element signature="e#30568#31358#0" />
             <element signature="e#31364#33358#0" />
             <element signature="e#31364#33808#0" />
             <element signature="e#33885#34210#0" />
@@ -3262,42 +3147,6 @@
             <element signature="e#38212#38335#1" />
             <element signature="e#38511#39032#0" />
             <element signature="e#38711#38996#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/myTools/List/MyArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;field#DEFAULT_CAPACITY#0;class#MyArrayList#0" />
-            <element signature="docComment;field#EMPTY_ELEMENTDATA#0;class#MyArrayList#0" />
-            <element signature="docComment;field#DEFAULT_CAPACITY_ELEMENTDATA#0;class#MyArrayList#0" />
-            <element signature="method#MyArrayList#0;class#MyArrayList#0" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="method#indexOfRange#0;class#MyArrayList#0" />
-            <element signature="e#2042#2072#1" expanded="true" />
-            <element signature="method#clean#0;class#MyArrayList#0" />
-            <element signature="docComment;method#get#0;class#MyArrayList#0" />
-            <element signature="method#get#0;class#MyArrayList#0" />
-            <element signature="e#4470#4471#0" expanded="true" />
-            <element signature="e#4622#4623#0" expanded="true" />
-            <element signature="e#4902#4903#0" expanded="true" />
-            <element signature="e#4950#4951#0" expanded="true" />
-            <element signature="method#newCapacity#0;class#MyArrayList#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/myTools/tools_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="20" column="102" selection-start-line="20" selection-start-column="102" selection-end-line="20" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
