@@ -1171,6 +1171,33 @@ public class Solution {
         return newHead;
     }
 
+    /**
+     * 删除链表中等于给定值 val 的所有节点。
+     * @param head 头结点
+     * @param val 结点值
+     * @return 头结点值
+     */
+    //dummy-1-1-2-3-5-6-6-7
+
+    public ListNode removeElements(ListNode head, int val) {
+        if(head==null) {
+            return head;
+        }
+
+        ListNode dummyHead=new ListNode(head);
+        ListNode prev=dummyHead;
+        ListNode curNode=head;
+        while(curNode!=null) {
+            if(curNode.val==val) {
+                prev.next=curNode.next;
+            }
+            curNode=curNode.next;
+            if(prev.next!=curNode) {
+                prev=prev.next;
+            }
+        }
+        return dummyHead.next;
+    }
 
     public static void main(String[] args) throws IOException {
         Solution so=new Solution();
@@ -1178,17 +1205,20 @@ public class Solution {
         int[] n2={1,2,3};
         int m=3;
         int n=3;
-        ListNode node1=new ListNode(-129);
+        ListNode node1=new ListNode(1);
         ListNode dummyHead=new ListNode(node1);
-        ListNode node2=new ListNode(-129);
-        //ListNode node3=new ListNode(3);
+        ListNode node2=new ListNode(1);
+        ListNode node3=new ListNode(2);
         node1.next=node2;
-        //node2.next=node3;
-        //ListNode node4=new ListNode(2);
-        //ListNode node5=new ListNode(-1);
-        //node3.next=node4;
-        //node4.next=node5;
-        System.out.println(so.isPalindrome(dummyHead.next));
+        node2.next=node3;
+        ListNode node4=new ListNode(2);
+        ListNode node5=new ListNode(4);
+        node3.next=node4;
+        node4.next=node5;
+        ListNode result=(so.removeElements(node1,2));
+        for(ListNode x=result;x!=null;x=x.next) {
+            System.out.println(x.val);
+        }
     }
 
 }
