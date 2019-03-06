@@ -1199,6 +1199,23 @@ public class Solution {
         return dummyHead.next;
     }
 
+    /**
+     * 查找两个相交结点的起始节点
+     * @param headA 链表A的头结点
+     * @param headB 链表B的头结点
+     * @return 起始相交结点
+     */
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        for(ListNode x=headA;x!=null;x=x.next) {
+            for(ListNode y=headB;y!=null;y=y.next) {
+                if(x.equals(y)) {
+                    return y;
+                }
+            }
+        }
+        return null;
+    }
+
     public static void main(String[] args) throws IOException {
         Solution so=new Solution();
         int[] n1={2,1,4,0,0,0};
@@ -1207,18 +1224,28 @@ public class Solution {
         int n=3;
         ListNode node1=new ListNode(1);
         ListNode dummyHead=new ListNode(node1);
-        ListNode node2=new ListNode(1);
-        ListNode node3=new ListNode(2);
+        ListNode node2=new ListNode(2);
+        ListNode node3=new ListNode(3);
         node1.next=node2;
         node2.next=node3;
-        ListNode node4=new ListNode(2);
-        ListNode node5=new ListNode(4);
+        ListNode node4=new ListNode(4);
+        ListNode node5=new ListNode(5);
         node3.next=node4;
         node4.next=node5;
-        ListNode result=(so.removeElements(node1,2));
+
+        ListNode nodeA=new ListNode(-1);
+        ListNode nodeB=new ListNode(-2);
+        ListNode nodeC=new ListNode(-3);
+        nodeA.next=nodeB;
+        nodeB.next=nodeC;
+        //相交结点 node2.val=2
+        nodeC.next=node2;
+        /*ListNode result=(so.removeElements(node1,2));
         for(ListNode x=result;x!=null;x=x.next) {
             System.out.println(x.val);
-        }
+
+        }*/
+        System.out.println(so.getIntersectionNode(node1,nodeA).val);
     }
 
 }
