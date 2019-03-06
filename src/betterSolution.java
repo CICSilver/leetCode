@@ -77,16 +77,25 @@ public class betterSolution extends Solution {
         while(last.next!=null) {
             last=last.next;
         }
+        //构造链表B为环形链表
         last.next=headB;
 
         ListNode slow=headA;
-        ListNode fast=headB;
+        ListNode fast=headA;
+
+        //定义:A,B共有长度为 commonSize;各自总长度为 allSizeA,allSizeB;各自的剩余长度为singleSizeA,singleSizeB;
+
+        //即，allSizeA = singleSizeA + commonSize ,
+        //    allSizeB = singleSizeB + commonSize ;
+
         while(fast!=null && fast.next!=null) {
             slow=slow.next;
             fast=fast.next.next;
+            //第一次循环，快慢结点都由headA出发，在环形链表B中相交时，移动次数等于链表B的总长度；该重合结点与目标结点的长度即为 singleSizeA
             if(slow==fast) {
                 slow=headA;
                 while(slow!=fast) {
+                    //第二次循环，此时两结点移动速度相同，再次重合的位置即为目标结点
                     slow=slow.next;
                     fast=fast.next;
                 }
