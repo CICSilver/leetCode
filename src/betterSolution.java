@@ -67,7 +67,12 @@ public class betterSolution extends Solution {
         }
 
     }
-
+    /**
+     * 查找两个相交结点的起始节点
+     * @param headA 链表A的头结点
+     * @param headB 链表B的头结点
+     * @return 起始相交结点
+     */
     @Override
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA==null|headB==null) {

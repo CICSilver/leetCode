@@ -1216,6 +1216,79 @@ public class Solution {
         return null;
     }
 
+    /**
+     * 给定一个链表，返回链表开始入环的第一个节点。
+     * 如果链表无环，则返回 null。
+     *
+     * 为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表
+     * 中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。
+     *
+     * 说明：不允许修改给定的链表。
+     * @param head 头结点
+     * @return 入环起始点
+     */
+    public ListNode detectCycle(ListNode head) {
+        if(head==null) {
+            return null;
+        }
+        ListNode slow=head;
+        ListNode fast=head;
+        while(fast!=null&&fast.next!=null) {
+            slow=slow.next;
+            fast= fast.next.next;
+            if(slow == fast) {
+                slow=head;
+                while(slow != fast) {
+                    slow=slow.next;
+                    fast=fast.next;
+                }
+                return  fast;
+            }
+        }
+        return null;
+    }
+
+    /**
+     *  给定一个包含 n + 1 个整数的数组 nums，其数字都在 1 到 n 之间（包括 1 和 n），可知至少存在一
+     *  个重复的整数。假设只有一个重复的整数，找出这个重复的数。
+     * @param nums 数组
+     * @return 重复数
+     */
+    public int findDuplicate(int[] nums) {
+        int slow=0,fast=0;
+        while(true) {
+            slow=nums[slow];
+            fast=nums[nums[fast]];
+            if(slow == fast) {
+                slow=0;
+                while( slow!=fast) {
+                    slow=nums[slow];
+                    fast=nums[fast];
+                }
+                return fast;
+            }
+        }
+    }
+
+    /**
+     * 判断链表是否有环
+     * @param head 头结点
+     * @return true or false
+     */
+    public boolean hasCycle(ListNode head) {
+        ListNode slow=head;
+        ListNode fast=head;
+        //快慢指针判断是否有重合点
+         while(fast!=null&&fast.next!=null) {
+             slow=slow.next;
+             fast=fast.next.next;
+             if(fast == slow) {
+                 return true;
+             }
+         }
+         return false;
+    }
+
     public static void main(String[] args) throws IOException {
         Solution so=new Solution();
         int[] n1={2,1,4,0,0,0};

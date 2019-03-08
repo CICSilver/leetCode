@@ -21,7 +21,7 @@ public class MyLinkedList<E> implements List<E> {
         }
     }
 
-    MyLinkedList(){}
+    public MyLinkedList(){}
     /**
      * 在头结点前插入
      * @param element 待插入的元素

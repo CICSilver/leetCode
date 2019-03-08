@@ -23,16 +23,18 @@ public class tools_test {
             System.out.println( Arrays.toString(arrayList.asArray()));
         }
     }
-
+    //0-1-2-3-4-5
     public static void main(String[] args) {
-        int len=10;
-        int initCount=4;
+        int len=5;
+        int initCount=3;
         int startNum=0;
-        MyArrayList<Integer> arrayList=new MyArrayList<>(10);
+        MyArrayList<String> arrayList=new MyArrayList<>(len);
+        String[] test={"A","B","C","D","E"};
         for(int i=0;i<len;i++) {
-            arrayList.add(i);
+            arrayList.add(test[i]);
         }
         tools_test tools_test=new tools_test();
+        System.out.println(Arrays.toString(test));
         tools_test.josef(arrayList,startNum,initCount);
     }
 }
