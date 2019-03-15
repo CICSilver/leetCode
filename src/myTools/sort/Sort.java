@@ -7,6 +7,7 @@ import java.util.Arrays;
  * @author XYR
  */
 public class Sort {
+
     //快速排序
     public static int[] quickSort(int[] a) {
         if(a.length==0) {
@@ -19,13 +20,13 @@ public class Sort {
         sort(a,0,a.length-1);
         return a;
     }
-    private static void exch(int[] a,int i,int j) {
+    public static void exch(int[] a, int i, int j) {
         int temp;
         temp=a[i];
         a[i]=a[j];
         a[j]=temp;
     }
-    private static void sort(int[] items,int left,int right) {
+    private static void sort(int[] items, int left, int right) {
         if(left>=right) {insertSort(items,left,right);return;}
         //递归出口
         int i=left;
@@ -52,12 +53,9 @@ public class Sort {
             sort(items, left, j);
         }
     }
-    //插入排序
-    private void insertSort(int[] nums) {
-        insertSort(nums,0,nums.length-1);
-    }
 
-    private static void insertSort(int[] nums,int left,int right) {
+    //插入排序
+    private static void insertSort(int[] nums, int left, int right) {
         int N=right-left+1;
         for(int i=0;i<N;i++) {
             for(int j=i;j>0&&nums[j]<nums[j-1];j--){
@@ -66,4 +64,6 @@ public class Sort {
         }
 
     }
+
+
 }

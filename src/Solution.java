@@ -1289,36 +1289,65 @@ public class Solution {
          return false;
     }
 
+    /**
+     * 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
+     *你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
+     * @param head
+     * 头结点
+     * @return
+     * 交换后的头结点
+     */
+    public ListNode swapPairs(ListNode head) {
+        if(head==null||head.next==null) {
+            return head;
+        }
+        ListNode nex=head.next;
+        head.next=swapPairs(nex.next);
+        nex.next=head;
+        return head;
+    }
+
+    /**
+     * 给定一个按非递减顺序排序的整数数组 A，返回每个数字的平方组成的新数组，要求
+     * 也按非递减顺序排序。
+     */
+    public int[] sortedSquares(int[] A) {
+        if(A.length == 0) {
+            return A;
+        }
+        for(int i=0;i<A.length;i++) {
+            A[i]*=A[i];
+        }
+        return Sort.quickSort(A);
+    }
+
+    /**
+     * 大写字符转换为小写
+     */
+    public String toLowerCase(String str) {
+        if(str==null) {
+            return str;
+        }
+        for(int i=0;i< str.length();i++) {
+            int temp=(int)(str.charAt(i));
+            if(temp<65||temp>122) {
+                continue;
+            }else if(temp<97&&temp>91) {
+                continue;
+            }
+            if(temp<91) {
+                str=str.replace(str.charAt(i),(char)(str.charAt(i)+32));
+            }
+        }
+        return str;
+    }
+    //32
     public static void main(String[] args) throws IOException {
         Solution so=new Solution();
-        int[] n1={2,1,4,0,0,0};
-        int[] n2={1,2,3};
-        int m=3;
-        int n=3;
-        ListNode node1=new ListNode(1);
-        ListNode dummyHead=new ListNode(node1);
-        ListNode node2=new ListNode(2);
-        ListNode node3=new ListNode(3);
-        node1.next=node2;
-        node2.next=node3;
-        ListNode node4=new ListNode(4);
-        ListNode node5=new ListNode(5);
-        node3.next=node4;
-        node4.next=node5;
-
-        ListNode nodeA=new ListNode(-1);
-        ListNode nodeB=new ListNode(-2);
-        ListNode nodeC=new ListNode(-3);
-        nodeA.next=nodeB;
-        nodeB.next=nodeC;
-        //相交结点 node2.val=2
-        nodeC.next=node2;
-        /*ListNode result=(so.removeElements(node1,2));
-        for(ListNode x=result;x!=null;x=x.next) {
-            System.out.println(x.val);
-
-        }*/
-        System.out.println(so.getIntersectionNode(node1,nodeA).val);
+        int[] n1={-4,-1,0,3,10};
+        String str="HELLO";
+        char[] c={'a','b'};
+        System.out.println(so.toLowerCase(str));
     }
 
 }

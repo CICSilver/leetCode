@@ -2,7 +2,7 @@ package myTools;
 
 import java.util.Arrays;
 
-public class KMP {
+public class Kmp {
     /**
      * 获取子字符串的PMT数组并右移一位
      */
@@ -24,14 +24,13 @@ public class KMP {
     /**
      * 使用KMP算法在指定字符串中寻找特定子字符串
      */
-    public int IndexOf(String src,String symbol) {
+    public int indexOf(String src, String symbol) {
         if(symbol.length()==0) {
             return 0;
         }
         char[] charSrc=src.toCharArray();
         char[] charSymbol=symbol.toCharArray();
         int[] next=getPMT(charSymbol);
-        int startNum=0;
         int i=0,j=0;
         while( j<charSymbol.length && i<charSrc.length) {
             if(j == -1 || charSrc[i] == charSymbol[j]) {
@@ -41,15 +40,15 @@ public class KMP {
                 j = next[j];
             }
         }
-                if(j == charSymbol.length) {
-                    return i-j;
-                } else {
-                    return -1;
-                }
+        if(j == charSymbol.length) {
+            return i-j;
+        } else {
+            return -1;
+        }
     }
 
     public static void main(String[] args) {
-        KMP kmp=new KMP();
+        Kmp kmp=new Kmp();
         System.out.println(Arrays.toString(kmp.getPMT("abab".toCharArray())));
 
     }
