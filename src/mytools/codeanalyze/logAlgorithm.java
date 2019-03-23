@@ -1,4 +1,4 @@
-package myTools.codeAnalyze;
+package mytools.codeanalyze;
 
 public class logAlgorithm {
     static public double log(double value,double base) {

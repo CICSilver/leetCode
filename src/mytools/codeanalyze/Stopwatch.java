@@ -1,4 +1,4 @@
-package myTools.codeAnalyze;
+package mytools.codeanalyze;
 
 public class Stopwatch {
     private double start=0;

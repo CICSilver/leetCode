@@ -1,6 +1,6 @@
-package myTools.List;
+package mytools.list;
 
-import myTools.List.imp_List.List;
+import mytools.list.imp_List.List;
 
 public class MyLinkedList<E> implements List<E> {
 
@@ -178,7 +178,29 @@ public class MyLinkedList<E> implements List<E> {
 
     @Override
     public E remove(int index) {
-        return null;
+        return unlink(node(index));
+    }
+
+    private E unlink(Node<E> node) {
+        final E element=node.item;
+        final Node<E> next=node.next;
+        final Node<E> prev=node.prev;
+
+        if(prev == null) {
+            first=next;
+        }else {
+            prev.next=next;
+            node.prev=null;
+        }
+
+        if(next == null) {
+            last=prev;
+        }else {
+            next.prev=prev;
+            node.next=null;
+        }
+        node.item=null;
+        return element;
     }
 
     @Override
@@ -193,7 +215,7 @@ public class MyLinkedList<E> implements List<E> {
 
     @Override
     public E get(int index) {
-        return null;
+        return node(index).item;
     }
 
     @Override

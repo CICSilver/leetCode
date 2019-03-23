@@ -1,4 +1,4 @@
-package myTools.Node;
+package mytools.node;
 
 public class jumpNode {
     public int right=0;

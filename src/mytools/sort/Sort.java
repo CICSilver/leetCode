@@ -1,7 +1,5 @@
-package myTools.sort;
+package mytools.sort;
 
-
-import java.util.Arrays;
 
 /**
  * @author XYR

@@ -1,6 +1,5 @@
-import edu.princeton.cs.algs4.In;
-import myTools.List.MyArrayList;
-import myTools.Node.ListNode;
+import mytools.list.MyArrayList;
+import mytools.node.ListNode;
 
 import java.io.IOException;
 import java.util.*;

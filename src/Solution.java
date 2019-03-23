@@ -1,8 +1,7 @@
-import myTools.Node.ListNode;
-import myTools.sort.Sort;
+import mytools.node.ListNode;
+import mytools.sort.Sort;
 
 import java.io.*;
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class Solution {
@@ -406,7 +405,6 @@ public class Solution {
                                 break;
                             }
                         }
-                        continue;
                     }
                 }
                 else {
@@ -1341,13 +1339,141 @@ public class Solution {
         }
         return str;
     }
-    //32
+
+    /**
+     * 给定一个二进制矩阵 A，我们想先水平翻转图像，然后反转图像并返回结果。
+     * 水平翻转图片就是将图片的每一行都进行翻转，即逆序。例如，水平翻转 [1, 1, 0] 的结果是 [0, 1, 1]。
+     * 反转图片的意思是图片中的 0 全部被 1 替换， 1 全部被 0 替换。例如，反转 [0, 1, 1] 的结果是 [1,
+     * 0, 0]。
+     * @param A 整型二维数组
+     * @return 先水平翻转再反转
+     */
+    public int[][] flipAndInvertImage(int[][] A) {
+        if(A.length!=A[0].length) {
+            return A;
+        }
+        if(A == null) {
+            return A;
+        }
+        int left=0;
+        int right=A[0].length-1;
+        for (int[] ints : A) {
+            while (left < right) {
+                exch(left, right, ints);
+                left++;
+                right--;
+            }
+            left = 0;
+            right = A[0].length - 1;
+        }
+        for(int i=0;i<A.length;i++) {
+            for(int j=0;j<A[0].length;j++) {
+                if(A[i][j]==0) {
+                    A[i][j]=1;
+                } else {
+                    A[i][j]=0;
+                }
+            }
+        }
+        return A;
+    }
+
+    private void exch(int i,int j,int[] num) {
+        int temp;
+        temp=num[i];
+        num[i]=num[j];
+        num[j]=temp;
+    }
+
+    /**
+     * 获取未进行位移的PMT数组
+     */
+    private int[] getPMT(String str) {
+        char[] src=str.toCharArray();
+        int[] PMT=new int[src.length];
+        int i=0,j=-1;
+        while(i<src.length) {
+            if(j==-1||src[i] == src[j]) {
+                PMT[i++]=++j;
+            }else {
+                if(j==0) {
+                    j=-1;
+                    continue;
+                }
+                j=PMT[j-1];
+            }
+        }
+        return PMT;
+    }
+
+    /**
+     * 罗马数字转整型数
+     */
+    public int romanToInt(String s) {
+        if(s==null) {
+            return 0;
+        }
+        s=s.toUpperCase();
+        int[] temp=new int[s.length()];
+        int result=0;
+        for(int i=0;i<s.length();i++) {
+            switch (s.charAt(i)) {
+                case 'I':temp[i]=1;break;
+                case 'V':temp[i]=5;break;
+                case 'X':temp[i]=10;break;
+                case 'L':temp[i]=50;break;
+                case 'C':temp[i]=100;break;
+                case 'D':temp[i]=500;break;
+                case 'M':temp[i]=1000;break;
+                default:
+            }
+        }
+        for(int i=0;i<temp.length-1;i++) {
+            if(temp[i]<temp[i+1]) {
+                result-=temp[i];
+            } else {
+                result+=temp[i];
+            }
+        }
+        result+=temp[temp.length-1];
+        return result;
+    }
+
+    /**
+     * 判断字符串是否为回文串
+     */
+    public boolean isPalindrome(String s) {
+        if(s.length()==0|| s.length()==1) {
+            return true;
+        }
+        s=s.toLowerCase();
+        int left=0;
+        int right=s.length()-1;
+        while(left<right) {
+            while((s.charAt(left)<'a' || s.charAt(left)>'z') &&(s.charAt(left)<'0' || s.charAt(left)>'9') && left<right ) {
+                left++;
+            }
+            while((s.charAt(right)<'a' || s.charAt(right)>'z') &&(s.charAt(right)<'0' || s.charAt(right)>'9') && left<right ) {
+                right--;
+            }
+            if(s.charAt(left) != s.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
+    }
+
+
     public static void main(String[] args) throws IOException {
         Solution so=new Solution();
+        int test=-2;
         int[] n1={-4,-1,0,3,10};
-        String str="HELLO";
+        String str="abcabcab";
         char[] c={'a','b'};
-        System.out.println(so.toLowerCase(str));
+        String string="IV";
+        System.out.println(Arrays.toString(so.getPMT(str)));
     }
 
 }

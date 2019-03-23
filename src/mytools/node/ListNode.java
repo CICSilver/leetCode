@@ -1,4 +1,4 @@
-package myTools.Node;
+package mytools.node;
 
 public class ListNode {
     public int val;

@@ -1,6 +1,6 @@
-package myTools.List;
+package mytools.list;
 
-import myTools.List.imp_List.List;
+import mytools.list.imp_List.List;
 
 import java.util.Arrays;
 import java.util.Objects;

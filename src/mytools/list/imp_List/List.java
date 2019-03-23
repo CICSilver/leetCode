@@ -1,4 +1,4 @@
-package myTools.List.imp_List;
+package mytools.list.imp_List;
 
 public interface List<E> {
     /**
