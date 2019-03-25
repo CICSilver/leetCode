@@ -24,6 +24,22 @@ public class tools_test {
         }
     }
 
+    private void josefLink(MyLinkedList list,int startNum,int initNum) {
+        if(list == null) {
+            return;
+        }
+        if(startNum < 0 || startNum> list.size()) {
+            throw new IndexOutOfBoundsException("起始下标超出集合范围");
+        }
+        while(list.size()!=1) {
+            startNum+=initNum-1;
+            while (startNum>=list.size()) {
+                startNum = startNum-list.size();
+            }
+            list.remove(startNum);
+            System.out.println(list.toString());
+        }
+    }
 
 
     //0-1-2-3-4-5
@@ -31,9 +47,17 @@ public class tools_test {
         int len = 5;
         int initCount = 3;
         int startNum = 0;
+        MyArrayList<Integer> myArrayList=new MyArrayList<>();
         MyLinkedList<Integer> myLinkedList = new MyLinkedList<>();
         // myLinkedList.add(1);
         // myLinkedList.add(1,2);
-        myLinkedList.get(0);
+        for(int i=1;i<7;i++) {
+            myArrayList.add(i);
+            myLinkedList.add(i);
+        }
+        tools_test tools_test=new tools_test();
+        tools_test.josef(myArrayList,0,3);
+        System.out.println("--------------");
+        tools_test.josefLink(myLinkedList,0,3);
     }
 }
