@@ -52,10 +52,5 @@ public class KMP {
         }
     }
 
-    public static void main(String[] args) {
-        KMP kmp=new KMP();
-        indexOf("ababbabac","ababac");
-
-    }
 
 }

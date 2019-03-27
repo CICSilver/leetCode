@@ -37,10 +37,4 @@ public class BM {
         return -1;
     }
 
-    public static void main(String[] args) {
-        String pat="";
-        String txt="";
-        int i= BM.bm(txt,pat);
-        System.out.println(i);
-    }
 }
