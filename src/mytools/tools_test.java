@@ -2,6 +2,8 @@ package mytools;
 
 import mytools.list.MyArrayList;
 import mytools.list.MyLinkedList;
+import mytools.stringmatch.BF;
+import mytools.stringmatch.KMP;
 
 import java.util.Arrays;
 
@@ -55,9 +57,10 @@ public class tools_test {
             myArrayList.add(i);
             myLinkedList.add(i);
         }
-        tools_test tools_test=new tools_test();
-        tools_test.josef(myArrayList,0,3);
-        System.out.println("--------------");
-        tools_test.josefLink(myLinkedList,0,3);
+        String txt="10110010110001010";
+        String pat="0101";
+        System.out.println("KMP:"+ KMP.indexOf(txt,pat));
+        System.out.println("BF:"+ BF.indexOf(txt,pat));
+
     }
 }

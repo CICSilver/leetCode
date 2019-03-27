@@ -1,7 +1,7 @@
 package mytools.stringmatch;
 
 public class BM {
-    private int[] getTable(String str) {
+    private static int[] getTable(String str) {
         int[] table=new int[256];
         for(int i=0;i<str.length();i++) {
             table[str.charAt(i)]=i;
@@ -12,15 +12,12 @@ public class BM {
     /**
      * boyer-moore算法，后指针启发式匹配算法，时间复杂度一般为亚线性
      * 若txt长度为M，pat长度为N，则时间与MN成正比
-     * @param txt
-     * @param pat
-     * @return
      */
-    public int bm(String txt,String pat) {
-        if(pat==null) {
+    public static int bm(String txt,String pat) {
+        if(pat.length()==0) {
             return 0;
         }
-        if(txt==null) {
+        if(txt.length()==0) {
             return -1;
         }
         int[] table=getTable(pat);
@@ -41,10 +38,9 @@ public class BM {
     }
 
     public static void main(String[] args) {
-        String pat="ababc";
-        String txt="abcbcabacabcbc";
-        BM bm=new BM();
-        int i=bm.bm(txt,pat);
-        System.out.println((int)pat.charAt(0));
+        String pat="";
+        String txt="";
+        int i= BM.bm(txt,pat);
+        System.out.println(i);
     }
 }

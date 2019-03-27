@@ -8,7 +8,7 @@ public class KMP {
      * 得到next数组
      * next数组的第一位设定为-1仅为调用方便，无特殊含义
      */
-    private int[] getNext(char[] src) {
+    private static int[] getNext(char[] src) {
         int[] next=new int[src.length];
         next[0]=-1;
         int i=0,j=-1;
@@ -21,13 +21,17 @@ public class KMP {
         }
         return next;
     }
+
     /**
      * 适合字符种类较少，重复度高的字符串匹配算法。
      * 文本指针无需回退，也常用于字节流
      */
-    public int indexOf(String src, String symbol) {
+    public static int indexOf(String src, String symbol) {
         if(symbol.length()==0) {
             return 0;
+        }
+        if(src.length()==0) {
+            return  -1;
         }
         char[] txt=src.toCharArray();
         char[] pat=symbol.toCharArray();
@@ -50,7 +54,7 @@ public class KMP {
 
     public static void main(String[] args) {
         KMP kmp=new KMP();
-        kmp.indexOf("ababbabac","ababac");
+        indexOf("ababbabac","ababac");
 
     }
 
