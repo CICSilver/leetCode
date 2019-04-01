@@ -57,10 +57,10 @@ public class tools_test {
             myArrayList.add(i);
             myLinkedList.add(i);
         }
-        String txt="10110010110001010";
-        String pat="0101";
-        System.out.println("KMP:"+ KMP.indexOf(txt,pat));
+        String txt="acabbabbabc";
+        String pat="abbabc";
         System.out.println("BF:"+ BF.indexOf(txt,pat));
+        System.out.println("KMP:"+ KMP.indexOf(txt,pat));
 
     }
 }
