@@ -17,7 +17,6 @@ public class betterSolution extends Solution {
      * @param target 目标值
      * @return 符合条件的下标
      */
-    @Override
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer,Integer> hashMap=new HashMap<>(nums.length);
         for(int i=0;i<nums.length;i++) {
@@ -72,7 +71,6 @@ public class betterSolution extends Solution {
      * @param headB 链表B的头结点
      * @return 起始相交结点
      */
-    @Override
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA==null|headB==null) {
             return null;
