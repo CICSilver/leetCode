@@ -143,7 +143,7 @@ public class algs_works {
 
 
     public static void main(String[] args) {
-        String test="10+30/5*6+(100/5)";
+        String test="10-(3*5)/6";
         algs_works algsWorks=new algs_works();
         System.out.println(algsWorks.calPostfix(test));
     }

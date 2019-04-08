@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_5_longestPalindrome.java" line="41" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_5_longestPalindrome.java" line="50" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_5_longestPalindrome.java" line="120" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="2b27f76e-9c07-444c-8493-2392982a2138" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/Draw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/Draw.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/algs_works.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/algs_works.class" afterDir="false" />
@@ -62,8 +57,8 @@
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/leet_sloutions/finished/_88_merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/leet_sloutions/finished/_88_merge.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/leet_sloutions/finished/_942_diStringMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/leet_sloutions/finished/_942_diStringMatch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/leet_sloutions/finished/_977_sortedSquares.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/leet_sloutions/finished/_977_sortedSquares.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/leet_sloutions/unfinshed/_445_addTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/leet_sloutions/unfinshed/_445_addTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/leet_sloutions/unfinshed/_5_longestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/leet_sloutions/unfinshed/_5_longestPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetCode/leet_sloutions/unfinshed/_445_addTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetCode/leet_sloutions/unfinshed/_5_longestPalindrome.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/myTools/Node/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/myTools/Node/ListNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/myTools/Node/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/myTools/Node/TreeNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/myTools/Node/jumpNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/myTools/Node/jumpNode.class" afterDir="false" />
@@ -81,7 +76,10 @@
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/myTools/stringmatch/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/myTools/stringmatch/KMP.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/myTools/tools_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/myTools/tools_test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetCode/sensitive_Vocabulary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/sensitive_Vocabulary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_5_longestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_5_longestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algs_works.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algs_works.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_445_addTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_445_addTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mytools/list/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mytools/list/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mytools/tools_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mytools/tools_test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -128,89 +126,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algs_works.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+            <state relative-caret-position="-2030">
+              <caret line="40" column="57" lean-forward="true" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
               <folding>
                 <element signature="docComment;method#stringToList#0;class#algs_works#0" />
                 <element signature="method#stringToList#0;class#algs_works#0" />
                 <element signature="e#283#912#1" />
                 <element signature="docComment;method#infixToPostfix#0;class#algs_works#0" />
-                <element signature="method#infixToPostfix#0;class#algs_works#0" />
                 <element signature="docComment;method#calPostfix#0;class#algs_works#0" />
                 <element signature="method#calPostfix#0;class#algs_works#0" />
                 <element signature="method#toString#0;class#algs_works#0" />
-                <element signature="method#main#0;class#algs_works#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="127" column="38" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
-              <folding>
-                <element signature="docComment;method#isCharArrayHasRepeatition#0;class#Solution#0" />
-                <element signature="method#isCharArrayHasRepeatition#0;class#Solution#0" />
-                <element signature="docComment;method#calculateUnitOfSignedInt#0;class#Solution#0" />
-                <element signature="method#calculateUnitOfSignedInt#0;class#Solution#0" />
-                <element signature="docComment;method#jump1#0;class#Solution#0" />
-                <element signature="method#jump1#0;class#Solution#0" />
-                <element signature="method#writeFile#0;class#Solution#0" />
-                <element signature="docComment;method#readFile#0;class#Solution#0" />
-                <element signature="method#readFile#0;class#Solution#0" />
-                <element signature="method#sensetiveCount#0;class#Solution#0" />
-                <element signature="docComment;method#fib#0;class#Solution#0" />
-                <element signature="method#fib#0;class#Solution#0" />
-                <element signature="method#fib#1;class#Solution#0" />
-                <element signature="docComment;method#cut#0;class#Solution#0" />
-                <element signature="method#cut#0;class#Solution#0" />
-                <element signature="method#cut#1;class#Solution#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_5_longestPalindrome.java">
+        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_445_addTwoNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="166" column="1017" lean-forward="true" selection-start-line="166" selection-start-column="1017" selection-end-line="166" selection-end-column="1017" />
+            <state relative-caret-position="115">
+              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;method#longestPalindrome#0;class#_5_longestPalindrome#0" />
-                <element signature="docComment;method#lenAndPos#0;class#_5_longestPalindrome#0" />
-                <element signature="e#4044#4177#1" />
-                <element signature="e#4190#4473#1" />
+                <element signature="docComment;method#addTwoNumbers#0;class#_445_addTwoNumbers#0" />
+                <element signature="e#660#695#1" />
+                <element signature="e#792#827#1" />
+                <element signature="e#1226#1263#1" />
+                <element signature="e#1295#1332#1" />
+                <element signature="e#1407#1624#1" />
+                <element signature="e#1468#1531#1" />
+                <element signature="e#1537#1574#1" />
+                <element signature="e#1293#1319#1" />
+                <element signature="method#arrayToList#0;class#_445_addTwoNumbers#0" />
+                <element signature="e#1690#1777#1" />
+                <element signature="method#main#0;class#_445_addTwoNumbers#0" />
+                <element signature="e#2271#2358#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/betterSolution.java">
+        <entry file="file://$PROJECT_DIR$/src/mytools/node/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3060">
-              <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Draw.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sensitive_Vocabulary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="175">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -276,8 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leet_sloutions/Linked_list/_237_deleteNode.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/Linked_list/_82_deleteDuplicatesI.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/Linked_list/_82_deleteDuplicatesII.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/Linked_list/_203_removeElements.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/Linked_list/_21_mergeTwoLists.java" />
@@ -322,11 +279,13 @@
         <option value="$PROJECT_DIR$/src/leet_sloutions/_234_isListPalindrome.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/_7_reverseInt.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/_13_romanToInt.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_445_addTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
-        <option value="$PROJECT_DIR$/src/algs_works.java" />
         <option value="$PROJECT_DIR$/src/betterSolution.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_5_longestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/mytools/tools_test.java" />
+        <option value="$PROJECT_DIR$/src/algs_works.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_445_addTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_445_addTwoNumbers.java" />
       </list>
     </option>
   </component>
@@ -348,7 +307,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="360" />
     <option name="width" value="1401" />
     <option name="height" value="1002" />
@@ -361,7 +320,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -387,11 +345,25 @@
               <item name="leet_sloutions" type="462c0819:PsiDirectoryNode" />
               <item name="unfinshed" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mytools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mytools" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,7 +373,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554300968559" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554707228680" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -435,23 +407,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._5_longestPalindrome">
-    <configuration name="BM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mytools.stringmatch.BM" />
+  <component name="RunManager" selected="Application.algs_works">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mytools.stringmatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="_445_addTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._445_addTwoNumbers" />
       <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet_sloutions.finished.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -491,11 +463,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._5_longestPalindrome" />
         <item itemvalue="Application.algs_works" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application._445_addTwoNumbers" />
         <item itemvalue="Application.tools_test" />
-        <item itemvalue="Application.BM" />
+        <item itemvalue="Application._5_longestPalindrome" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -611,6 +583,7 @@
       <workItem from="1554274441742" duration="10232000" />
       <workItem from="1554287252715" duration="5925000" />
       <workItem from="1554294821239" duration="5617000" />
+      <workItem from="1554702256210" duration="4949000" />
     </task>
     <task id="LOCAL-00001" summary="加入二切分快速排序">
       <created>1544094563611</created>
@@ -889,7 +862,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353153000" />
+    <option name="totallyTimeSpent" value="358102000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -901,7 +874,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1215" height="775" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5011494" side_tool="true" weight="0.14378378" />
@@ -911,24 +884,24 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="设计器" order="5" />
       <window_info id="Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49594814" weight="0.21135135" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49594814" weight="0.32480142" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986761" visible="true" weight="0.2908046" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986761" visible="true" weight="0.25373134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45773524" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3275862" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3275862" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891892" weight="0.23613086" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891892" weight="0.23582089" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50132394" side_tool="true" weight="0.32985073" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49945945" weight="0.32528734" />
       <window_info anchor="bottom" id="PMD" order="12" weight="0.3298611" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3689655" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.36865672" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="调试" order="16" weight="0.33563218" />
+      <window_info anchor="bottom" id="调试" order="16" weight="0.33432835" />
       <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32928178" />
       <window_info anchor="right" id="Key Promoter X" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -1061,6 +1034,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="优化 题解结构" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leet_sloutions/finished/_445_addTwoNumbers.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="low" />
@@ -1107,42 +1090,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_876_middleNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;method#middleNode#0;class#_876_middleNode#0" />
-            <element signature="method#middleNode#0;class#_876_middleNode#0" />
-            <element signature="e#363#399#1" />
-            <element signature="e#433#474#1" />
-            <element signature="e#597#668#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_682_calPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;method#calPoints#0;class#_682_calPoints#0" />
-            <element signature="method#calPoints#0;class#_682_calPoints#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_242_isAnagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;method#isAnagram#0;class#_242_isAnagram#0" />
-            <element signature="method#isAnagram#0;class#_242_isAnagram#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_350_intersect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1662,38 +1609,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_445_addTwoNumbers.java">
+    <entry file="file://$PROJECT_DIR$/src/betterSolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;method#addTwoNumbers#0;class#_445_addTwoNumbers#0" />
-            <element signature="method#addTwoNumbers#0;class#_445_addTwoNumbers#0" />
-          </folding>
+        <state relative-caret-position="2380">
+          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algs_works.java">
+    <entry file="file://$PROJECT_DIR$/src/Draw.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        <state relative-caret-position="700">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sensitive_Vocabulary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_5_longestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4375">
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
           <folding>
-            <element signature="docComment;method#stringToList#0;class#algs_works#0" />
-            <element signature="method#stringToList#0;class#algs_works#0" />
-            <element signature="e#283#912#1" />
-            <element signature="docComment;method#infixToPostfix#0;class#algs_works#0" />
-            <element signature="method#infixToPostfix#0;class#algs_works#0" />
-            <element signature="docComment;method#calPostfix#0;class#algs_works#0" />
-            <element signature="method#calPostfix#0;class#algs_works#0" />
-            <element signature="method#toString#0;class#algs_works#0" />
-            <element signature="method#main#0;class#algs_works#0" />
+            <element signature="docComment;method#longestPalindrome#0;class#_5_longestPalindrome#0" />
+            <element signature="docComment;method#lenAndPos#0;class#_5_longestPalindrome#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
+        <state relative-caret-position="489">
           <caret line="127" column="38" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
           <folding>
             <element signature="docComment;method#isCharArrayHasRepeatition#0;class#Solution#0" />
@@ -1716,37 +1666,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/betterSolution.java">
+    <entry file="file://$PROJECT_DIR$/src/mytools/list/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3060">
-          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        <state relative-caret-position="-175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Draw.java">
+    <entry file="file://$PROJECT_DIR$/src/mytools/tools_test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensitive_Vocabulary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_5_longestPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="166" column="1017" lean-forward="true" selection-start-line="166" selection-start-column="1017" selection-end-line="166" selection-end-column="1017" />
+        <state relative-caret-position="210">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#longestPalindrome#0;class#_5_longestPalindrome#0" />
-            <element signature="docComment;method#lenAndPos#0;class#_5_longestPalindrome#0" />
-            <element signature="e#4044#4177#1" />
-            <element signature="e#4190#4473#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mytools/node/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algs_works.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2030">
+          <caret line="40" column="57" lean-forward="true" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+          <folding>
+            <element signature="docComment;method#stringToList#0;class#algs_works#0" />
+            <element signature="method#stringToList#0;class#algs_works#0" />
+            <element signature="e#283#912#1" />
+            <element signature="docComment;method#infixToPostfix#0;class#algs_works#0" />
+            <element signature="docComment;method#calPostfix#0;class#algs_works#0" />
+            <element signature="method#calPostfix#0;class#algs_works#0" />
+            <element signature="method#toString#0;class#algs_works#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_445_addTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;method#addTwoNumbers#0;class#_445_addTwoNumbers#0" />
+            <element signature="e#660#695#1" />
+            <element signature="e#792#827#1" />
+            <element signature="e#1226#1263#1" />
+            <element signature="e#1295#1332#1" />
+            <element signature="e#1407#1624#1" />
+            <element signature="e#1468#1531#1" />
+            <element signature="e#1537#1574#1" />
+            <element signature="e#1293#1319#1" />
+            <element signature="method#arrayToList#0;class#_445_addTwoNumbers#0" />
+            <element signature="e#1690#1777#1" />
+            <element signature="method#main#0;class#_445_addTwoNumbers#0" />
+            <element signature="e#2271#2358#1" />
           </folding>
         </state>
       </provider>

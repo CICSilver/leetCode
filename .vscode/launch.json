@@ -6,6 +6,17 @@
     "configurations": [
         {
             "type": "java",
+            "name": "algs_works",
+            "request": "launch",
+            "mainClass": "algs_works",
+
+        },
+
+        
+        
+        
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Draw",
             "request": "launch",
             "mainClass": "Draw",

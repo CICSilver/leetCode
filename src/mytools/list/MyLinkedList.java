@@ -2,8 +2,6 @@ package mytools.list;
 
 import mytools.list.imp_List.List;
 
-import java.util.Arrays;
-
 public class MyLinkedList<E> implements List<E> {
 
     public int size=0;
@@ -201,7 +199,7 @@ public class MyLinkedList<E> implements List<E> {
             next.prev=prev;
             node.next=null;
         }
-        size--;
+        size --;
         node.item=null;
         return element;
     }
@@ -224,15 +222,5 @@ public class MyLinkedList<E> implements List<E> {
     @Override
     public E set(int index, E element) {
         return null;
-    }
-
-    @Override
-    public String toString(){
-        Object[] elements=new Object[this.size];
-        int i=0;
-        for(Node head=this.first;head!=null;head=head.next) {
-            elements[i++]=head.item;
-        }
-        return Arrays.toString(elements);
     }
 }
