@@ -1,17 +1,23 @@
 package leet_sloutions.finished;
 
+import mytools.list.imp_List.List;
 import mytools.node.ListNode;
 
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.Stack;
 
 public class _445_addTwoNumbers {
     /**
-     * 给出两个 非空 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序
-     * 的方式存储的，并且它们的每个节点只能存储 一位 数字。
+     * 给定两个非空链表来代表两个非负整数。数字最高位位于链表开始位置。它们的每个节点只存储单个数字。将
+     * 这两数相加会返回一个新的链表。
      *
-     * 如果，我们将这两个数相加起来，则会返回一个新的链表来表示它们的和。
+
+     * 你可以假设除了数字 0 之外，这两个数字都不会以零开头。
+     * 进阶:
+     * 如果输入链表不能修改该如何处理？换句话说，你不能对列表中的节点进行翻转。
      *
-     * 您可以假设除了数字 0 之外，这两个数都不会以 0 开头。
      * @param l1 输入链表1
      * @param l2 输入链表2
      * @return 一个新链表，表示它们的和
@@ -30,28 +36,15 @@ public class _445_addTwoNumbers {
             num2.push(l2.val);
             l2=l2.next;
         }
-        while(!num1.isEmpty()&&num2.size()!=0) {
-            int temp=num1.pop()+num2.pop()+co;
-            if(temp>9) {
-                co=1;
-                temp%=10;
-            } else {
-                co=0;
+        while(!num1.isEmpty()||!num2.isEmpty()) {
+            int temp=0;
+            if(!num1.isEmpty()) {
+                temp+=num1.pop();
             }
-            stringBuilder.append(temp);
-        }
-        while(num1.size()!=0) {
-            int temp=num1.pop()+co;
-            if(temp>9) {
-                co=1;
-                temp%=10;
-            } else {
-                co=0;
+            if(!num2.isEmpty()) {
+                temp+=num2.pop();
             }
-            stringBuilder.append(temp);
-        }
-        while(num2.size()!=0) {
-            int temp=num2.pop()+co;
+            temp+=co;
             if(temp>9) {
                 co=1;
                 temp%=10;
@@ -64,13 +57,12 @@ public class _445_addTwoNumbers {
             stringBuilder.append(co);
             co=0;
         }
-        char[] chars=stringBuilder.reverse().toString().toCharArray();
+        char[] chars=stringBuilder.toString().toCharArray();
         int[] resNum=new int[chars.length];
         for(int i=0;i<chars.length;i++) {
             resNum[i]=(int) chars[i]-48 ;
         }
-        ListNode head=arrayToList(resNum);
-        return head;
+        return arrayToList(resNum);
     }
 
     private ListNode arrayToList(int[] num) {
@@ -84,7 +76,7 @@ public class _445_addTwoNumbers {
     }
 
     public static void main(String[] args) {
-        int[] num1={7,2,4,3};
+        int[] num1={1,8};
         int[] num2={0};
         _445_addTwoNumbers addTwoNumbers=new _445_addTwoNumbers();
         ListNode head1=addTwoNumbers.arrayToList(num1);
