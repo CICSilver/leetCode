@@ -15,7 +15,6 @@ public class sparseMatrix {
      * @return 按行的单链表头结点数组
      */
     private colNode[] toArray(int[][] matrix) {
-        int val=0;
         colNode[] head=new colNode[matrix.length];
         for(int i=0;i<matrix.length;i++) {
             for(int j=0;j<matrix[0].length;j++) {
@@ -30,20 +29,19 @@ public class sparseMatrix {
         }
 
         for(int i=0;i<matrix.length;i++) {
-            linkCols(i,head[i],matrix[i].length,matrix[i]);
+            linkCols(head[i],matrix[i].length,matrix[i]);
         }
         return head;
     }
 
     /**
      * 连接指定行所有不为0的元素，返回最后一个不为0的元素结点
-     * @param row 指定行
      * @param head 这一行第一个不为0的元素，即指定行的头结点
      * @param len 行长度
      * @param rowOfMatrix 指定行元素序列
      * @return 最后一个部位0的元素结点
      */
-    private colNode linkCols(int row,colNode head,int len,int[] rowOfMatrix) {
+    private colNode linkCols(colNode head,int len,int[] rowOfMatrix) {
         int curCol=head.col;
         if(head.col!=len-1) {
             curCol+=1;
@@ -94,14 +92,28 @@ public class sparseMatrix {
     }
 
     public static void main(String[] args) {
-        int[][] matrix={{0,1,0,0,1},{1,0,2,3,0},{0,0,0,2,0},{0,0,0,0,0}};
-        int[][] matrix2={{1,0,1,1,0},{2,3,1,0,3},{2,2,2,0,2}};
+        int[][] matrix={
+                {0,0,0,0,0,5,0,0},
+                {0,10,0,9,0,0,0,0},
+                {0,0,0,0,0,0,0,0},
+                {0,0,0,0,0,17,0,0},
+                {0,0,0,0,0,0,0,0},
+                {0,21,0,34,0,0,0,75},
+                {0,0,0,0,0,0,0,0}};
+        int[][] matrix2={
+                {1,0,0,0,0,-5,0,0},
+                {11,0,43,0,0,0,77,0},
+                {0,0,0,0,0,0,0,0},
+                {0,0,0,0,0,51,0,0},
+                {0,0,0,0,0,0,0,0},
+                {0,-21,0,-34,0,0,0,0},
+                {0,0,0,0,0,0,0,0}};
         sparseMatrix sparseMatrix=new sparseMatrix();
         colNode[] test=sparseMatrix.toArray(matrix2);
         int[][] result=sparseMatrix.addTwoMatrix(matrix,matrix2);
-        for(int i=0;i<result.length;i++) {
-            for(int j=0;j<result[0].length;j++) {
-                System.out.print(result[i][j]+",");
+        for (int[] ints : result) {
+            for (int j = 0; j < result[0].length; j++) {
+                System.out.print(ints[j] + ",");
             }
             System.out.println();
         }
