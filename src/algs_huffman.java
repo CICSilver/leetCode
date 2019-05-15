@@ -1,7 +1,6 @@
 import edu.princeton.cs.algs4.MinPQ;
 import org.jetbrains.annotations.NotNull;
 
-
 public class algs_huffman {
     private static class Node implements Comparable<Node>{
         private int freq;
@@ -52,8 +51,6 @@ public class algs_huffman {
 
     }
 
-    //ABCDEFGH
-    //freq=[19,2,13,5,11,7,3,17]
     public static void main(String[] args) {
         algs_huffman test=new algs_huffman();
         Node node1=new Node('A',19,null,null);
