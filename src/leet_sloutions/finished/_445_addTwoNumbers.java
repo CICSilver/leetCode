@@ -1,11 +1,7 @@
 package leet_sloutions.finished;
 
-import mytools.list.imp_List.List;
 import mytools.node.ListNode;
 
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.Stack;
 
 public class _445_addTwoNumbers {
