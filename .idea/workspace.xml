@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b27f76e-9c07-444c-8493-2392982a2138" name="默认更改列表" comment="添加 无重复最长字串 题解">
-      <change afterPath="$PROJECT_DIR$/src/algs_huffman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2b27f76e-9c07-444c-8493-2392982a2138" name="默认更改列表" comment="add pre/in/post orderTraversal algorithm&#10;format some question">
+      <change afterPath="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_123_maxProfit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/mytools/list/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/mytools/list/MyArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/mytools/list/MyHashSet$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/mytools/list/MyHashSet$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/mytools/list/MyHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/mytools/list/MyHashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/mytools/list/MyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/mytools/list/MyLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/mytools/list/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/mytools/list/MyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/mytools/list/imp_List/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/mytools/list/imp_List/List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/mytools/stringmatch/BF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/mytools/stringmatch/BF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/mytools/stringmatch/BM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/mytools/stringmatch/BM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/mytools/stringmatch/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/mytools/stringmatch/KMP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/mytools/tools_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/mytools/tools_test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leet_sloutions/finished/_122_maxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leet_sloutions/finished/_121_maxProfit.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,216 +49,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algs_works.java">
+        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_121_maxProfit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="141" column="5" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
-              <folding>
-                <element signature="docComment;method#stringToList#0;class#algs_works#0" />
-                <element signature="method#stringToList#0;class#algs_works#0" />
-                <element signature="e#439#515#1" />
-                <element signature="e#535#902#1" />
-                <element signature="e#593#709#1" />
-                <element signature="e#953#1054#1" />
-                <element signature="e#996#1044#1" />
-                <element signature="docComment;method#infixToPostfix#0;class#algs_works#0" />
-                <element signature="method#infixToPostfix#0;class#algs_works#0" />
-                <element signature="e#1706#2929#1" />
-                <element signature="e#1758#2823#1" />
-                <element signature="e#1866#2701#1" />
-                <element signature="e#1912#1983#1" />
-                <element signature="e#2011#2082#1" />
-                <element signature="e#2110#2309#1" />
-                <element signature="e#2165#2249#1" />
-                <element signature="e#2374#2605#1" />
-                <element signature="e#2451#2535#1" />
-                <element signature="e#2611#2682#1" />
-                <element signature="e#2707#2809#1" />
-                <element signature="e#2829#2919#1" />
-                <element signature="e#2963#3015#1" />
-                <element signature="docComment;method#calPostfix#0;class#algs_works#0" />
-                <element signature="method#calPostfix#0;class#algs_works#0" />
-                <element signature="e#3445#4324#1" />
-                <element signature="e#3527#4314#0" />
-                <element signature="method#toString#0;class#algs_works#0" />
-                <element signature="e#4542#4590#1" />
-                <element signature="method#main#0;class#algs_works#0" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algs_huffman.java">
+        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_123_maxProfit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="160">
+              <caret line="107" column="49" lean-forward="true" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/edu/princeton/cs/algs4/Huffman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-              <folding>
-                <element signature="docComment;class#Huffman#0" />
-                <element signature="method#Huffman#0;class#Huffman#0" />
-                <element signature="class#Node#0;class#Huffman#0" />
-                <element signature="method#Node#0;class#Node#0;class#Huffman#0" />
-                <element signature="method#isLeaf#0;class#Node#0;class#Huffman#0" />
-                <element signature="docComment;method#compress#0;class#Huffman#0" />
-                <element signature="method#compress#0;class#Huffman#0" />
-                <element signature="e#3290#3704#1" />
-                <element signature="e#3384#3694#1" />
-                <element signature="e#3429#3495#1" />
-                <element signature="e#3544#3609#1" />
-                <element signature="method#buildTrie#0;class#Huffman#0" />
-                <element signature="e#4213#4374#1" />
-                <element signature="e#4442#4639#1" />
-                <element signature="method#writeTrie#0;class#Huffman#0" />
-                <element signature="e#4799#4909#1" />
-                <element signature="method#buildCode#0;class#Huffman#0" />
-                <element signature="e#5159#5260#1" />
-                <element signature="e#5274#5311#1" />
-                <element signature="docComment;method#expand#0;class#Huffman#0" />
-                <element signature="method#expand#0;class#Huffman#0" />
-                <element signature="e#5779#6038#1" />
-                <element signature="e#5840#5987#1" />
-                <element signature="method#readTrie#0;class#Huffman#0" />
-                <element signature="e#6186#6266#1" />
-                <element signature="e#6280#6354#1" />
-                <element signature="docComment;method#main#0;class#Huffman#0" />
-                <element signature="method#main#0;class#Huffman#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/edu/princeton/cs/algs4/MinPQ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-              <folding>
-                <element signature="docComment;class#MinPQ#0" />
-                <element signature="docComment;method#MinPQ#0;class#MinPQ#0" />
-                <element signature="docComment;method#MinPQ#1;class#MinPQ#0" />
-                <element signature="docComment;method#MinPQ#2;class#MinPQ#0" />
-                <element signature="method#MinPQ#2;class#MinPQ#0" />
-                <element signature="docComment;method#MinPQ#3;class#MinPQ#0" />
-                <element signature="docComment;method#MinPQ#4;class#MinPQ#0" />
-                <element signature="docComment;method#isEmpty#0;class#MinPQ#0" />
-                <element signature="docComment;method#size#0;class#MinPQ#0" />
-                <element signature="docComment;method#min#0;class#MinPQ#0" />
-                <element signature="method#min#0;class#MinPQ#0" />
-                <element signature="method#resize#0;class#MinPQ#0" />
-                <element signature="e#4642#4682#1" />
-                <element signature="docComment;method#insert#0;class#MinPQ#0" />
-                <element signature="docComment;method#delMin#0;class#MinPQ#0" />
-                <element signature="method#delMin#0;class#MinPQ#0" />
-                <element signature="docComment;method#swim#0;class#MinPQ#0" />
-                <element signature="method#swim#0;class#MinPQ#0" />
-                <element signature="e#5991#6049#1" />
-                <element signature="method#sink#0;class#MinPQ#0" />
-                <element signature="e#6113#6278#1" />
-                <element signature="docComment;method#greater#0;class#MinPQ#0" />
-                <element signature="method#greater#0;class#MinPQ#0" />
-                <element signature="e#6570#6648#1" />
-                <element signature="e#6662#6730#1" />
-                <element signature="method#exch#0;class#MinPQ#0" />
-                <element signature="method#isMinHeap#1;class#MinPQ#0" />
-                <element signature="docComment;method#iterator#0;class#MinPQ#0" />
-                <element signature="class#HeapIterator#0;class#MinPQ#0" />
-                <element signature="method#HeapIterator#0;class#HeapIterator#0;class#MinPQ#0" />
-                <element signature="method#hasNext#0;class#HeapIterator#0;class#MinPQ#0" />
-                <element signature="method#remove#0;class#HeapIterator#0;class#MinPQ#0" />
-                <element signature="method#next#0;class#HeapIterator#0;class#MinPQ#0" />
-                <element signature="docComment;method#main#0;class#MinPQ#0" />
-                <element signature="method#main#0;class#MinPQ#0" />
-                <element signature="e#8729#8907#1" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/betterSolution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-325">
-              <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sensitive_Vocabulary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="12" column="96" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_1_twoSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="docComment;method#twoSum#0;class#_1_twoSum#0" />
-                <element signature="method#twoSum#0;class#_1_twoSum#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_445_addTwoNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2790">
-              <caret line="80" column="66" selection-start-line="80" selection-start-column="66" selection-end-line="80" selection-end-column="66" />
-              <folding>
-                <element signature="docComment;method#addTwoNumbers#0;class#_445_addTwoNumbers#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-              <folding>
-                <element signature="docComment;class#Stack#0" />
-                <element signature="docComment;method#Stack#0;class#Stack#0" />
-                <element signature="method#Stack#0;class#Stack#0" />
-                <element signature="docComment;method#push#0;class#Stack#0" />
-                <element signature="method#push#0;class#Stack#0" />
-                <element signature="docComment;method#pop#0;class#Stack#0" />
-                <element signature="method#pop#0;class#Stack#0" />
-                <element signature="docComment;method#peek#0;class#Stack#0" />
-                <element signature="method#peek#0;class#Stack#0" />
-                <element signature="docComment;method#empty#0;class#Stack#0" />
-                <element signature="docComment;method#search#0;class#Stack#0" />
-                <element signature="method#search#0;class#Stack#0" />
-                <element signature="e#3638#3680#1" />
-                <element signature="docComment;field#serialVersionUID#0;class#Stack#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mytools/node/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -288,8 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jump</find>
-      <find>intersect</find>
       <find>getRepitionPart</find>
       <find>isAnagram</find>
       <find>hammingDistance</find>
@@ -318,6 +112,8 @@
       <find>mySqrt</find>
       <find>isPalindrome</find>
       <find>reverse</find>
+      <find>替换</find>
+      <find>递归</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -327,6 +123,9 @@
       <replace>IndexOutOfBoundsException</replace>
       <replace>}</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>E:\workSpace_JAVA\local_Repo\leetCode\src\leet_sloutions\finished</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -334,29 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leet_sloutions/Linked_list/_876_middleNode.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/Linked_list/_430_flatten.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/stack/_682_calPoints.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/stack/_20_isValid.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/greedy/_122_maxProfit.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/greedy/_55_canJump.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/greedy/_45_jump.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/sort/_350_intersect.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/sort/_242_isAnagram.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/Bit_Manipulation/_461_hammingDistance.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/Bit_Manipulation/_136_singleNumber.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/array/_217_containsDuplicate.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/_26_removeDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/_217_containsDuplicate.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/_283_moveZeroes.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/_1_twoSum.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/_48_rotate.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/_66_plusOne.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/_36_isValidSudoku.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/_287_findDuplicate.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/_977_sortedSquares.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/_942_diStringMatch.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/_868_binaryGap.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/_832_flipAndInvertImage.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/_771_numJewelsInStones.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/_709_toLowerCase.java" />
@@ -380,11 +156,34 @@
         <option value="$PROJECT_DIR$/src/algs_works.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_3_无重复字符的最长子串.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_3_lengthOfLongestSubstring.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_3_lengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_9_palindromeNumber.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_6_ZigZagConversion.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_94_BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/algs_huffman.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_13_longestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[14]最长公共前缀.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_14_longestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_14_longestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_27_removeElement.java" />
+        <option value="$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[27]移除元素.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_27_removeElement.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_144_preorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_144_preorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_94_inorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_145_postorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_94_inorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_3_lengthOfLongestSubstring.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_6_ZigZagConversion.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/_145_postorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_145_postorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_70_climbStairs.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_70_climbStairs.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_62_uniqePaths.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_62_uniqePaths.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_122_maxProfit.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_121_maxProfit.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_121_maxProfit.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_123_maxProfit.java" />
       </list>
     </option>
   </component>
@@ -420,7 +219,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -433,10 +231,30 @@
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leet_sloutions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mytools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mytools" type="462c0819:PsiDirectoryNode" />
+              <item name="codeanalyze" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -446,7 +264,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557642212429" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558091653399" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -454,7 +272,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
     <key name="OPEN_URL_DIALOG">
@@ -480,9 +298,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.algs_huffman">
-    <configuration name="_3_lengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._3_lengthOfLongestSubstring" />
+  <component name="RunManager" selected="Application._123_maxProfit">
+    <configuration name="_121_maxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._121_maxProfit" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -494,8 +312,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_94_BinaryTreeInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_sloutions.unfinshed._94_BinaryTreeInorderTraversal" />
+    <configuration name="_123_maxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_sloutions.unfinshed._123_maxProfit" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -507,34 +325,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algs_huffman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algs_huffman" />
+    <configuration name="_62_uniqePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._62_uniqePaths" />
       <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet_sloutions.finished.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algs_works" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algs_works" />
+    <configuration name="_70_climbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._70_climbStairs" />
       <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet_sloutions.finished.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sparseMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sparseMatrix" />
+    <configuration name="_94_inorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._94_inorderTraversal" />
       <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet_sloutions.finished.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.algs_huffman" />
-        <item itemvalue="Application._94_BinaryTreeInorderTraversal" />
-        <item itemvalue="Application._3_lengthOfLongestSubstring" />
-        <item itemvalue="Application.sparseMatrix" />
-        <item itemvalue="Application.algs_works" />
+        <item itemvalue="Application._123_maxProfit" />
+        <item itemvalue="Application._121_maxProfit" />
+        <item itemvalue="Application._62_uniqePaths" />
+        <item itemvalue="Application._70_climbStairs" />
+        <item itemvalue="Application._94_inorderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -655,7 +491,13 @@
       <workItem from="1555566991217" duration="3886000" />
       <workItem from="1555684916418" duration="602000" />
       <workItem from="1555760692056" duration="9000" />
-      <workItem from="1557639487039" duration="2723000" />
+      <workItem from="1557639487039" duration="2776000" />
+      <workItem from="1557829749376" duration="280000" />
+      <workItem from="1557830056025" duration="2326000" />
+      <workItem from="1557900611693" duration="8216000" />
+      <workItem from="1557913892826" duration="11000" />
+      <workItem from="1558069004467" duration="8054000" />
+      <workItem from="1558080341747" duration="11052000" />
     </task>
     <task id="LOCAL-00001" summary="加入二切分快速排序">
       <created>1544094563611</created>
@@ -944,11 +786,32 @@
       <option name="project" value="LOCAL" />
       <updated>1555659028208</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="add huffmanTree">
+      <created>1557642240087</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1557642240087</updated>
+    </task>
+    <task id="LOCAL-00043" summary="add pre/in/post orderTraversal algorithm&#10;format some questions">
+      <created>1557909734986</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1557909734987</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add 62、70. dp">
+      <created>1558076480249</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1558076480249</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370613000" />
+    <option name="totallyTimeSpent" value="400605000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -970,25 +833,25 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="设计器" order="5" />
       <window_info id="Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49594814" visible="true" weight="0.19675675" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49594814" weight="0.21459459" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986761" visible="true" weight="0.30229884" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45773524" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3275862" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3275862" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891892" weight="0.25862068" />
-      <window_info anchor="bottom" id="CheckStyle" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50132394" side_tool="true" weight="0.32985073" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49945945" weight="0.32376397" />
-      <window_info anchor="bottom" id="PMD" order="12" weight="0.3298611" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.36842105" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="调试" order="16" weight="0.3321839" />
-      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32928178" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.45773524" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49945945" weight="0.3275862" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="6" weight="0.3264368" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.64594597" weight="0.25632185" />
+      <window_info anchor="bottom" id="CheckStyle" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054055" side_tool="true" weight="0.17494825" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49891892" weight="0.24712643" />
+      <window_info anchor="bottom" id="PMD" order="11" weight="0.3298611" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3678161" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="调试" order="15" sideWeight="0.49945945" weight="0.38045976" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32928178" />
+      <window_info active="true" anchor="bottom" x="636" y="646" width="997" height="364" id="Run" order="17" sideWeight="0.6935135" visible="true" weight="0.5804598" />
       <window_info anchor="right" id="Key Promoter X" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="GfmBrowser" order="2" />
@@ -1000,9 +863,10 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32972974" />
-      <window_info anchor="right" id="Database" order="11" weight="0.3295053" />
-      <window_info anchor="right" id="Palette" order="12" />
-      <window_info anchor="right" x="0" y="0" width="430" height="880" id="文档" order="13" side_tool="true" weight="0.16054054" />
+      <window_info anchor="right" id="Palette" order="11" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="文档" order="12" side_tool="true" weight="0.16054054" />
+      <window_info anchor="right" id="leetcode" order="13" sideWeight="0.50049555" side_tool="true" weight="0.13351351" />
+      <window_info anchor="right" id="Database" order="14" sideWeight="0.49950445" weight="0.32918918" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1050,10 +914,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="删除单向链表的非末尾结点方法" />
-    <MESSAGE value="单向链表的龟速迭代反转" />
-    <MESSAGE value="二进制间隔计算" />
-    <MESSAGE value="1/25" />
     <MESSAGE value="斐波那契数列的两种动态规划实现" />
     <MESSAGE value="添加algs4工具包" />
     <MESSAGE value="添加快慢指针方法" />
@@ -1075,7 +935,11 @@
     <MESSAGE value="优化 题解结构" />
     <MESSAGE value="添加 无重复最长字串 题解" />
     <MESSAGE value="删除已编译文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除已编译文件" />
+    <MESSAGE value="add huffmanTree" />
+    <MESSAGE value="add pre/in/post orderTraversal algorithm&#10;format some question" />
+    <MESSAGE value="add pre/in/post orderTraversal algorithm&#10;format some questions" />
+    <MESSAGE value="add 62、70. dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 62、70. dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1087,19 +951,13 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_94_BinaryTreeInorderTraversal.java</url>
-          <line>73</line>
+          <url>file://$PROJECT_DIR$/src/leet_sloutions/finished/_94_inorderTraversal.java</url>
+          <line>44</line>
           <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="low" />
-        <watch expression="headA.next" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1107,6 +965,46 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>startDate==3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>startDate==</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sumPaths&lt;0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cur.x==1&amp;&amp;cur.y==1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map.size!=0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map.size!=1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cur.x==1&amp;&amp;cur.y==2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cur.x==2&amp;&amp;cur.y==4</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>curIndex==4</expression-string>
         <language-id>JAVA</language-id>
@@ -1117,266 +1015,125 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
+    </expressions>
+    <expressions id="watch">
       <expression>
-        <expression-string>i==5</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i == 2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arrayList.size()==2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>coefficent == 5</expression-string>
+        <expression-string>low</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_287_findDuplicate.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="900">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/edu/princeton/cs/algs4/Huffman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
           <folding>
-            <element signature="docComment;method#findDuplicate#0;class#_287_findDuplicate#0" />
-            <element signature="method#findDuplicate#0;class#_287_findDuplicate#0" />
-            <element signature="e#309#611#1" />
-            <element signature="e#404#601#1" />
-            <element signature="e#465#558#1" />
+            <element signature="docComment;class#Huffman#0" />
+            <element signature="method#Huffman#0;class#Huffman#0" />
+            <element signature="class#Node#0;class#Huffman#0" />
+            <element signature="method#Node#0;class#Node#0;class#Huffman#0" />
+            <element signature="method#isLeaf#0;class#Node#0;class#Huffman#0" />
+            <element signature="docComment;method#compress#0;class#Huffman#0" />
+            <element signature="method#compress#0;class#Huffman#0" />
+            <element signature="e#3290#3704#1" />
+            <element signature="e#3384#3694#1" />
+            <element signature="e#3429#3495#1" />
+            <element signature="e#3544#3609#1" />
+            <element signature="method#buildTrie#0;class#Huffman#0" />
+            <element signature="e#4213#4374#1" />
+            <element signature="e#4442#4639#1" />
+            <element signature="method#writeTrie#0;class#Huffman#0" />
+            <element signature="e#4799#4909#1" />
+            <element signature="method#buildCode#0;class#Huffman#0" />
+            <element signature="e#5159#5260#1" />
+            <element signature="e#5274#5311#1" />
+            <element signature="docComment;method#expand#0;class#Huffman#0" />
+            <element signature="method#expand#0;class#Huffman#0" />
+            <element signature="e#5779#6038#1" />
+            <element signature="e#5840#5987#1" />
+            <element signature="method#readTrie#0;class#Huffman#0" />
+            <element signature="e#6186#6266#1" />
+            <element signature="e#6280#6354#1" />
+            <element signature="docComment;method#main#0;class#Huffman#0" />
+            <element signature="method#main#0;class#Huffman#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_977_sortedSquares.java">
+    <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/edu/princeton/cs/algs4/MinPQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
-            <element signature="docComment;method#sortedSquares#0;class#_977_sortedSquares#0" />
-            <element signature="method#sortedSquares#0;class#_977_sortedSquares#0" />
-            <element signature="e#234#267#1" />
-            <element signature="e#304#339#1" />
+            <element signature="docComment;class#MinPQ#0" />
+            <element signature="docComment;method#MinPQ#0;class#MinPQ#0" />
+            <element signature="docComment;method#MinPQ#1;class#MinPQ#0" />
+            <element signature="docComment;method#MinPQ#2;class#MinPQ#0" />
+            <element signature="method#MinPQ#2;class#MinPQ#0" />
+            <element signature="docComment;method#MinPQ#3;class#MinPQ#0" />
+            <element signature="docComment;method#MinPQ#4;class#MinPQ#0" />
+            <element signature="docComment;method#isEmpty#0;class#MinPQ#0" />
+            <element signature="docComment;method#size#0;class#MinPQ#0" />
+            <element signature="docComment;method#min#0;class#MinPQ#0" />
+            <element signature="method#min#0;class#MinPQ#0" />
+            <element signature="method#resize#0;class#MinPQ#0" />
+            <element signature="e#4642#4682#1" />
+            <element signature="docComment;method#insert#0;class#MinPQ#0" />
+            <element signature="docComment;method#delMin#0;class#MinPQ#0" />
+            <element signature="method#delMin#0;class#MinPQ#0" />
+            <element signature="docComment;method#swim#0;class#MinPQ#0" />
+            <element signature="method#swim#0;class#MinPQ#0" />
+            <element signature="e#5991#6049#1" />
+            <element signature="method#sink#0;class#MinPQ#0" />
+            <element signature="e#6113#6278#1" />
+            <element signature="docComment;method#greater#0;class#MinPQ#0" />
+            <element signature="method#greater#0;class#MinPQ#0" />
+            <element signature="e#6570#6648#1" />
+            <element signature="e#6662#6730#1" />
+            <element signature="method#exch#0;class#MinPQ#0" />
+            <element signature="method#isMinHeap#1;class#MinPQ#0" />
+            <element signature="docComment;method#iterator#0;class#MinPQ#0" />
+            <element signature="class#HeapIterator#0;class#MinPQ#0" />
+            <element signature="method#HeapIterator#0;class#HeapIterator#0;class#MinPQ#0" />
+            <element signature="method#hasNext#0;class#HeapIterator#0;class#MinPQ#0" />
+            <element signature="method#remove#0;class#HeapIterator#0;class#MinPQ#0" />
+            <element signature="method#next#0;class#HeapIterator#0;class#MinPQ#0" />
+            <element signature="docComment;method#main#0;class#MinPQ#0" />
+            <element signature="method#main#0;class#MinPQ#0" />
+            <element signature="e#8729#8907#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_48_rotate.java">
+    <entry file="file://$PROJECT_DIR$/src/betterSolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="docComment;method#rotate#0;class#_48_rotate#0" />
-            <element signature="method#rotate#0;class#_48_rotate#0" />
-            <element signature="docComment;method#isSquare#0;class#_48_rotate#0" />
-            <element signature="method#isSquare#0;class#_48_rotate#0" />
-            <element signature="docComment;method#exchaArray#0;class#_48_rotate#0" />
-            <element signature="method#exchaArray#0;class#_48_rotate#0" />
-            <element signature="docComment;method#exchDoubleArray#0;class#_48_rotate#0" />
-            <element signature="method#exchDoubleArray#0;class#_48_rotate#0" />
-          </folding>
+        <state relative-caret-position="3060">
+          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_942_diStringMatch.java">
+    <entry file="file://$PROJECT_DIR$/src/sensitive_Vocabulary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding>
-            <element signature="docComment;method#diStringMatch#0;class#_942_diStringMatch#0" />
-            <element signature="method#diStringMatch#0;class#_942_diStringMatch#0" />
-            <element signature="e#567#603#1" />
-            <element signature="e#747#1599#1" />
-            <element signature="e#782#1589#0" />
-            <element signature="e#818#913#1" />
-            <element signature="e#953#1075#1" />
-            <element signature="e#1081#1139#1" />
-            <element signature="e#1201#1296#1" />
-            <element signature="e#1336#1458#1" />
-            <element signature="e#1464#1522#1" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="12" column="96" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_868_binaryGap.java">
+    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[13]罗马数字转整数.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="docComment;method#binaryGap#0;class#_868_binaryGap#0" />
-            <element signature="method#binaryGap#0;class#_868_binaryGap#0" />
-            <element signature="e#448#900#1" />
-            <element signature="e#489#615#1" />
-            <element signature="e#526#572#1" />
-            <element signature="e#633#889#1" />
-            <element signature="e#660#709#1" />
-            <element signature="e#783#846#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_832_flipAndInvertImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding>
-            <element signature="docComment;method#flipAndInvertImage#0;class#_832_flipAndInvertImage#0" />
-            <element signature="method#flipAndInvertImage#0;class#_832_flipAndInvertImage#0" />
-            <element signature="e#403#436#1" />
-            <element signature="e#459#492#1" />
-            <element signature="e#821#1029#1" />
-            <element signature="e#866#1019#1" />
-            <element signature="e#899#949#1" />
-            <element signature="e#955#1005#1" />
-            <element signature="method#exch#0;class#_832_flipAndInvertImage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_771_numJewelsInStones.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;method#numJewelsInStones#0;class#_771_numJewelsInStones#0" />
-            <element signature="method#numJewelsInStones#0;class#_771_numJewelsInStones#0" />
-            <element signature="e#420#577#1" />
-            <element signature="e#458#567#1" />
-            <element signature="e#505#553#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_709_toLowerCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;method#toLowerCase#0;class#_709_toLowerCase#0" />
-            <element signature="method#toLowerCase#0;class#_709_toLowerCase#0" />
-            <element signature="e#233#543#1" />
-            <element signature="e#379#420#1" />
-            <element signature="e#445#533#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_667_constructArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="method#constructArray#0;class#_667_constructArray#0" />
-            <element signature="e#388#424#1" />
-            <element signature="e#547#731#1" />
-            <element signature="e#576#629#1" />
-            <element signature="e#647#700#1" />
-            <element signature="e#773#820#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_387_firstUniqChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;method#firstUniqChar#0;class#_387_firstUniqChar#0" />
-            <element signature="method#firstUniqChar#0;class#_387_firstUniqChar#0" />
-            <element signature="e#423#1240#1" />
-            <element signature="e#465#1076#1" />
-            <element signature="e#524#570#1" />
-            <element signature="e#688#793#1" />
-            <element signature="e#721#775#1" />
-            <element signature="e#823#947#1" />
-            <element signature="e#866#929#1" />
-            <element signature="e#969#1062#1" />
-            <element signature="e#1157#1204#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_344_reverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;method#reverseString#0;class#_344_reverseString#0" />
-            <element signature="method#reverseString#0;class#_344_reverseString#0" />
-            <element signature="e#226#323#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_362_isPowerOfThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="docComment;method#isPowerOfThree#0;class#_362_isPowerOfThree#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_88_merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;method#merge#0;class#_88_merge#0" />
-            <element signature="method#merge#0;class#_88_merge#0" />
-            <element signature="e#398#447#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_69_mySqrt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;method#mySqrt#0;class#_69_mySqrt#0" />
-            <element signature="method#mySqrt#0;class#_69_mySqrt#0" />
-            <element signature="e#277#310#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_234_isListPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <element signature="docComment;method#isPalindrome#0;class#_234_isListPalindrome#0" />
-            <element signature="e#471#507#1" />
-            <element signature="e#653#729#1" />
-            <element signature="e#793#948#1" />
-            <element signature="e#833#878#1" />
-            <element signature="method#reverse#0;class#_234_isListPalindrome#0" />
-            <element signature="e#1083#1119#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_13_romanToInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;method#romanToInt#0;class#_13_romanToInt#0" />
-            <element signature="method#romanToInt#0;class#_13_romanToInt#0" />
-            <element signature="e#145#178#1" />
-            <element signature="e#306#694#1" />
-            <element signature="e#341#684#0" />
-            <element signature="e#736#884#1" />
-            <element signature="e#772#820#1" />
-            <element signature="e#826#874#1" />
+            <element signature="e#0#956#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1385,223 +1142,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_20_isValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#isValid#0;class#_20_isValid#0" />
-            <element signature="method#isValid#0;class#_20_isValid#0" />
+            <element signature="method#removeNthFromEnd#0;class#_19_removeNthFromEnd#0" />
+            <element signature="e#240#276#1" />
+            <element signature="e#355#413#1" />
+            <element signature="e#497#674#1" />
+            <element signature="e#534#611#1" />
+            <element signature="e#715#754#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_21_mergeTwoLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;method#mergeTwoLists#0;class#_21_mergeTwoLists#0" />
-            <element signature="method#mergeTwoLists#0;class#_21_mergeTwoLists#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_24_swapPairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;method#swapPairs#0;class#_24_swapPairs#0" />
-            <element signature="method#swapPairs#0;class#_24_swapPairs#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_26_removeDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_28_strStr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;class#_28_strStr#0" />
-            <element signature="method#getPMT#0;class#_28_strStr#0" />
-            <element signature="docComment;method#indexOf#0;class#_28_strStr#0" />
-            <element signature="method#indexOf#0;class#_28_strStr#0" />
-            <element signature="method#strStr#0;class#_28_strStr#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_36_isValidSudoku.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;method#isValidSudoku#0;class#_36_isValidSudoku#0" />
-            <element signature="method#isValidSudoku#0;class#_36_isValidSudoku#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_7_reverseInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Draw.java" />
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_5_longestPalindrome.java" />
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="127" column="38" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
-          <folding>
-            <element signature="docComment;method#isCharArrayHasRepeatition#0;class#Solution#0" />
-            <element signature="method#isCharArrayHasRepeatition#0;class#Solution#0" />
-            <element signature="docComment;method#calculateUnitOfSignedInt#0;class#Solution#0" />
-            <element signature="method#calculateUnitOfSignedInt#0;class#Solution#0" />
-            <element signature="docComment;method#jump1#0;class#Solution#0" />
-            <element signature="method#jump1#0;class#Solution#0" />
-            <element signature="method#writeFile#0;class#Solution#0" />
-            <element signature="docComment;method#readFile#0;class#Solution#0" />
-            <element signature="method#readFile#0;class#Solution#0" />
-            <element signature="method#sensetiveCount#0;class#Solution#0" />
-            <element signature="docComment;method#fib#0;class#Solution#0" />
-            <element signature="method#fib#0;class#Solution#0" />
-            <element signature="method#fib#1;class#Solution#0" />
-            <element signature="docComment;method#cut#0;class#Solution#0" />
-            <element signature="method#cut#0;class#Solution#0" />
-            <element signature="method#cut#1;class#Solution#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mytools/list/MyArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mytools/tools_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JAVA/jdk-10/lib/src.zip!/java.base/java/util/TreeMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/mytools/node/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_6_ZigZagConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_3_lengthOfLongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_9_palindromeNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JAVA/jdk-10/lib/src.zip!/java.base/java/util/Stack.java" />
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_94_BinaryTreeInorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-          <folding>
-            <element signature="docComment;method#inorderTraversal#0;class#_94_BinaryTreeInorderTraversal#0" />
-            <element signature="method#inorderTraversal#0;class#_94_BinaryTreeInorderTraversal#0" />
-            <element signature="e#328#364#1" />
-            <element signature="e#527#763#1" />
-            <element signature="e#555#633#1" />
-            <element signature="e#639#753#1" />
-            <element signature="docComment;method#preorderTraversal#0;class#_94_BinaryTreeInorderTraversal#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[19]删除链表的倒数第N个节点.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_53_maximumSubarray.java">
+    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[14]最长公共前缀.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sparseMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
-          <folding>
-            <element signature="class#colNode#0;class#sparseMatrix#0" />
-            <element signature="docComment;method#toArray#0;class#sparseMatrix#0" />
-            <element signature="method#toArray#0;class#sparseMatrix#0" />
-            <element signature="method#main#0;class#sparseMatrix#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_1_twoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;method#twoSum#0;class#_1_twoSum#0" />
-            <element signature="method#twoSum#0;class#_1_twoSum#0" />
-          </folding>
+        <state relative-caret-position="630">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1645,24 +1203,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensitive_Vocabulary.java">
+    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[15]三数之和.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="12" column="96" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
+        <state relative-caret-position="225">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/betterSolution.java">
+    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[27]移除元素.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
-          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        <state relative-caret-position="405">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[12]整数转罗马数字.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_27_removeElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_8_myAtoi.java" />
+    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[8]字符串转换整数 (atoi).java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sparseMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="69" column="64" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
+          <folding>
+            <element signature="class#colNode#0;class#sparseMatrix#0" />
+            <element signature="docComment;method#toArray#0;class#sparseMatrix#0" />
+            <element signature="method#toArray#0;class#sparseMatrix#0" />
+            <element signature="docComment;method#linkCols#0;class#sparseMatrix#0" />
+            <element signature="method#linkCols#0;class#sparseMatrix#0" />
+            <element signature="docComment;method#addTwoMatrix#0;class#sparseMatrix#0" />
+            <element signature="method#addTwoMatrix#0;class#sparseMatrix#0" />
+            <element signature="method#main#0;class#sparseMatrix#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algs_works.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="141" column="5" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
+        <state relative-caret-position="91">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="docComment;method#stringToList#0;class#algs_works#0" />
             <element signature="method#stringToList#0;class#algs_works#0" />
@@ -1697,92 +1297,270 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/edu/princeton/cs/algs4/MinPQ.java">
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="810">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
           <folding>
-            <element signature="docComment;class#MinPQ#0" />
-            <element signature="docComment;method#MinPQ#0;class#MinPQ#0" />
-            <element signature="docComment;method#MinPQ#1;class#MinPQ#0" />
-            <element signature="docComment;method#MinPQ#2;class#MinPQ#0" />
-            <element signature="method#MinPQ#2;class#MinPQ#0" />
-            <element signature="docComment;method#MinPQ#3;class#MinPQ#0" />
-            <element signature="docComment;method#MinPQ#4;class#MinPQ#0" />
-            <element signature="docComment;method#isEmpty#0;class#MinPQ#0" />
-            <element signature="docComment;method#size#0;class#MinPQ#0" />
-            <element signature="docComment;method#min#0;class#MinPQ#0" />
-            <element signature="method#min#0;class#MinPQ#0" />
-            <element signature="method#resize#0;class#MinPQ#0" />
-            <element signature="e#4642#4682#1" />
-            <element signature="docComment;method#insert#0;class#MinPQ#0" />
-            <element signature="docComment;method#delMin#0;class#MinPQ#0" />
-            <element signature="method#delMin#0;class#MinPQ#0" />
-            <element signature="docComment;method#swim#0;class#MinPQ#0" />
-            <element signature="method#swim#0;class#MinPQ#0" />
-            <element signature="e#5991#6049#1" />
-            <element signature="method#sink#0;class#MinPQ#0" />
-            <element signature="e#6113#6278#1" />
-            <element signature="docComment;method#greater#0;class#MinPQ#0" />
-            <element signature="method#greater#0;class#MinPQ#0" />
-            <element signature="e#6570#6648#1" />
-            <element signature="e#6662#6730#1" />
-            <element signature="method#exch#0;class#MinPQ#0" />
-            <element signature="method#isMinHeap#1;class#MinPQ#0" />
-            <element signature="docComment;method#iterator#0;class#MinPQ#0" />
-            <element signature="class#HeapIterator#0;class#MinPQ#0" />
-            <element signature="method#HeapIterator#0;class#HeapIterator#0;class#MinPQ#0" />
-            <element signature="method#hasNext#0;class#HeapIterator#0;class#MinPQ#0" />
-            <element signature="method#remove#0;class#HeapIterator#0;class#MinPQ#0" />
-            <element signature="method#next#0;class#HeapIterator#0;class#MinPQ#0" />
-            <element signature="docComment;method#main#0;class#MinPQ#0" />
-            <element signature="method#main#0;class#MinPQ#0" />
-            <element signature="e#8729#8907#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/edu/princeton/cs/algs4/Huffman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-          <folding>
-            <element signature="docComment;class#Huffman#0" />
-            <element signature="method#Huffman#0;class#Huffman#0" />
-            <element signature="class#Node#0;class#Huffman#0" />
-            <element signature="method#Node#0;class#Node#0;class#Huffman#0" />
-            <element signature="method#isLeaf#0;class#Node#0;class#Huffman#0" />
-            <element signature="docComment;method#compress#0;class#Huffman#0" />
-            <element signature="method#compress#0;class#Huffman#0" />
-            <element signature="e#3290#3704#1" />
-            <element signature="e#3384#3694#1" />
-            <element signature="e#3429#3495#1" />
-            <element signature="e#3544#3609#1" />
-            <element signature="method#buildTrie#0;class#Huffman#0" />
-            <element signature="e#4213#4374#1" />
-            <element signature="e#4442#4639#1" />
-            <element signature="method#writeTrie#0;class#Huffman#0" />
-            <element signature="e#4799#4909#1" />
-            <element signature="method#buildCode#0;class#Huffman#0" />
-            <element signature="e#5159#5260#1" />
-            <element signature="e#5274#5311#1" />
-            <element signature="docComment;method#expand#0;class#Huffman#0" />
-            <element signature="method#expand#0;class#Huffman#0" />
-            <element signature="e#5779#6038#1" />
-            <element signature="e#5840#5987#1" />
-            <element signature="method#readTrie#0;class#Huffman#0" />
-            <element signature="e#6186#6266#1" />
-            <element signature="e#6280#6354#1" />
-            <element signature="docComment;method#main#0;class#Huffman#0" />
-            <element signature="method#main#0;class#Huffman#0" />
+            <element signature="docComment;method#isCharArrayHasRepeatition#0;class#Solution#0" />
+            <element signature="method#isCharArrayHasRepeatition#0;class#Solution#0" />
+            <element signature="docComment;method#calculateUnitOfSignedInt#0;class#Solution#0" />
+            <element signature="method#calculateUnitOfSignedInt#0;class#Solution#0" />
+            <element signature="docComment;method#jump1#0;class#Solution#0" />
+            <element signature="method#jump1#0;class#Solution#0" />
+            <element signature="method#writeFile#0;class#Solution#0" />
+            <element signature="docComment;method#readFile#0;class#Solution#0" />
+            <element signature="method#readFile#0;class#Solution#0" />
+            <element signature="method#sensetiveCount#0;class#Solution#0" />
+            <element signature="docComment;method#fib#0;class#Solution#0" />
+            <element signature="method#fib#0;class#Solution#0" />
+            <element signature="method#fib#1;class#Solution#0" />
+            <element signature="docComment;method#cut#0;class#Solution#0" />
+            <element signature="method#cut#0;class#Solution#0" />
+            <element signature="method#cut#1;class#Solution#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algs_huffman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="669">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Node#0;class#algs_huffman#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/TestAlgs4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_141_hasCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[144]二叉树的前序遍历.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mytools/node/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_144_preorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[6]Z 字形变换.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[3]无重复字符的最长子串.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="23" column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_94_inorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_145_postorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_1_twoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;method#twoSum#0;class#_1_twoSum#0" />
+            <element signature="method#twoSum#0;class#_1_twoSum#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_3_lengthOfLongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#_3_lengthOfLongestSubstring#0" />
+            <element signature="method#lengthOfLongestSubstring#0;class#_3_lengthOfLongestSubstring#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_5_longestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;method#longestPalindrome#0;class#_5_longestPalindrome#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_6_ZigZagConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#_6_ZigZagConversion#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_7_reverseInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_9_palindromeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="method#isPalindrome#0;class#_9_palindromeNumber#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_11_maxArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_13_romanToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_14_longestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="method#longestCommonPrefix#0;class#_14_longestCommonPrefix#0" />
+            <element signature="method#main#0;class#_14_longestCommonPrefix#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_70_climbStairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_62_uniqePaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#_62_uniqePaths#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_8_myAtoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2970">
+          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[51]N皇后.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80832">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vscode/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vscode/launch.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vscode/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_121_maxProfit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinshed/_123_maxProfit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="107" column="49" lean-forward="true" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

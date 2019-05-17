@@ -1,6 +1,8 @@
 package leet_sloutions.finished;
 
-public class _122_maxProfit {
+import java.util.Arrays;
+
+public class _121_maxProfit {
     /**
      *给定一个数组，它的第 i 个元素是一支给定股票第 i 天的价格。
      *
@@ -17,15 +19,17 @@ public class _122_maxProfit {
      * 6）的时候卖出, 这笔交易所能获得利润 = 6-3 = 3 。
      *
      */
-    public int maxprofit(int[] prices) {
-        int difference=0;
-        int sum=0;
-        for(int i=prices.length-1;i>0;i--) {
-            difference=prices[i]-prices[i-1];
-            if(difference>0) {
-                sum += difference;
-            }
+    public int maxProfit(int[] prices) {
+        if(prices.length <= 1) {
+            return 0;
         }
-        return sum;
+        int min = prices[0], max = 0;
+        for(int i = 1; i < prices.length; i++) {
+            max = Math.max(max, prices[i] - min);
+            min = Math.min(min, prices[i]);
+        }
+        return max;
     }
+
+
 }
