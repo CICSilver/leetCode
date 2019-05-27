@@ -1,4 +1,5 @@
 import edu.princeton.cs.algs4.Bag;
+import edu.princeton.cs.algs4.Digraph;
 import edu.princeton.cs.algs4.EdgeWeightedDigraph;
 
 import java.util.HashMap;
@@ -7,10 +8,10 @@ public class diEdgeWeightedGraph {
     /**
      * 顶点个数
      */
-    public final int V;
+    private final int V;
     /**边的个数
      * */
-    public int E;
+    private int E;
     /**邻接矩阵
      **/
     private Bag<diEdge>[] adj;
@@ -23,7 +24,7 @@ public class diEdgeWeightedGraph {
      * 输入顶点个数以初始化一个无边图
      * @param V 点的个数
      */
-    public diEdgeWeightedGraph(int V){
+    public diEdgeWeightedGraph(int V) {
         if(V<0) {
             throw new IllegalArgumentException("顶点个数必须大于0");
         }
@@ -36,13 +37,15 @@ public class diEdgeWeightedGraph {
         }
     }
 
-    public int getV(){
+    public int V(){
         return V;
     }
 
-    public int getE() {
+    public int E() {
         return E;
     }
+
+    public Iterable<diEdge> adj(int v) {return adj[v];}
 
     public void addEdge(diEdge edge) {
         int start=edge.from();
@@ -99,7 +102,9 @@ public class diEdgeWeightedGraph {
         graph8.addEdge(edge6);
         graph8.addEdge(edge7);
         graph8.addEdge(edge8);
-        System.out.println("D点的出度和入度分别为："+graph8.outDegree(3)+","+graph8.inDegree(3));
+        graphDeepFirstTraversal dfs=new graphDeepFirstTraversal(graph8);
+
+        System.out.println(dfs.pre());
 
     }
 }
