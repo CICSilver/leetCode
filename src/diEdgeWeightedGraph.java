@@ -102,9 +102,24 @@ public class diEdgeWeightedGraph {
         graph8.addEdge(edge6);
         graph8.addEdge(edge7);
         graph8.addEdge(edge8);
-        graphDeepFirstTraversal dfs=new graphDeepFirstTraversal(graph8);
 
-        System.out.println(dfs.pre());
+        graphDeepFirstTraversal dfs=new graphDeepFirstTraversal(graph8);
+        StringBuilder sb=new StringBuilder();
+
+        for (int i:dfs.pre()) {
+            switch (i) {
+                case 0:sb.append('A'+" ");
+                    break;
+                case 1:sb.append('B'+" ");break;
+                case 2:sb.append('C'+" ");break;
+                case 3:sb.append('D'+" ");break;
+                case 4:sb.append('E'+" ");break;
+                default:break;
+            }
+        }
+        String res=sb.toString();
+
+        System.out.println(res);
 
     }
 }
