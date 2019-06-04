@@ -1,7 +1,7 @@
 import org.jetbrains.annotations.NotNull;
 
 public class diEdge implements Comparable<diEdge>{
-    int start,end, weight;
+    private int start,end, weight;
 
     public diEdge(int start, int end, int weight) {
         this.start=start;
