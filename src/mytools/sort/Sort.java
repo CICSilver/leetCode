@@ -1,12 +1,13 @@
 package mytools.sort;
 
 
+import java.util.Arrays;
 
 /**
- * @author XYR
+ * @author CICSilver
  */
 public class Sort {
-
+    private static int sortCount;
     //快速排序
     public static int[] quickSort(int[] a) {
         if(a.length==0) {
@@ -16,6 +17,7 @@ public class Sort {
         if(a.length==1) {
             return a;
         }
+        sortCount=0;
         sort(a,0,a.length-1);
         return a;
     }
@@ -31,6 +33,7 @@ public class Sort {
         int i=left;
         int j=right;
         int privot=items[(left+right)/2];
+        sortCount++;
         do{
             //将数组依据标记值privot分为两部分，左侧找比标记值大的，右侧找比标记值小的，然后互换位置
             while(items[i]<privot&&i<right) {
@@ -45,6 +48,7 @@ public class Sort {
                 j--;
             }
         }while(i<=j);
+        System.out.println(Arrays.toString(items)+", 标记值为："+privot+" ,排序次数为:"+sortCount);
         if(i<right) {
             sort(items, i, right);
         }
@@ -64,5 +68,11 @@ public class Sort {
 
     }
 
+
+    public static void main(String[] s){
+        int[] nums={3,17,12,61,8,70,97,75,53,26,54,61};
+        System.out.println("原始数组为："+Arrays.toString(nums));
+        quickSort(nums);
+    }
 
 }
