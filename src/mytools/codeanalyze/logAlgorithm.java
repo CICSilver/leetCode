@@ -5,6 +5,6 @@ public class logAlgorithm {
         return Math.log(value)/Math.log(base);
     }
     public static void main(String[] args) {
-        System.out.println(log(6,2));
+        System.out.println(log(8,2));
     }
 }
