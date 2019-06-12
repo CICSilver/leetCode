@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b27f76e-9c07-444c-8493-2392982a2138" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leet_sloutions/unfinished/_976_LargestPerimeterTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leet_sloutions/unfinished/_12_intToRoman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/diEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diEdge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leet_sloutions/unfinished/_22_generateParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leet_sloutions/finished/_22_generateParenthesis.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,22 +49,128 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/betterSolution.java">
+        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_104_maxDepth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="225">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="docComment;class#_104_maxDepth#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_22_generateParenthesis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinished/_976_LargestPerimeterTriangle.java">
+        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinished/_12_intToRoman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="491">
+              <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#StringBuilder#0" />
+                <element signature="e#3158#3206#0" />
+                <element signature="e#3275#3395#0" />
+                <element signature="e#3486#3815#0" />
+                <element signature="e#3924#4199#0" />
+                <element signature="e#3924#4330#0" />
+                <element signature="e#4336#4641#0" />
+                <element signature="e#4336#4746#0" />
+                <element signature="e#4752#5722#0" />
+                <element signature="e#5950#5959#0" />
+                <element signature="e#5950#6090#0" />
+                <element signature="e#6096#7021#0" />
+                <element signature="e#6096#7125#0" />
+                <element signature="e#7131#7242#0" />
+                <element signature="e#7248#7318#0" />
+                <element signature="e#7248#7466#0" />
+                <element signature="e#7472#7581#0" />
+                <element signature="e#7587#7653#0" />
+                <element signature="e#7587#7801#0" />
+                <element signature="e#7807#7913#0" />
+                <element signature="e#7919#7928#0" />
+                <element signature="e#7919#8053#0" />
+                <element signature="e#8059#8068#0" />
+                <element signature="e#8059#8192#0" />
+                <element signature="e#8198#8305#0" />
+                <element signature="e#8311#8415#0" />
+                <element signature="e#8421#8526#0" />
+                <element signature="e#8532#8561#0" />
+                <element signature="e#8532#8702#0" />
+                <element signature="e#8708#8780#0" />
+                <element signature="e#8708#8909#0" />
+                <element signature="e#8915#8987#0" />
+                <element signature="e#8915#9114#0" />
+                <element signature="e#9120#9192#0" />
+                <element signature="e#9120#9340#0" />
+                <element signature="e#9346#9418#0" />
+                <element signature="e#9346#9620#0" />
+                <element signature="e#9626#9698#0" />
+                <element signature="e#9626#9840#0" />
+                <element signature="e#9846#9918#0" />
+                <element signature="e#9846#10052#0" />
+                <element signature="e#10058#10130#0" />
+                <element signature="e#10058#10264#0" />
+                <element signature="e#10270#10336#0" />
+                <element signature="e#10270#10486#0" />
+                <element signature="e#10492#10558#0" />
+                <element signature="e#10492#10768#0" />
+                <element signature="e#10774#10846#0" />
+                <element signature="e#10774#10977#0" />
+                <element signature="e#10983#11049#0" />
+                <element signature="e#10983#11177#0" />
+                <element signature="e#11183#11255#0" />
+                <element signature="e#11183#11382#0" />
+                <element signature="e#11388#11460#0" />
+                <element signature="e#11388#11588#0" />
+                <element signature="e#11594#11666#0" />
+                <element signature="e#11594#11795#0" />
+                <element signature="e#11801#11873#0" />
+                <element signature="e#11801#12003#0" />
+                <element signature="e#12449#12547#0" />
+                <element signature="e#12553#12562#0" />
+                <element signature="e#12553#12814#0" />
+                <element signature="e#12820#13370#0" />
+                <element signature="e#12820#13774#0" />
+                <element signature="e#13593#13664#1" />
+                <element signature="e#13670#13740#1" />
+                <element signature="e#13780#13882#0" />
+                <element signature="e#13780#14151#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mytools/node/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mytools/codeanalyze/logAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -176,15 +282,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_445_addTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_445_addTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/src/sparseMatrix.java" />
-        <option value="$PROJECT_DIR$/src/algs_works.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_3_无重复字符的最长子串.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_3_lengthOfLongestSubstring.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_9_palindromeNumber.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_6_ZigZagConversion.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_94_BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/algs_huffman.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_13_longestCommonPrefix.java" />
         <option value="$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[14]最长公共前缀.java" />
@@ -227,6 +324,15 @@
         <option value="$PROJECT_DIR$/src/mytools/sort/Sort.java" />
         <option value="$PROJECT_DIR$/src/diEdge.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinished/_976_LargestPerimeterTriangle.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_976_LargestPerimeterTriangle.java" />
+        <option value="$PROJECT_DIR$/src/mytools/codeanalyze/logAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinished/_50_pow.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_50_pow.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinished/_104_maxDepth.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_104_maxDepth.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinished/_22_generateParenthesis.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_22_generateParenthesis.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinished/_12_intToRoman.java" />
       </list>
     </option>
   </component>
@@ -248,7 +354,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="126" />
     <option name="y" value="-25" />
     <option name="width" value="1401" />
@@ -262,6 +368,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,12 +377,41 @@
               <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leet_sloutions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leet_sloutions" type="462c0819:PsiDirectoryNode" />
+              <item name="unfinished" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mytools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mytools" type="462c0819:PsiDirectoryNode" />
+              <item name="codeanalyze" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,7 +421,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559656801496" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560341688056" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -292,7 +429,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="OPEN_URL_DIALOG">
@@ -318,20 +455,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._976_LargestPerimeterTriangle">
-    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BST" />
-      <module name="leetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mytools.sort.Sort" />
+  <component name="RunManager" selected="Application._12_intToRoman">
+    <configuration name="_12_intToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_sloutions.unfinished._12_intToRoman" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mytools.sort.*" />
+          <option name="PATTERN" value="leet_sloutions.unfinished.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,8 +469,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_202_happyNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._202_happyNum" />
+    <configuration name="_22_generateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._22_generateParenthesis" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -352,8 +482,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_349_intersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._349_intersection" />
+    <configuration name="_50_pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._50_pow" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -378,13 +508,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="logAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mytools.codeanalyze.logAlgorithm" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mytools.codeanalyze.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._12_intToRoman" />
+        <item itemvalue="Application._22_generateParenthesis" />
+        <item itemvalue="Application._50_pow" />
+        <item itemvalue="Application.logAlgorithm" />
         <item itemvalue="Application._976_LargestPerimeterTriangle" />
-        <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.BST" />
-        <item itemvalue="Application._202_happyNum" />
-        <item itemvalue="Application._349_intersection" />
       </list>
     </recent_temporary>
   </component>
@@ -523,21 +666,11 @@
       <workItem from="1559564165029" duration="4657000" />
       <workItem from="1559619903996" duration="47000" />
       <workItem from="1559620226456" duration="20000" />
-      <workItem from="1559646763437" duration="7135000" />
-    </task>
-    <task id="LOCAL-00001" summary="加入二切分快速排序">
-      <created>1544094563611</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1544094563611</updated>
-    </task>
-    <task id="LOCAL-00002" summary="加入二切分快速排序">
-      <created>1544094657516</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1544094657516</updated>
+      <workItem from="1559646763437" duration="7721000" />
+      <workItem from="1559714427562" duration="2177000" />
+      <workItem from="1559892348180" duration="451000" />
+      <workItem from="1559972359627" duration="5408000" />
+      <workItem from="1560338210515" duration="4075000" />
     </task>
     <task id="LOCAL-00003" summary="加入二切分快速排序">
       <created>1544099382545</created>
@@ -868,11 +1001,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559651025378</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add 976.LargestPerimeterTriangle">
+      <created>1559656939202</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1559656939203</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add 22.generateParenthesis">
+      <created>1559978325683</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1559978325683</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426349000" />
+    <option name="totallyTimeSpent" value="439046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -884,7 +1031,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5011494" side_tool="true" weight="0.14378378" />
       <window_info id="Image Layers" order="1" />
@@ -893,7 +1041,7 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="设计器" order="5" />
       <window_info id="Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49594814" weight="0.23351352" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49594814" weight="0.24594595" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.45773524" />
@@ -901,17 +1049,17 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49945945" weight="0.3275862" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="6" weight="0.32528734" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.64594597" weight="0.18850575" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.64594597" weight="0.16977225" />
       <window_info anchor="bottom" id="CheckStyle" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054055" side_tool="true" weight="0.17494825" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49891892" weight="0.24637681" />
       <window_info anchor="bottom" id="PMD" order="11" weight="0.3298611" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3678161" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.36749482" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info active="true" anchor="bottom" id="调试" order="15" sideWeight="0.49945945" visible="true" weight="0.38045976" />
+      <window_info anchor="bottom" id="调试" order="15" sideWeight="0.49945945" weight="0.32505175" />
       <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32928178" />
-      <window_info anchor="bottom" x="636" y="646" width="997" height="364" id="Run" order="17" sideWeight="0.6935135" weight="0.37356323" />
+      <window_info active="true" anchor="bottom" x="636" y="646" width="997" height="364" id="Run" order="17" sideWeight="0.6935135" visible="true" weight="0.2857143" />
       <window_info anchor="bottom" id="Duplicate detector" order="18" weight="0.42068964" />
       <window_info anchor="right" id="Key Promoter X" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -1018,8 +1166,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="添加可视化数组" />
-    <MESSAGE value="使用List实现的排序可视化" />
     <MESSAGE value="添加顺序表的实现到工具包中" />
     <MESSAGE value="基于数组实现的顺序集合" />
     <MESSAGE value="基于链表实现的linked集合" />
@@ -1043,7 +1189,9 @@
     <MESSAGE value="add 9.Graph's directed graph's deep first traversal" />
     <MESSAGE value="add 202.happyNum and 349.intersection&#10;add a placeHolder file to unfinished package" />
     <MESSAGE value="add BST &amp;&amp; quickSort for algs work" />
-    <option name="LAST_COMMIT_MESSAGE" value="add BST &amp;&amp; quickSort for algs work" />
+    <MESSAGE value="add 976.LargestPerimeterTriangle" />
+    <MESSAGE value="add 22.generateParenthesis" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 22.generateParenthesis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1074,21 +1222,18 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leet_sloutions/unfinished/_976_LargestPerimeterTriangle.java</url>
-          <line>59</line>
+          <url>file://$PROJECT_DIR$/src/leet_sloutions/finished/_976_LargestPerimeterTriangle.java</url>
+          <line>57</line>
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/leet_sloutions/unfinished/_976_LargestPerimeterTriangle.java</url>
-          <line>50</line>
-          <properties class="leet_sloutions.unfinished._976_LargestPerimeterTriangle" method="isTriangle">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="map" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1096,6 +1241,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>n==3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>n==0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>i==2</expression-string>
         <language-id>JAVA</language-id>
@@ -1136,11 +1291,6 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>sumPaths&lt;0</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
     <expressions id="watch">
       <expression>
@@ -1151,83 +1301,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/mytools/node/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_144_preorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[6]Z 字形变换.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[3]无重复字符的最长子串.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="23" column="2" selection-end-line="23" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_94_inorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_145_postorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_5_longestPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;method#longestPalindrome#0;class#_5_longestPalindrome#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_6_ZigZagConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;class#_6_ZigZagConversion#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_7_reverseInt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -2478,40 +2551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_202_happyNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mytools/helper/intListToArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_349_intersection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinished/PlaceHolder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1968">
@@ -2616,13 +2655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/betterSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -2637,13 +2669,183 @@
     <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinished/_976_LargestPerimeterTriangle.java">
+    <entry file="file://$PROJECT_DIR$/src/betterSolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="450">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_976_LargestPerimeterTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="495" column="19" selection-start-line="495" selection-start-column="19" selection-end-line="495" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_50_pow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#_50_pow#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_104_maxDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#_104_maxDepth#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+          <folding>
+            <element signature="docComment;class#StringBuilder#0" />
+            <element signature="e#3158#3206#0" />
+            <element signature="e#3275#3395#0" />
+            <element signature="e#3486#3815#0" />
+            <element signature="e#3924#4199#0" />
+            <element signature="e#3924#4330#0" />
+            <element signature="e#4336#4641#0" />
+            <element signature="e#4336#4746#0" />
+            <element signature="e#4752#5722#0" />
+            <element signature="e#5950#5959#0" />
+            <element signature="e#5950#6090#0" />
+            <element signature="e#6096#7021#0" />
+            <element signature="e#6096#7125#0" />
+            <element signature="e#7131#7242#0" />
+            <element signature="e#7248#7318#0" />
+            <element signature="e#7248#7466#0" />
+            <element signature="e#7472#7581#0" />
+            <element signature="e#7587#7653#0" />
+            <element signature="e#7587#7801#0" />
+            <element signature="e#7807#7913#0" />
+            <element signature="e#7919#7928#0" />
+            <element signature="e#7919#8053#0" />
+            <element signature="e#8059#8068#0" />
+            <element signature="e#8059#8192#0" />
+            <element signature="e#8198#8305#0" />
+            <element signature="e#8311#8415#0" />
+            <element signature="e#8421#8526#0" />
+            <element signature="e#8532#8561#0" />
+            <element signature="e#8532#8702#0" />
+            <element signature="e#8708#8780#0" />
+            <element signature="e#8708#8909#0" />
+            <element signature="e#8915#8987#0" />
+            <element signature="e#8915#9114#0" />
+            <element signature="e#9120#9192#0" />
+            <element signature="e#9120#9340#0" />
+            <element signature="e#9346#9418#0" />
+            <element signature="e#9346#9620#0" />
+            <element signature="e#9626#9698#0" />
+            <element signature="e#9626#9840#0" />
+            <element signature="e#9846#9918#0" />
+            <element signature="e#9846#10052#0" />
+            <element signature="e#10058#10130#0" />
+            <element signature="e#10058#10264#0" />
+            <element signature="e#10270#10336#0" />
+            <element signature="e#10270#10486#0" />
+            <element signature="e#10492#10558#0" />
+            <element signature="e#10492#10768#0" />
+            <element signature="e#10774#10846#0" />
+            <element signature="e#10774#10977#0" />
+            <element signature="e#10983#11049#0" />
+            <element signature="e#10983#11177#0" />
+            <element signature="e#11183#11255#0" />
+            <element signature="e#11183#11382#0" />
+            <element signature="e#11388#11460#0" />
+            <element signature="e#11388#11588#0" />
+            <element signature="e#11594#11666#0" />
+            <element signature="e#11594#11795#0" />
+            <element signature="e#11801#11873#0" />
+            <element signature="e#11801#12003#0" />
+            <element signature="e#12449#12547#0" />
+            <element signature="e#12553#12562#0" />
+            <element signature="e#12553#12814#0" />
+            <element signature="e#12820#13370#0" />
+            <element signature="e#12820#13774#0" />
+            <element signature="e#13593#13664#1" />
+            <element signature="e#13670#13740#1" />
+            <element signature="e#13780#13882#0" />
+            <element signature="e#13780#14151#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mytools/node/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mytools/codeanalyze/logAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_202_happyNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinished/PlaceHolder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mytools/helper/intListToArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_349_intersection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_22_generateParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinished/_12_intToRoman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
         </state>
       </provider>
     </entry>
