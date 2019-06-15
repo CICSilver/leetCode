@@ -1,0 +1,58 @@
+package leet_sloutions.finished;
+
+/**
+ * 给定两个整数，被除数 dividend 和除数 divisor。将两数相除，要求不使用乘法、除法和 mod 运算符。
+ *
+ * 返回被除数 dividend 除以除数 divisor 得到的商。
+ *
+ * 示例 1:
+ *
+ * 输入: dividend = 10, divisor = 3
+ * 输出: 3
+ * 示例 2:
+ *
+ * 输入: dividend = 7, divisor = -3
+ * 输出: -2
+ * 说明:
+ *
+ * 被除数和除数均为 32 位有符号整数。
+ * 除数不为 0。
+ * 假设我们的环境只能存储 32 位有符号整数，其数值范围是 [−231,  231 − 1]。本题中，如果除法结果溢出，则返回 231 − 1。
+
+ */
+public class _29_divide {
+    public int divide(int dividend, int divisor) {
+        if (dividend == 0) {
+            return 0;
+        }
+        if (dividend == Integer.MIN_VALUE && divisor == -1) {
+            return Integer.MAX_VALUE;
+        }
+        boolean negative;
+        //用异或来计算是否符号相异
+        negative = (dividend ^ divisor) <0;
+        long t = Math.abs((long) dividend);
+        long d= Math.abs((long) divisor);
+        int result = 0;
+        for (int i=31; i>=0;i--) {
+            //找出足够大的数2^n*divisor
+            if ((t>>i)>=d) {
+                //将结果加上2^n
+                result+=1<<i;
+                //将被除数减去2^n*divisor
+                t-=d<<i;
+            }
+        }
+        //符号相异取反
+        return negative ? -result : result;
+    }
+
+    public static void main(String[] a) {
+        _29_divide test=new _29_divide();
+        int dividend=Integer.MIN_VALUE;
+        int divisor=5;
+        System.out.println(test.divide(dividend,divisor));
+        System.out.println(dividend/divisor);
+    }
+
+}

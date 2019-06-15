@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b27f76e-9c07-444c-8493-2392982a2138" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leet_sloutions/unfinished/_12_intToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leet_sloutions/finished/_29_divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leet_sloutions/finished/_35_searchInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leet_sloutions/finished/_58_lengthOfLastWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leet_sloutions/unfinished/_22_generateParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leet_sloutions/finished/_22_generateParenthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leet_sloutions/unfinished/_12_intToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leet_sloutions/finished/_12_intToRoman.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,31 +51,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_104_maxDepth.java">
+        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_35_searchInsert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="1080">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding>
-                <element signature="docComment;class#_104_maxDepth#0" />
+                <element signature="method#searchInsert#0;class#_35_searchInsert#0" />
+                <element signature="method#main#0;class#_35_searchInsert#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_22_generateParenthesis.java">
+        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_29_divide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="177">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinished/_12_intToRoman.java">
+        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_58_lengthOfLastWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
+            <state relative-caret-position="177">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -282,13 +285,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algs_huffman.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_13_longestCommonPrefix.java" />
-        <option value="$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[14]最长公共前缀.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_14_longestCommonPrefix.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_14_longestCommonPrefix.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_27_removeElement.java" />
-        <option value="$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[27]移除元素.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_27_removeElement.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_144_preorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_144_preorderTraversal.java" />
@@ -333,6 +329,13 @@
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinished/_22_generateParenthesis.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_22_generateParenthesis.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinished/_12_intToRoman.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_12_intToRoman.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinished/_35_searchInsert.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_35_searchInsert.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinished/_29_divide.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_29_divide.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinished/_58_lengthOfLastWord.java" />
+        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_58_lengthOfLastWord.java" />
       </list>
     </option>
   </component>
@@ -354,7 +357,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="126" />
     <option name="y" value="-25" />
     <option name="width" value="1401" />
@@ -421,7 +424,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560341688056" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560568786248" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -455,13 +458,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._12_intToRoman">
+  <component name="RunManager" selected="Application._29_divide">
     <configuration name="_12_intToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_sloutions.unfinished._12_intToRoman" />
+      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._12_intToRoman" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet_sloutions.unfinished.*" />
+          <option name="PATTERN" value="leet_sloutions.finished.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -471,6 +474,32 @@
     </configuration>
     <configuration name="_22_generateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._22_generateParenthesis" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet_sloutions.finished.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_29_divide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._29_divide" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet_sloutions.finished.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_35_searchInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._35_searchInsert" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -495,39 +524,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_976_LargestPerimeterTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._976_LargestPerimeterTriangle" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leet_sloutions.finished.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="logAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mytools.codeanalyze.logAlgorithm" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mytools.codeanalyze.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._29_divide" />
+        <item itemvalue="Application._35_searchInsert" />
         <item itemvalue="Application._12_intToRoman" />
         <item itemvalue="Application._22_generateParenthesis" />
         <item itemvalue="Application._50_pow" />
-        <item itemvalue="Application.logAlgorithm" />
-        <item itemvalue="Application._976_LargestPerimeterTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -670,14 +673,11 @@
       <workItem from="1559714427562" duration="2177000" />
       <workItem from="1559892348180" duration="451000" />
       <workItem from="1559972359627" duration="5408000" />
-      <workItem from="1560338210515" duration="4075000" />
-    </task>
-    <task id="LOCAL-00003" summary="加入二切分快速排序">
-      <created>1544099382545</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1544099382545</updated>
+      <workItem from="1560338210515" duration="4132000" />
+      <workItem from="1560483082342" duration="6331000" />
+      <workItem from="1560507348434" duration="604000" />
+      <workItem from="1560509583949" duration="2000" />
+      <workItem from="1560567385362" duration="1400000" />
     </task>
     <task id="LOCAL-00004" summary="添加了sumTwo和排0">
       <created>1544331717494</created>
@@ -1015,11 +1015,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559978325683</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="add 12.IntToRoman">
+      <created>1560343430255</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1560343430256</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="439046000" />
+    <option name="totallyTimeSpent" value="447440000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1031,7 +1038,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5011494" side_tool="true" weight="0.14378378" />
@@ -1041,25 +1048,25 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="设计器" order="5" />
       <window_info id="Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49594814" weight="0.24594595" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49594814" visible="true" weight="0.1708108" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.45773524" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49945945" weight="0.3275862" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="6" weight="0.32528734" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.64594597" weight="0.16977225" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="6" weight="0.32505175" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.64594597" weight="0.3908046" />
       <window_info anchor="bottom" id="CheckStyle" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054055" side_tool="true" weight="0.17494825" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49891892" weight="0.24637681" />
       <window_info anchor="bottom" id="PMD" order="11" weight="0.3298611" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.36749482" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.36666667" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="调试" order="15" sideWeight="0.49945945" weight="0.32505175" />
+      <window_info anchor="bottom" id="调试" order="15" sideWeight="0.49945945" weight="0.32413793" />
       <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32928178" />
-      <window_info active="true" anchor="bottom" x="636" y="646" width="997" height="364" id="Run" order="17" sideWeight="0.6935135" visible="true" weight="0.2857143" />
+      <window_info active="true" anchor="bottom" x="636" y="646" width="997" height="364" id="Run" order="17" sideWeight="0.6935135" visible="true" weight="0.30689654" />
       <window_info anchor="bottom" id="Duplicate detector" order="18" weight="0.42068964" />
       <window_info anchor="right" id="Key Promoter X" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -1166,7 +1173,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="添加顺序表的实现到工具包中" />
     <MESSAGE value="基于数组实现的顺序集合" />
     <MESSAGE value="基于链表实现的linked集合" />
     <MESSAGE value="添加针对 MyArrayList 的约瑟夫环单元测试" />
@@ -1191,7 +1197,8 @@
     <MESSAGE value="add BST &amp;&amp; quickSort for algs work" />
     <MESSAGE value="add 976.LargestPerimeterTriangle" />
     <MESSAGE value="add 22.generateParenthesis" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 22.generateParenthesis" />
+    <MESSAGE value="add 12.IntToRoman" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 12.IntToRoman" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1301,30 +1308,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_7_reverseInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_9_palindromeNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="method#isPalindrome#0;class#_9_palindromeNumber#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_11_maxArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_13_romanToInt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -2710,6 +2693,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_22_generateParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_12_intToRoman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_35_searchInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="method#searchInsert#0;class#_35_searchInsert#0" />
+            <element signature="method#main#0;class#_35_searchInsert#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -2835,17 +2843,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_22_generateParenthesis.java">
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_29_divide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="177">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/unfinished/_12_intToRoman.java">
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_58_lengthOfLastWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
+        <state relative-caret-position="177">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
