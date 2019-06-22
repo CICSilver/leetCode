@@ -3,12 +3,14 @@ package mytools.codeanalyze;
 public class Stopwatch {
     private double start=0;
     public Stopwatch() {
-        start=System.currentTimeMillis();
+        reset();
     }
 
     public double elapsedTime() {
-        double endTime=System.currentTimeMillis();
-        return (endTime-start)/1000;
+        return (System.currentTimeMillis()-start)/1000;
     }
 
+    public void reset(){
+        start=System.currentTimeMillis();
+    }
 }

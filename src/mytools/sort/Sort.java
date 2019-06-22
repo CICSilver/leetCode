@@ -65,12 +65,11 @@ public class Sort {
                 exch(nums, j, j - 1);
             }
         }
-
     }
 
 
     public static void main(String[] s){
-        int[] nums={3,17,12,61,8,70,97,75,53,26,54,61};
+        int[] nums={2,7,1,6,8,6,8,987,0};
         System.out.println("原始数组为："+Arrays.toString(nums));
         quickSort(nums);
     }

@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/sumTask.java" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2b27f76e-9c07-444c-8493-2392982a2138" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leet_sloutions/finished/_29_divide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leet_sloutions/finished/_35_searchInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leet_sloutions/finished/_58_lengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forkJoinDemo/arraySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forkJoinDemo/generateSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sumTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leet_sloutions/unfinished/_12_intToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leet_sloutions/finished/_12_intToRoman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mytools/codeanalyze/Stopwatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mytools/codeanalyze/Stopwatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mytools/sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mytools/sort/Sort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,129 +56,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_35_searchInsert.java">
+        <entry file="file://$PROJECT_DIR$/src/sumTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
               <folding>
-                <element signature="method#searchInsert#0;class#_35_searchInsert#0" />
-                <element signature="method#main#0;class#_35_searchInsert#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_29_divide.java">
+        <entry file="file://$PROJECT_DIR$/src/forkJoinDemo/generateSample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mytools/codeanalyze/Stopwatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_58_lengthOfLastWord.java">
+        <entry file="file://$PROJECT_DIR$/src/forkJoinDemo/arraySort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+            <state relative-caret-position="180">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
-                <element signature="docComment;class#StringBuilder#0" />
-                <element signature="e#3158#3206#0" />
-                <element signature="e#3275#3395#0" />
-                <element signature="e#3486#3815#0" />
-                <element signature="e#3924#4199#0" />
-                <element signature="e#3924#4330#0" />
-                <element signature="e#4336#4641#0" />
-                <element signature="e#4336#4746#0" />
-                <element signature="e#4752#5722#0" />
-                <element signature="e#5950#5959#0" />
-                <element signature="e#5950#6090#0" />
-                <element signature="e#6096#7021#0" />
-                <element signature="e#6096#7125#0" />
-                <element signature="e#7131#7242#0" />
-                <element signature="e#7248#7318#0" />
-                <element signature="e#7248#7466#0" />
-                <element signature="e#7472#7581#0" />
-                <element signature="e#7587#7653#0" />
-                <element signature="e#7587#7801#0" />
-                <element signature="e#7807#7913#0" />
-                <element signature="e#7919#7928#0" />
-                <element signature="e#7919#8053#0" />
-                <element signature="e#8059#8068#0" />
-                <element signature="e#8059#8192#0" />
-                <element signature="e#8198#8305#0" />
-                <element signature="e#8311#8415#0" />
-                <element signature="e#8421#8526#0" />
-                <element signature="e#8532#8561#0" />
-                <element signature="e#8532#8702#0" />
-                <element signature="e#8708#8780#0" />
-                <element signature="e#8708#8909#0" />
-                <element signature="e#8915#8987#0" />
-                <element signature="e#8915#9114#0" />
-                <element signature="e#9120#9192#0" />
-                <element signature="e#9120#9340#0" />
-                <element signature="e#9346#9418#0" />
-                <element signature="e#9346#9620#0" />
-                <element signature="e#9626#9698#0" />
-                <element signature="e#9626#9840#0" />
-                <element signature="e#9846#9918#0" />
-                <element signature="e#9846#10052#0" />
-                <element signature="e#10058#10130#0" />
-                <element signature="e#10058#10264#0" />
-                <element signature="e#10270#10336#0" />
-                <element signature="e#10270#10486#0" />
-                <element signature="e#10492#10558#0" />
-                <element signature="e#10492#10768#0" />
-                <element signature="e#10774#10846#0" />
-                <element signature="e#10774#10977#0" />
-                <element signature="e#10983#11049#0" />
-                <element signature="e#10983#11177#0" />
-                <element signature="e#11183#11255#0" />
-                <element signature="e#11183#11382#0" />
-                <element signature="e#11388#11460#0" />
-                <element signature="e#11388#11588#0" />
-                <element signature="e#11594#11666#0" />
-                <element signature="e#11594#11795#0" />
-                <element signature="e#11801#11873#0" />
-                <element signature="e#11801#12003#0" />
-                <element signature="e#12449#12547#0" />
-                <element signature="e#12553#12562#0" />
-                <element signature="e#12553#12814#0" />
-                <element signature="e#12820#13370#0" />
-                <element signature="e#12820#13774#0" />
-                <element signature="e#13593#13664#1" />
-                <element signature="e#13670#13740#1" />
-                <element signature="e#13780#13882#0" />
-                <element signature="e#13780#14151#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;field#THRESHOLD#0;class#FastSort#0" />
+                <element signature="e#2738#2739#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mytools/node/TreeNode.java">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/io/FileWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="423">
+              <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mytools/codeanalyze/logAlgorithm.java">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="45270">
+              <caret line="1046" column="31" selection-start-line="1046" selection-start-column="31" selection-end-line="1046" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -231,11 +177,11 @@
     </option>
   </component>
   <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
     <analyzeBeforeCheckIn>true</analyzeBeforeCheckIn>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rotate</find>
       <find>isSquare</find>
       <find>exchaArray</find>
       <find>exchDoubleArray</find>
@@ -265,6 +211,7 @@
       <find>put</find>
       <find>contai</find>
       <find>compareTo</find>
+      <find>ValueOf</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -285,11 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_27_removeElement.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_144_preorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_144_preorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_94_inorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/leet_sloutions/unfinshed/_145_postorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_94_inorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_3_lengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_6_ZigZagConversion.java" />
@@ -317,7 +259,6 @@
         <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_202_happyNum.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinished/PlaceHolder" />
         <option value="$PROJECT_DIR$/src/BST.java" />
-        <option value="$PROJECT_DIR$/src/mytools/sort/Sort.java" />
         <option value="$PROJECT_DIR$/src/diEdge.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinished/_976_LargestPerimeterTriangle.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_976_LargestPerimeterTriangle.java" />
@@ -336,6 +277,12 @@
         <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_29_divide.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/unfinished/_58_lengthOfLastWord.java" />
         <option value="$PROJECT_DIR$/src/leet_sloutions/finished/_58_lengthOfLastWord.java" />
+        <option value="$PROJECT_DIR$/src/mytools/sort/Sort.java" />
+        <option value="$PROJECT_DIR$/src/threadDemo.java" />
+        <option value="$PROJECT_DIR$/src/sumTask.java" />
+        <option value="$PROJECT_DIR$/src/forkJoinDemo/generateSample.java" />
+        <option value="$PROJECT_DIR$/src/forkJoinDemo/arraySort.java" />
+        <option value="$PROJECT_DIR$/src/mytools/codeanalyze/Stopwatch.java" />
       </list>
     </option>
   </component>
@@ -389,27 +336,7 @@
               <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leet_sloutions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leet_sloutions" type="462c0819:PsiDirectoryNode" />
-              <item name="unfinished" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mytools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mytools" type="462c0819:PsiDirectoryNode" />
-              <item name="codeanalyze" type="462c0819:PsiDirectoryNode" />
+              <item name="forkJoinDemo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -424,7 +351,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560568786248" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561192446028" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -432,7 +359,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.AceConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="OPEN_URL_DIALOG">
@@ -458,26 +385,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._29_divide">
-    <configuration name="_12_intToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._12_intToRoman" />
+  <component name="RunManager" selected="Application.arraySort">
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mytools.sort.Sort" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet_sloutions.finished.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_22_generateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._22_generateParenthesis" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leet_sloutions.finished.*" />
+          <option name="PATTERN" value="mytools.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -498,12 +412,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_35_searchInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._35_searchInsert" />
+    <configuration name="arraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="forkJoinDemo.arraySort" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet_sloutions.finished.*" />
+          <option name="PATTERN" value="forkJoinDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -511,26 +425,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_50_pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_sloutions.finished._50_pow" />
+    <configuration name="generateSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="forkJoinDemo.generateSample" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet_sloutions.finished.*" />
+          <option name="PATTERN" value="forkJoinDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sumTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sumTask" />
+      <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.arraySort" />
+        <item itemvalue="Application.generateSample" />
+        <item itemvalue="Application.sumTask" />
+        <item itemvalue="Application.Sort" />
         <item itemvalue="Application._29_divide" />
-        <item itemvalue="Application._35_searchInsert" />
-        <item itemvalue="Application._12_intToRoman" />
-        <item itemvalue="Application._22_generateParenthesis" />
-        <item itemvalue="Application._50_pow" />
       </list>
     </recent_temporary>
   </component>
@@ -677,14 +598,9 @@
       <workItem from="1560483082342" duration="6331000" />
       <workItem from="1560507348434" duration="604000" />
       <workItem from="1560509583949" duration="2000" />
-      <workItem from="1560567385362" duration="1400000" />
-    </task>
-    <task id="LOCAL-00004" summary="添加了sumTwo和排0">
-      <created>1544331717494</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1544331717494</updated>
+      <workItem from="1560567385362" duration="2091000" />
+      <workItem from="1561095728042" duration="7922000" />
+      <workItem from="1561178060261" duration="8263000" />
     </task>
     <task id="LOCAL-00005" summary="添加了滑动窗口协议">
       <created>1544801115303</created>
@@ -1022,11 +938,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560343430256</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="add 29.divide、35.searchInsert、58.lengthOfLastWord">
+      <created>1560568866823</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1560568866824</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="447440000" />
+    <option name="totallyTimeSpent" value="464316000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1048,26 +971,26 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="设计器" order="5" />
       <window_info id="Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49594814" visible="true" weight="0.1708108" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.49594814" visible="true" weight="0.16736184" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32743362" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.45773524" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49945945" weight="0.3275862" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="6" weight="0.32505175" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.64594597" weight="0.3908046" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="6" weight="0.32413793" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.64594597" weight="0.39048672" />
       <window_info anchor="bottom" id="CheckStyle" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054055" side_tool="true" weight="0.17494825" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49891892" weight="0.24637681" />
       <window_info anchor="bottom" id="PMD" order="11" weight="0.3298611" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.36666667" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.36615044" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="调试" order="15" sideWeight="0.49945945" weight="0.32413793" />
+      <window_info anchor="bottom" id="调试" order="15" sideWeight="0.49945945" weight="0.14269912" />
       <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32928178" />
-      <window_info active="true" anchor="bottom" x="636" y="646" width="997" height="364" id="Run" order="17" sideWeight="0.6935135" visible="true" weight="0.30689654" />
-      <window_info anchor="bottom" id="Duplicate detector" order="18" weight="0.42068964" />
+      <window_info anchor="bottom" x="636" y="646" width="997" height="364" id="Run" order="17" sideWeight="0.6935135" visible="true" weight="0.460177" />
+      <window_info anchor="bottom" id="Duplicate detector" order="18" weight="0.42" />
       <window_info anchor="right" id="Key Promoter X" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="GfmBrowser" order="2" />
@@ -1080,7 +1003,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32972974" />
       <window_info anchor="right" id="Palette" order="11" />
-      <window_info anchor="right" x="1128" y="48" width="616" height="880" id="文档" order="12" side_tool="true" weight="0.12432432" />
+      <window_info anchor="right" x="1128" y="48" width="616" height="880" id="文档" order="12" side_tool="true" weight="0.124087594" />
       <window_info anchor="right" id="leetcode" order="13" sideWeight="0.50049555" side_tool="true" weight="0.13351351" />
       <window_info anchor="right" id="Database" order="14" sideWeight="0.49950445" weight="0.32918918" />
     </layout>
@@ -1173,7 +1096,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="基于数组实现的顺序集合" />
     <MESSAGE value="基于链表实现的linked集合" />
     <MESSAGE value="添加针对 MyArrayList 的约瑟夫环单元测试" />
     <MESSAGE value="更新单元测试的异常规避部分" />
@@ -1198,7 +1120,8 @@
     <MESSAGE value="add 976.LargestPerimeterTriangle" />
     <MESSAGE value="add 22.generateParenthesis" />
     <MESSAGE value="add 12.IntToRoman" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 12.IntToRoman" />
+    <MESSAGE value="add 29.divide、35.searchInsert、58.lengthOfLastWord" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 29.divide、35.searchInsert、58.lengthOfLastWord" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1308,55 +1231,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_13_romanToInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_14_longestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="method#longestCommonPrefix#0;class#_14_longestCommonPrefix#0" />
-            <element signature="method#main#0;class#_14_longestCommonPrefix#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_70_climbStairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_62_uniqePaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;class#_62_uniqePaths#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_8_myAtoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../tempFiles/leetcode-plugin/cn/[51]N皇后.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1632,69 +1506,6 @@
             <element signature="e#85934#86026#1" />
             <element signature="e#86162#86236#0" />
             <element signature="e#86246#86457#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="775" column="29" selection-start-line="775" selection-start-column="29" selection-end-line="775" selection-end-column="29" />
-          <folding>
-            <element signature="docComment;class#List#0" />
-            <element signature="e#5896#6135#0" />
-            <element signature="e#6157#6300#0" />
-            <element signature="e#6329#7107#0" />
-            <element signature="e#7145#7318#0" />
-            <element signature="e#7352#8011#0" />
-            <element signature="e#8041#10052#0" />
-            <element signature="e#10119#11254#0" />
-            <element signature="e#11282#12444#0" />
-            <element signature="e#12518#13393#0" />
-            <element signature="e#13441#14697#0" />
-            <element signature="e#14750#16422#0" />
-            <element signature="e#16486#17447#0" />
-            <element signature="e#17493#18575#0" />
-            <element signature="e#18621#19902#0" />
-            <element signature="e#18621#20151#0" />
-            <element signature="e#20087#20145#1" />
-            <element signature="e#20157#23375#0" />
-            <element signature="e#20157#23692#0" />
-            <element signature="e#23627#23686#1" />
-            <element signature="e#23698#23964#0" />
-            <element signature="e#24020#24808#0" />
-            <element signature="e#24844#25520#0" />
-            <element signature="e#25584#25910#0" />
-            <element signature="e#25938#26903#0" />
-            <element signature="e#26942#27963#0" />
-            <element signature="e#28005#28634#0" />
-            <element signature="e#28692#29593#0" />
-            <element signature="e#29626#30526#0" />
-            <element signature="e#30587#30794#0" />
-            <element signature="e#30836#31679#0" />
-            <element signature="e#31743#33614#0" />
-            <element signature="e#33669#35205#0" />
-            <element signature="e#35486#35754#0" />
-            <element signature="e#35845#36240#0" />
-            <element signature="e#36340#36771#0" />
-            <element signature="e#36881#37349#0" />
-            <element signature="e#37468#37971#0" />
-            <element signature="e#38100#38638#0" />
-            <element signature="e#38777#39349#0" />
-            <element signature="e#38777#39540#0" />
-            <element signature="e#39546#40157#0" />
-            <element signature="e#39546#40358#0" />
-            <element signature="e#40364#41011#0" />
-            <element signature="e#40364#41222#0" />
-            <element signature="e#41228#41909#0" />
-            <element signature="e#41228#42130#0" />
-            <element signature="e#42136#42852#0" />
-            <element signature="e#42136#43085#0" />
-            <element signature="e#43091#44128#0" />
-            <element signature="e#44133#44145#0" />
-            <element signature="e#43091#44667#0" />
-            <element signature="e#44255#44661#0" />
-            <element signature="e#44673#45522#0" />
           </folding>
         </state>
       </provider>
@@ -2534,13 +2345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1968">
-          <caret line="1446" column="5" lean-forward="true" selection-start-line="1446" selection-start-column="5" selection-end-line="1446" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="907">
@@ -2614,13 +2418,6 @@
             <element signature="e#18437#18546#0" />
             <element signature="e#18702#18933#1" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mytools/sort/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2053">
-          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -2718,6 +2515,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_29_divide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -2809,6 +2613,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/concurrent/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="1005" selection-start-line="1005" selection-end-line="1005" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_58_lengthOfLastWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mytools/sort/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45270">
+          <caret line="1046" column="31" selection-start-line="1046" selection-start-column="31" selection-end-line="1046" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_202_happyNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -2843,17 +2675,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_29_divide.java">
+    <entry file="file://$PROJECT_DIR$/src/sumTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leet_sloutions/finished/_58_lengthOfLastWord.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/io/FileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2412">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#List#0" />
+            <element signature="e#5896#6135#0" />
+            <element signature="e#6157#6300#0" />
+            <element signature="e#6329#7107#0" />
+            <element signature="e#7145#7318#0" />
+            <element signature="e#7352#8011#0" />
+            <element signature="e#8041#10052#0" />
+            <element signature="e#10119#11254#0" />
+            <element signature="e#11282#12444#0" />
+            <element signature="e#12518#13393#0" />
+            <element signature="e#13441#14697#0" />
+            <element signature="e#14750#16422#0" />
+            <element signature="e#16486#17447#0" />
+            <element signature="e#17493#18575#0" />
+            <element signature="e#18621#19902#0" />
+            <element signature="e#18621#20151#0" />
+            <element signature="e#20087#20145#1" />
+            <element signature="e#20157#23375#0" />
+            <element signature="e#20157#23692#0" />
+            <element signature="e#23627#23686#1" />
+            <element signature="e#23698#23964#0" />
+            <element signature="e#24020#24808#0" />
+            <element signature="e#24844#25520#0" />
+            <element signature="e#25584#25910#0" />
+            <element signature="e#25938#26903#0" />
+            <element signature="e#26942#27963#0" />
+            <element signature="e#28005#28634#0" />
+            <element signature="e#28692#29593#0" />
+            <element signature="e#29626#30526#0" />
+            <element signature="e#30587#30794#0" />
+            <element signature="e#30836#31679#0" />
+            <element signature="e#31743#33614#0" />
+            <element signature="e#33669#35205#0" />
+            <element signature="e#35486#35754#0" />
+            <element signature="e#35845#36240#0" />
+            <element signature="e#36340#36771#0" />
+            <element signature="e#36881#37349#0" />
+            <element signature="e#37468#37971#0" />
+            <element signature="e#38100#38638#0" />
+            <element signature="e#38777#39349#0" />
+            <element signature="e#38777#39540#0" />
+            <element signature="e#39546#40157#0" />
+            <element signature="e#39546#40358#0" />
+            <element signature="e#40364#41011#0" />
+            <element signature="e#40364#41222#0" />
+            <element signature="e#41228#41909#0" />
+            <element signature="e#41228#42130#0" />
+            <element signature="e#42136#42852#0" />
+            <element signature="e#42136#43085#0" />
+            <element signature="e#43091#44128#0" />
+            <element signature="e#44133#44145#0" />
+            <element signature="e#43091#44667#0" />
+            <element signature="e#44255#44661#0" />
+            <element signature="e#44673#45522#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forkJoinDemo/generateSample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mytools/codeanalyze/Stopwatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forkJoinDemo/arraySort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;field#THRESHOLD#0;class#FastSort#0" />
+            <element signature="e#2738#2739#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
