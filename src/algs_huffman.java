@@ -1,3 +1,4 @@
+import edu.princeton.cs.algs4.LinkedQueue;
 import edu.princeton.cs.algs4.MinPQ;
 import org.jetbrains.annotations.NotNull;
 

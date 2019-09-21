@@ -57,21 +57,44 @@ public class Sort {
         }
     }
 
-    //插入排序
+    //辅助插入排序
     private static void insertSort(int[] nums, int left, int right) {
-        int N=right-left+1;
-        for(int i=0;i<N;i++) {
+        int length=right-left+1;
+        for(int i=0;i<length;i++) {
             for(int j=i;j>0&&nums[j]<nums[j-1];j--){
                 exch(nums, j, j - 1);
             }
         }
     }
 
+    public static void insertSort(int[] nums) {
+        for(int i=1;i<nums.length;i++) {
+            int temp=nums[i],j;
+            for(j=i-1;j>=0&&temp<nums[j];j--) {
+                nums[j+1]=nums[j];
+            }
+            nums[j+1]=temp;
+        }
+    }
+
+    public static void shellSort(int[] nums) {
+        for(int delta=nums.length/2;delta>=1;delta/=2) {
+            for(int i=delta;i<nums.length;i++) {
+                int temp=nums[i],j;
+                for(j=i-delta;j>=0&&temp<nums[j];j-=delta) {
+                    nums[j+delta]=nums[j];
+                }
+                nums[j+delta]=temp;
+                System.out.println(Arrays.toString(nums));
+            }
+        }
+    }
+
 
     public static void main(String[] s){
-        int[] nums={2,7,1,6,8,6,8,987,0};
-        System.out.println("原始数组为："+Arrays.toString(nums));
-        quickSort(nums);
+        int[] nums={93,17,56,42,78,15,42,25,19};
+        shellSort(nums);
+        //System.out.println(Arrays.toString(nums));
     }
 
 }

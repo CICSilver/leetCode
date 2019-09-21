@@ -1,6 +1,7 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="AlibabaAvoidManuallyCreateThread" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="AlibabaClassNamingShouldBeCamel" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="AlibabaUndefineMagicConstant" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="IgnoreResultOfCall" enabled="false" level="WARNING" enabled_by_default="false">

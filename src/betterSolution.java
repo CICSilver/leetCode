@@ -1,7 +1,5 @@
-import mytools.list.MyArrayList;
 import mytools.node.ListNode;
 
-import java.io.IOException;
 import java.util.*;
 
 
@@ -109,21 +107,4 @@ public class betterSolution extends Solution {
         return null;
     }
 
-    public static void main(String[] args) throws IOException {
-        int len=10;
-        int[] test={1,2,3,4,5,6,7,8,9,10};
-        ArrayList<Integer> arrayList=new ArrayList<>(20);
-        MyArrayList<Integer> arrayList1=new MyArrayList<Integer>(10);
-        for(int i=0;i<len;i++) {
-            arrayList1.add(i);
-        }
-        arrayList1.remove(3);
-        for(int i=0;i<arrayList1.size();i++) {
-            if(arrayList1.get(i)==null) {
-                System.out.println(i);
-            }
-        }
-
-
-    }
 }

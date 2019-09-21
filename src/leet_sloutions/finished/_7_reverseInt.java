@@ -19,6 +19,7 @@ public class _7_reverseInt {
             sb.append(s.charAt(0));
         }
         s=sb.toString();
+
         try {
             result = Integer.parseInt(s);
         } catch (NumberFormatException e) {
